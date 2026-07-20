@@ -31,6 +31,17 @@ stored snapshot, log the result, and update the snapshot. It commits
 `data/` and `docs/` back to the repo -- so the diff history *is* the git
 history, inspectable with a normal `git log -p data/history.jsonl`.
 
+**It only commits when something real changed.** `docs/index.html` embeds
+a generation timestamp, so it differs on every single run even when zero
+tracked crates moved -- staging it unconditionally used to mean every
+scheduled run (and every push touching `src/**`) produced a commit, purely
+from that timestamp. The workflow now checks `git diff -- data/`
+specifically, before staging anything, and skips the commit entirely if
+the underlying data didn't change; the freshly-regenerated `docs/` in that
+run is just discarded. The tradeoff: the page's "last change" date can be
+older than today even though the check itself ran today -- that's
+intentional, and the page copy says so.
+
 ## Run it locally
 
 ```

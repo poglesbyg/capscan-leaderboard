@@ -33,10 +33,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ docs/
-          if git diff --cached --quiet; then
-            echo "no changes to commit"
+          # Only commit if data/ actually changed (a real version bump was
+          # recorded). docs/index.html is regenerated every run and always
+          # differs by at least its embedded timestamp, even when nothing
+          # about the tracked crates changed -- staging it unconditionally
+          # used to mean every single run committed, cron or not. Checking
+          # data/ specifically, before staging anything, tells us whether
+          # there's a *real* change to publish.
+          if git diff --quiet -- data/; then
+            echo "no data changes -- skipping commit (docs/index.html was regenerated in this run but discarded, since only its timestamp differed)"
           else
+            git add data/ docs/
             git commit -m "Update leaderboard data [skip ci]"
             git push
           fi

@@ -321,8 +321,10 @@ fn render_html(snapshot: &BTreeMap<String, CrateSnapshot>, history: &[HistoryEnt
 <main>
   <h1>capscan leaderboard</h1>
   <p class="lede">Capability surface of {tracked_count} popular crates.io crates,
-     tracked over time by <a href="https://github.com/poglesbyg/capscan-mcp">capscan</a>.
-     Updated automatically on a schedule -- last run {generated_at}.</p>
+     checked daily against crates.io by <a href="https://github.com/poglesbyg/capscan-mcp">capscan</a>.
+     This page only republishes when a tracked crate's version actually
+     changes, so "last change" can be older than today even though the
+     check itself runs every day -- last change recorded {generated_at}.</p>
 
   <h2>Recent changes</h2>
   <p class="lede">Every version bump detected on a tracked crate's latest release,
