@@ -1,0 +1,51 @@
+# Curated list of popular crates.io crates to track, one name per line.
+# Lines starting with # are ignored. Deliberately mixes categories: pure-safe
+# utility crates, async runtimes, FFI-heavy crypto/sys bindings, and
+# proc-macro crates, so the leaderboard shows real variation in capability
+# surface rather than all looking the same.
+serde
+serde_json
+tokio
+rand
+regex
+clap
+anyhow
+thiserror
+log
+env_logger
+futures
+bytes
+hyper
+reqwest
+openssl
+openssl-sys
+libc
+ring
+rustls
+itertools
+chrono
+uuid
+once_cell
+syn
+quote
+proc-macro2
+tracing
+async-trait
+crossbeam
+rayon
+indexmap
+hashbrown
+memchr
+bitflags
+cfg-if
+byteorder
+base64
+sha2
+zstd
+flate2
+tar
+walkdir
+tempfile
+notify
+image
+num-traits

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>capscan leaderboard</title>
+<meta name="description" content="Capability surface tracking for popular crates.io crates, powered by capscan.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #6b7280; --border: #e5e7eb;
+    --card: #f9fafb; --link: #2563eb;
+    --high: #b91c1c; --medium: #b45309; --low: #4b5563; --none: #9ca3af;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115; --fg: #e5e7eb; --muted: #9ca3af; --border: #262b36;
+      --card: #171a21; --link: #60a5fa;
+      --high: #fca5a5; --medium: #fcd34d; --low: #cbd5e1; --none: #6b7280;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2rem 1rem 4rem; background: var(--bg); color: var(--fg);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 920px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.1rem; margin-top: 2.5rem; }
+  p.lede { color: var(--muted); margin-top: 0; }
+  a { color: var(--link); }
+  .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 8px; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+  th, td { padding: 0.5rem 0.75rem; text-align: left; white-space: nowrap; }
+  th { background: var(--card); border-bottom: 1px solid var(--border); font-weight: 600; }
+  tr:not(:last-child) td { border-bottom: 1px solid var(--border); }
+  td.empty { color: var(--muted); white-space: normal; text-align: center; padding: 1.5rem; }
+  .sev-high { color: var(--high); font-weight: 600; }
+  .sev-medium { color: var(--medium); font-weight: 600; }
+  .sev-low { color: var(--low); }
+  .sev-none { color: var(--none); }
+  footer { margin-top: 3rem; color: var(--muted); font-size: 0.85rem; }
+  code { background: var(--card); padding: 0.1rem 0.35rem; border-radius: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>capscan leaderboard</h1>
+  <p class="lede">Capability surface of 46 popular crates.io crates,
+     tracked over time by <a href="https://github.com/poglesbyg/capscan-mcp">capscan</a>.
+     Updated automatically on a schedule -- last run 2026-07-20T21:51:30.800459+00:00.</p>
+
+  <h2>Recent changes</h2>
+  <p class="lede">Every version bump detected on a tracked crate's latest release,
+     newest first, with the worst new capability severity it introduced.</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Date</th><th>Crate</th><th>Version</th><th>Worst new severity</th><th>Detail</th></tr></thead>
+    <tbody>
+<tr><td colspan="5" class="empty">No version changes detected yet -- check back after the next scheduled run.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>Current capability profile</h2>
+  <p class="lede">Every tracked crate's latest scanned version, ranked by
+     how much raw capability (unsafe/FFI/process/build-script signals first,
+     then network/filesystem/env, then low-severity) it carries right now --
+     not a judgment of risk, since something like <code>openssl-sys</code>
+     is expected to be FFI-heavy by design.</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Crate</th><th>Version</th><th>High</th><th>Medium</th><th>Low</th></tr></thead>
+    <tbody>
+<tr><td><a href="https://crates.io/crates/libc" target="_blank" rel="noopener">libc</a></td><td>0.2.186</td><td class="sev-high">241</td><td class="sev-medium">8</td><td class="sev-low">12</td></tr>
+<tr><td><a href="https://crates.io/crates/openssl-sys" target="_blank" rel="noopener">openssl-sys</a></td><td>0.9.117</td><td class="sev-high">202</td><td class="sev-medium">8</td><td class="sev-low">25</td></tr>
+<tr><td><a href="https://crates.io/crates/tokio" target="_blank" rel="noopener">tokio</a></td><td>1.53.1</td><td class="sev-high">179</td><td class="sev-medium">936</td><td class="sev-low">1</td></tr>
+<tr><td><a href="https://crates.io/crates/openssl" target="_blank" rel="noopener">openssl</a></td><td>0.10.81</td><td class="sev-high">75</td><td class="sev-medium">1082</td><td class="sev-low">141</td></tr>
+<tr><td><a href="https://crates.io/crates/bytes" target="_blank" rel="noopener">bytes</a></td><td>1.12.1</td><td class="sev-high">58</td><td class="sev-medium">72</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/memchr" target="_blank" rel="noopener">memchr</a></td><td>2.8.3</td><td class="sev-high">50</td><td class="sev-medium">112</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/clap" target="_blank" rel="noopener">clap</a></td><td>4.6.3</td><td class="sev-high">39</td><td class="sev-medium">0</td><td class="sev-low">117</td></tr>
+<tr><td><a href="https://crates.io/crates/hashbrown" target="_blank" rel="noopener">hashbrown</a></td><td>0.17.1</td><td class="sev-high">27</td><td class="sev-medium">315</td><td class="sev-low">1</td></tr>
+<tr><td><a href="https://crates.io/crates/anyhow" target="_blank" rel="noopener">anyhow</a></td><td>1.0.104</td><td class="sev-high">20</td><td class="sev-medium">66</td><td class="sev-low">8</td></tr>
+<tr><td><a href="https://crates.io/crates/sha2" target="_blank" rel="noopener">sha2</a></td><td>0.11.0</td><td class="sev-high">16</td><td class="sev-medium">23</td><td class="sev-low">1</td></tr>
+<tr><td><a href="https://crates.io/crates/ring" target="_blank" rel="noopener">ring</a></td><td>0.17.14</td><td class="sev-high">14</td><td class="sev-medium">127</td><td class="sev-low">31</td></tr>
+<tr><td><a href="https://crates.io/crates/hyper" target="_blank" rel="noopener">hyper</a></td><td>1.11.0</td><td class="sev-high">14</td><td class="sev-medium">29</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/rayon" target="_blank" rel="noopener">rayon</a></td><td>1.12.0</td><td class="sev-high">11</td><td class="sev-medium">46</td><td class="sev-low">1</td></tr>
+<tr><td><a href="https://crates.io/crates/once_cell" target="_blank" rel="noopener">once_cell</a></td><td>1.21.4</td><td class="sev-high">11</td><td class="sev-medium">35</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/notify" target="_blank" rel="noopener">notify</a></td><td>8.2.0</td><td class="sev-high">8</td><td class="sev-medium">25</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/syn" target="_blank" rel="noopener">syn</a></td><td>3.0.2</td><td class="sev-high">6</td><td class="sev-medium">33</td><td class="sev-low">2</td></tr>
+<tr><td><a href="https://crates.io/crates/async-trait" target="_blank" rel="noopener">async-trait</a></td><td>0.1.91</td><td class="sev-high">6</td><td class="sev-medium">2</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/tar" target="_blank" rel="noopener">tar</a></td><td>0.4.46</td><td class="sev-high">5</td><td class="sev-medium">61</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/flate2" target="_blank" rel="noopener">flate2</a></td><td>1.1.9</td><td class="sev-high">5</td><td class="sev-medium">29</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/serde_json" target="_blank" rel="noopener">serde_json</a></td><td>1.0.151</td><td class="sev-high">4</td><td class="sev-medium">18</td><td class="sev-low">2</td></tr>
+<tr><td><a href="https://crates.io/crates/reqwest" target="_blank" rel="noopener">reqwest</a></td><td>0.13.4</td><td class="sev-high">4</td><td class="sev-medium">15</td><td class="sev-low">2</td></tr>
+<tr><td><a href="https://crates.io/crates/rand" target="_blank" rel="noopener">rand</a></td><td>0.10.2</td><td class="sev-high">4</td><td class="sev-medium">12</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/chrono" target="_blank" rel="noopener">chrono</a></td><td>0.4.45</td><td class="sev-high">4</td><td class="sev-medium">10</td><td class="sev-low">7</td></tr>
+<tr><td><a href="https://crates.io/crates/log" target="_blank" rel="noopener">log</a></td><td>0.4.33</td><td class="sev-high">4</td><td class="sev-medium">3</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/uuid" target="_blank" rel="noopener">uuid</a></td><td>1.24.0</td><td class="sev-high">3</td><td class="sev-medium">10</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/proc-macro2" target="_blank" rel="noopener">proc-macro2</a></td><td>1.0.107</td><td class="sev-high">3</td><td class="sev-medium">4</td><td class="sev-low">9</td></tr>
+<tr><td><a href="https://crates.io/crates/thiserror" target="_blank" rel="noopener">thiserror</a></td><td>2.0.19</td><td class="sev-high">3</td><td class="sev-medium">2</td><td class="sev-low">11</td></tr>
+<tr><td><a href="https://crates.io/crates/serde" target="_blank" rel="noopener">serde</a></td><td>1.0.229</td><td class="sev-high">2</td><td class="sev-medium">3</td><td class="sev-low">3</td></tr>
+<tr><td><a href="https://crates.io/crates/quote" target="_blank" rel="noopener">quote</a></td><td>1.0.47</td><td class="sev-high">2</td><td class="sev-medium">0</td><td class="sev-low">1</td></tr>
+<tr><td><a href="https://crates.io/crates/byteorder" target="_blank" rel="noopener">byteorder</a></td><td>1.5.0</td><td class="sev-high">1</td><td class="sev-medium">36</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/itertools" target="_blank" rel="noopener">itertools</a></td><td>0.15.0</td><td class="sev-high">1</td><td class="sev-medium">13</td><td class="sev-low">1</td></tr>
+<tr><td><a href="https://crates.io/crates/rustls" target="_blank" rel="noopener">rustls</a></td><td>0.23.42</td><td class="sev-high">1</td><td class="sev-medium">8</td><td class="sev-low">101</td></tr>
+<tr><td><a href="https://crates.io/crates/tracing" target="_blank" rel="noopener">tracing</a></td><td>0.1.44</td><td class="sev-high">1</td><td class="sev-medium">5</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/num-traits" target="_blank" rel="noopener">num-traits</a></td><td>0.2.19</td><td class="sev-high">1</td><td class="sev-medium">0</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/regex" target="_blank" rel="noopener">regex</a></td><td>1.13.1</td><td class="sev-high">1</td><td class="sev-medium">0</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/tempfile" target="_blank" rel="noopener">tempfile</a></td><td>3.27.0</td><td class="sev-high">0</td><td class="sev-medium">34</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/indexmap" target="_blank" rel="noopener">indexmap</a></td><td>2.14.0</td><td class="sev-high">0</td><td class="sev-medium">12</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/env_logger" target="_blank" rel="noopener">env_logger</a></td><td>0.11.11</td><td class="sev-high">0</td><td class="sev-medium">5</td><td class="sev-low">3</td></tr>
+<tr><td><a href="https://crates.io/crates/zstd" target="_blank" rel="noopener">zstd</a></td><td>0.13.3</td><td class="sev-high">0</td><td class="sev-medium">5</td><td class="sev-low">7</td></tr>
+<tr><td><a href="https://crates.io/crates/image" target="_blank" rel="noopener">image</a></td><td>0.25.10</td><td class="sev-high">0</td><td class="sev-medium">3</td><td class="sev-low">1</td></tr>
+<tr><td><a href="https://crates.io/crates/walkdir" target="_blank" rel="noopener">walkdir</a></td><td>2.5.0</td><td class="sev-high">0</td><td class="sev-medium">2</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/base64" target="_blank" rel="noopener">base64</a></td><td>0.22.1</td><td class="sev-high">0</td><td class="sev-medium">0</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/bitflags" target="_blank" rel="noopener">bitflags</a></td><td>2.13.1</td><td class="sev-high">0</td><td class="sev-medium">0</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/cfg-if" target="_blank" rel="noopener">cfg-if</a></td><td>1.0.4</td><td class="sev-high">0</td><td class="sev-medium">0</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/crossbeam" target="_blank" rel="noopener">crossbeam</a></td><td>0.8.4</td><td class="sev-high">0</td><td class="sev-medium">0</td><td class="sev-low">0</td></tr>
+<tr><td><a href="https://crates.io/crates/futures" target="_blank" rel="noopener">futures</a></td><td>0.3.33</td><td class="sev-high">0</td><td class="sev-medium">0</td><td class="sev-low">1</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <footer>
+    Generated by <a href="https://github.com/poglesbyg/capscan-leaderboard">capscan-leaderboard</a>,
+    built on <a href="https://crates.io/crates/capscan">capscan</a>. Signal
+    classification is heuristic AST matching, not real type resolution --
+    treat this as a starting point for investigation, not a safety proof.
+  </footer>
+</main>
+</body>
+</html>
