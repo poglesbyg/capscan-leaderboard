@@ -27,6 +27,13 @@ jobs:
       - uses: Swatinem/rust-cache@v2
 
       - name: Run leaderboard update
+        env:
+          # Optional: set this repo secret to a Slack incoming-webhook or
+          # Discord webhook URL to get a notification whenever a tracked
+          # crate's latest release introduces a high-severity capability.
+          # Unset (the default) means no alerts are sent -- everything else
+          # about the run is unaffected.
+          ALERT_WEBHOOK_URL: ${{ secrets.ALERT_WEBHOOK_URL }}
         run: cargo run --release
 
       - name: Commit updated data and site

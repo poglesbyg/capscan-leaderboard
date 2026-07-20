@@ -42,6 +42,27 @@ run is just discarded. The tradeoff: the page's "last change" date can be
 older than today even though the check itself ran today -- that's
 intentional, and the page copy says so.
 
+## Getting notified instead of checking back
+
+Two ways to find out about a change without visiting the page:
+
+- **Atom feed**: [`docs/feed.xml`](docs/feed.xml), auto-discoverable by
+  feed readers via the `<link rel="alternate">` in the page `<head>`, or
+  subscribe directly at
+  `https://poglesbyg.github.io/capscan-leaderboard/feed.xml`. One entry
+  per recorded version change, same data as the "Recent changes" table.
+- **Webhook alert on high severity**: set the `ALERT_WEBHOOK_URL` repo
+  secret to a Slack incoming-webhook or Discord webhook URL, and the
+  workflow will POST a message whenever a tracked crate's latest release
+  introduces a **high** severity capability (unsafe fn/impl, FFI, process
+  spawn, build.rs, proc-macro crate, native linkage, `mem::transmute`,
+  exported symbol) -- not medium/low, to keep it to things actually worth
+  an interruption. Unset by default; nothing else about the run changes
+  if you don't configure it. Posts via `curl` (one JSON body with both
+  `text` and `content` fields, so either Slack or Discord picks up the
+  field it recognizes) rather than adding an HTTP client dependency, same
+  reasoning as shelling out to `cargo` elsewhere in the capscan family.
+
 ## Run it locally
 
 ```

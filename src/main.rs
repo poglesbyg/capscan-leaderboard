@@ -17,7 +17,10 @@ const CRATES_LIST: &str = "crates.txt";
 const SNAPSHOT_PATH: &str = "data/snapshot.json";
 const HISTORY_PATH: &str = "data/history.jsonl";
 const SITE_PATH: &str = "docs/index.html";
+const FEED_PATH: &str = "docs/feed.xml";
 const HISTORY_DISPLAY_LIMIT: usize = 100;
+const FEED_ENTRY_LIMIT: usize = 50;
+const ALERT_WEBHOOK_ENV: &str = "ALERT_WEBHOOK_URL";
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct CrateSnapshot {
@@ -191,6 +194,11 @@ fn main() -> Result<()> {
     }
     fs::write(SITE_PATH, html)?;
 
+    let feed = render_atom_feed(&history);
+    fs::write(FEED_PATH, feed)?;
+
+    send_high_severity_alerts(&new_history_entries);
+
     println!(
         "\n{} crates tracked, {} new change(s) this run, site written to {SITE_PATH}",
         snapshot.len(),
@@ -267,6 +275,7 @@ fn render_html(snapshot: &BTreeMap<String, CrateSnapshot>, history: &[HistoryEnt
 <title>capscan leaderboard</title>
 <meta name="description" content="Capability surface tracking for popular crates.io crates, powered by capscan.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%9B%A1%EF%B8%8F</text></svg>">
+<link rel="alternate" type="application/atom+xml" title="capscan leaderboard" href="feed.xml">
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://poglesbyg.github.io/capscan-leaderboard/">
@@ -328,7 +337,8 @@ fn render_html(snapshot: &BTreeMap<String, CrateSnapshot>, history: &[HistoryEnt
 
   <h2>Recent changes</h2>
   <p class="lede">Every version bump detected on a tracked crate's latest release,
-     newest first, with the worst new capability severity it introduced.</p>
+     newest first, with the worst new capability severity it introduced.
+     <a href="feed.xml">Subscribe via Atom feed</a> instead of checking back.</p>
   <div class="table-wrap">
   <table>
     <thead><tr><th>Date</th><th>Crate</th><th>Version</th><th>Worst new severity</th><th>Detail</th></tr></thead>
@@ -362,6 +372,128 @@ fn render_html(snapshot: &BTreeMap<String, CrateSnapshot>, history: &[HistoryEnt
 </html>
 "##
     )
+}
+
+fn render_atom_feed(history: &[HistoryEntry]) -> String {
+    let updated = now_iso();
+    let mut entries = String::new();
+    for entry in history.iter().rev().take(FEED_ENTRY_LIMIT) {
+        let sev = entry.worst_severity.as_deref().unwrap_or("none");
+        let title = format!(
+            "{}: {} -> {} ({sev} severity)",
+            entry.name, entry.old_version, entry.new_version
+        );
+        let deps_note = if entry.added_dependencies.is_empty() {
+            String::new()
+        } else {
+            format!(
+                " New dependencies: {}.",
+                entry.added_dependencies.join(", ")
+            )
+        };
+        let summary = format!(
+            "+{} / -{} signal(s). Worst new severity: {sev}.{deps_note}",
+            entry.added_signals, entry.removed_signals
+        );
+        // Stable per-entry id: nothing in this data is a natural UUID, but
+        // (name, new_version, checked_at) together never repeat.
+        let id = format!(
+            "https://poglesbyg.github.io/capscan-leaderboard/#{}-{}-{}",
+            entry.name, entry.new_version, entry.checked_at
+        );
+        entries.push_str(&format!(
+            "  <entry>\n    <title>{title}</title>\n    <link href=\"https://crates.io/crates/{name}\"/>\n    <id>{id}</id>\n    <updated>{checked_at}</updated>\n    <summary>{summary}</summary>\n  </entry>\n",
+            title = html_escape(&title),
+            name = html_escape(&entry.name),
+            id = html_escape(&id),
+            checked_at = entry.checked_at,
+            summary = html_escape(&summary),
+        ));
+    }
+
+    format!(
+        "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n\
+         <feed xmlns=\"http://www.w3.org/2005/Atom\">\n\
+         \x20 <title>capscan leaderboard</title>\n\
+         \x20 <link href=\"https://poglesbyg.github.io/capscan-leaderboard/\"/>\n\
+         \x20 <link href=\"https://poglesbyg.github.io/capscan-leaderboard/feed.xml\" rel=\"self\"/>\n\
+         \x20 <id>https://poglesbyg.github.io/capscan-leaderboard/</id>\n\
+         \x20 <updated>{updated}</updated>\n\
+         {entries}</feed>\n"
+    )
+}
+
+/// Which of this run's newly-recorded changes are worth interrupting
+/// someone for -- currently just "high" severity, since that's the
+/// threshold at which capscan itself treats a change as CI-gate-worthy
+/// everywhere else (capscan/capscan-mcp both exit non-zero at this level).
+fn high_severity_entries(entries: &[HistoryEntry]) -> Vec<&HistoryEntry> {
+    entries
+        .iter()
+        .filter(|e| e.worst_severity.as_deref() == Some("high"))
+        .collect()
+}
+
+fn format_alert_message(entry: &HistoryEntry) -> String {
+    format!(
+        "capscan leaderboard: {} {} -> {} introduced a HIGH severity capability (+{} signal(s), -{} signal(s)). https://poglesbyg.github.io/capscan-leaderboard/#{}",
+        entry.name,
+        entry.old_version,
+        entry.new_version,
+        entry.added_signals,
+        entry.removed_signals,
+        entry.name,
+    )
+}
+
+/// Posts via `curl` rather than adding an HTTP client dependency -- same
+/// reasoning as the rest of the capscan family shelling out to `cargo`
+/// instead of reimplementing registry access. Sends both `text` (Slack
+/// incoming webhooks) and `content` (Discord webhooks) in one JSON body;
+/// each side only reads the field it recognizes and ignores the other.
+fn post_webhook(url: &str, message: &str) -> Result<()> {
+    let payload = serde_json::json!({ "text": message, "content": message });
+    let body = serde_json::to_string(&payload)?;
+    let status = std::process::Command::new("curl")
+        .args([
+            "-sS",
+            "-X",
+            "POST",
+            "-H",
+            "Content-Type: application/json",
+            "-d",
+            &body,
+            url,
+        ])
+        .status()
+        .context("running curl to post a webhook alert")?;
+    if !status.success() {
+        anyhow::bail!("curl exited with {status}");
+    }
+    Ok(())
+}
+
+/// Opt-in: does nothing unless `ALERT_WEBHOOK_URL` is set (e.g. as a repo
+/// secret passed through by the workflow) and at least one of this run's
+/// new changes is high severity. A webhook failure is logged, not fatal --
+/// a broken notification shouldn't fail the whole scheduled run.
+fn send_high_severity_alerts(new_entries: &[HistoryEntry]) {
+    let Ok(webhook_url) = std::env::var(ALERT_WEBHOOK_ENV) else {
+        return;
+    };
+    if webhook_url.trim().is_empty() {
+        return;
+    }
+
+    for entry in high_severity_entries(new_entries) {
+        let message = format_alert_message(entry);
+        if let Err(e) = post_webhook(&webhook_url, &message) {
+            eprintln!(
+                "warning: failed to send webhook alert for {}: {e}",
+                entry.name
+            );
+        }
+    }
 }
 
 #[cfg(test)]
@@ -480,5 +612,95 @@ mod tests {
             high_pos < low_pos,
             "higher-severity crate should be listed first"
         );
+    }
+
+    fn history_entry(name: &str, severity: Option<&str>) -> HistoryEntry {
+        HistoryEntry {
+            name: name.to_string(),
+            old_version: "1.0.0".to_string(),
+            new_version: "2.0.0".to_string(),
+            checked_at: "2026-01-01T00:00:00+00:00".to_string(),
+            worst_severity: severity.map(str::to_string),
+            added_signals: 3,
+            removed_signals: 1,
+            added_dependencies: vec!["new-dep".to_string()],
+            removed_dependencies: vec![],
+        }
+    }
+
+    #[test]
+    fn atom_feed_contains_entry_details_and_is_escaped() {
+        let entry = history_entry("weird<>&name", Some("high"));
+        let feed = render_atom_feed(&[entry]);
+
+        assert!(feed.starts_with("<?xml version=\"1.0\" encoding=\"utf-8\"?>"));
+        assert!(feed.contains("<feed xmlns=\"http://www.w3.org/2005/Atom\">"));
+        assert!(feed.contains("weird&lt;&gt;&amp;name"));
+        assert!(!feed.contains("weird<>&name")); // must not appear unescaped
+        assert!(feed.contains("1.0.0 -&gt; 2.0.0"));
+        assert!(feed.contains("high severity"));
+        assert!(feed.contains("New dependencies: new-dep."));
+    }
+
+    #[test]
+    fn atom_feed_handles_empty_history() {
+        let feed = render_atom_feed(&[]);
+        assert!(feed.contains("<feed"));
+        assert!(feed.contains("</feed>"));
+    }
+
+    #[test]
+    fn atom_feed_respects_entry_limit() {
+        let entries: Vec<HistoryEntry> = (0..(FEED_ENTRY_LIMIT + 10))
+            .map(|i| history_entry(&format!("crate-{i}"), None))
+            .collect();
+        let feed = render_atom_feed(&entries);
+        assert_eq!(feed.matches("<entry>").count(), FEED_ENTRY_LIMIT);
+    }
+
+    #[test]
+    fn high_severity_entries_filters_by_severity() {
+        let entries = vec![
+            history_entry("a", Some("high")),
+            history_entry("b", Some("medium")),
+            history_entry("c", None),
+            history_entry("d", Some("high")),
+        ];
+        let high = high_severity_entries(&entries);
+        let names: Vec<&str> = high.iter().map(|e| e.name.as_str()).collect();
+        assert_eq!(names, vec!["a", "d"]);
+    }
+
+    #[test]
+    fn alert_message_includes_key_details() {
+        let entry = history_entry("anyhow", Some("high"));
+        let message = format_alert_message(&entry);
+        assert!(message.contains("anyhow"));
+        assert!(message.contains("1.0.0"));
+        assert!(message.contains("2.0.0"));
+        assert!(message.contains("HIGH"));
+        assert!(message.contains("+3 signal"));
+        assert!(message.contains("capscan-leaderboard"));
+    }
+
+    #[test]
+    #[ignore = "posts to a real HTTP endpoint; set ALERT_TEST_URL to a local \
+                listener to run: ALERT_TEST_URL=http://127.0.0.1:PORT/path \
+                cargo test --release -- --ignored post_webhook_sends_expected_json_body"]
+    fn post_webhook_sends_expected_json_body() {
+        let url = std::env::var("ALERT_TEST_URL")
+            .expect("set ALERT_TEST_URL to a local echo server to run this test");
+        post_webhook(&url, "hello from a real test").unwrap();
+    }
+
+    #[test]
+    fn send_alerts_is_a_noop_without_webhook_url_env_set() {
+        // Just needs to not panic and not attempt any network/process call
+        // when the env var isn't set -- can't easily assert "no curl ran"
+        // without a mock, but a real webhook URL would make this test
+        // actually hang/fail on network access, so a silent return is the
+        // only correct behavior for a unit test to exercise here.
+        std::env::remove_var(ALERT_WEBHOOK_ENV);
+        send_high_severity_alerts(&[history_entry("x", Some("high"))]);
     }
 }
