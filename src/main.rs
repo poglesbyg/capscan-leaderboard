@@ -266,6 +266,19 @@ fn render_html(snapshot: &BTreeMap<String, CrateSnapshot>, history: &[HistoryEnt
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>capscan leaderboard</title>
 <meta name="description" content="Capability surface tracking for popular crates.io crates, powered by capscan.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%9B%A1%EF%B8%8F</text></svg>">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://poglesbyg.github.io/capscan-leaderboard/">
+<meta property="og:title" content="capscan leaderboard">
+<meta property="og:description" content="Capability surface of {tracked_count} popular crates.io crates, tracked over time by capscan.">
+<meta property="og:image" content="https://poglesbyg.github.io/capscan-leaderboard/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="capscan leaderboard">
+<meta name="twitter:description" content="Capability surface of {tracked_count} popular crates.io crates, tracked over time by capscan.">
+<meta name="twitter:image" content="https://poglesbyg.github.io/capscan-leaderboard/og-image.jpg">
 <style>
   :root {{
     color-scheme: light dark;
