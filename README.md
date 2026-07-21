@@ -104,11 +104,19 @@ Two ways to find out about a change without visiting the page:
   field it recognizes) rather than adding an HTTP client dependency, same
   reasoning as shelling out to `cargo` elsewhere in the capscan family.
 
-## Run it locally
+## Run it locally -- or build your own leaderboard with it
 
 ```
 cargo run --release
 ```
+
+reading `crates.txt`, `data/`, and writing `docs/` all relative to the
+current directory -- so this also works as a standalone tool for a
+*different* tracked list: `cargo install capscan-leaderboard`, write your
+own `crates.txt` in an empty directory, run `capscan-leaderboard`, commit
+the `data/` and `docs/` it produces, wire up GitHub Pages the same way
+this repo does (see [`.github/workflows/update.yml`](.github/workflows/update.yml)),
+and you have your own instance tracking whatever crates you care about.
 
 First run scans every crate in `crates.txt` cold (no prior snapshot to
 compare against, so nothing shows up under "recent changes" yet -- just
