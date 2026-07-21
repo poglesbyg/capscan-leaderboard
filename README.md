@@ -112,11 +112,28 @@ cargo run --release
 
 reading `crates.txt`, `data/`, and writing `docs/` all relative to the
 current directory -- so this also works as a standalone tool for a
-*different* tracked list: `cargo install capscan-leaderboard`, write your
-own `crates.txt` in an empty directory, run `capscan-leaderboard`, commit
-the `data/` and `docs/` it produces, wire up GitHub Pages the same way
-this repo does (see [`.github/workflows/update.yml`](.github/workflows/update.yml)),
-and you have your own instance tracking whatever crates you care about.
+*different* tracked list. No Rust toolchain needed either, via the
+[latest release](https://github.com/poglesbyg/capscan-leaderboard/releases/latest):
+
+```
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/poglesbyg/capscan-leaderboard/releases/latest/download/capscan-leaderboard-installer.sh | sh
+```
+
+(PowerShell on Windows: see the install command on the
+[release page](https://github.com/poglesbyg/capscan-leaderboard/releases/latest).
+Or build from source: `cargo install capscan-leaderboard`.)
+
+Verified this exact flow with the real release binary before writing it
+down here: extracted it, wrote a one-line `crates.txt` in a brand new
+empty directory, ran it, and got back a correct `docs/index.html`,
+`data/snapshot.json`, `docs/feed.xml`, and `docs/badges/` for that single
+crate -- not just "the binary runs."
+
+Either way you get it, write your own `crates.txt` in an empty directory,
+run `capscan-leaderboard`, commit the `data/` and `docs/` it produces,
+wire up GitHub Pages the same way this repo does (see
+[`.github/workflows/update.yml`](.github/workflows/update.yml)), and you
+have your own instance tracking whatever crates you care about.
 
 First run scans every crate in `crates.txt` cold (no prior snapshot to
 compare against, so nothing shows up under "recent changes" yet -- just
