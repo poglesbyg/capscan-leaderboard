@@ -8,6 +8,13 @@ repository = "https://github.com/poglesbyg/capscan-leaderboard"
 readme = "README.md"
 keywords = ["cargo", "security", "audit", "static-site", "capscan"]
 categories = ["development-tools::cargo-plugins", "command-line-utilities"]
+# data/ and docs/ are this repo's own accumulated output from running the
+# tool (100+ badge JSON files, the generated site, the scan snapshot) --
+# real data specific to *this* tracked list, not part of the distributable
+# tool. Someone installing this crate to build their own leaderboard starts
+# with their own empty data/docs, not ours; shipping ours would just be
+# several MB of irrelevant bloat in every download.
+exclude = ["data/", "docs/"]
 
 [dependencies]
 capscan = "0.1"
