@@ -1,0 +1,1 @@
+{"name":"libc","old_version":"0.2.186","new_version":"0.2.187","checked_at":"2026-07-21T08:33:19.835875444+00:00","worst_severity":"high","added_signals":14,"removed_signals":11,"added_dependencies":[],"removed_dependencies":[]}
