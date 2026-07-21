@@ -4,12 +4,12 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-07-21T08:33:26.909369073+00:00</updated>
+  <updated>2026-07-21T15:25:17.229218+00:00</updated>
   <entry>
-    <title>libc: 0.2.186 -&gt; 0.2.187 (high severity)</title>
+    <title>libc: 0.2.186 -&gt; 0.2.188 (high severity)</title>
     <link href="https://crates.io/crates/libc"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#libc-0.2.187-2026-07-21T08:33:19.835875444+00:00</id>
-    <updated>2026-07-21T08:33:19.835875444+00:00</updated>
-    <summary>+14 / -11 signal(s). Worst new severity: high.</summary>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#libc-0.2.188-2026-07-21T15:24:29.972300+00:00</id>
+    <updated>2026-07-21T15:24:29.972300+00:00</updated>
+    <summary>+15 / -11 signal(s). Worst new severity: high.</summary>
   </entry>
 </feed>

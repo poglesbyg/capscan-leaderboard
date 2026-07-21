@@ -1,9 +1,9 @@
 # capscan-leaderboard
 
-A scheduled job that tracks a curated list of popular crates.io crates over
-time and publishes what capability signals (unsafe, FFI, process/network/
-filesystem access, build scripts, proc-macros) their latest releases carry
--- and which ones just gained or lost some. Built on
+A scheduled job that tracks the top 100 crates.io crates by all-time
+download count and publishes what capability signals (unsafe, FFI,
+process/network/filesystem access, build scripts, proc-macros) their
+latest releases carry -- and which ones just gained or lost some. Built on
 [capscan](https://crates.io/crates/capscan).
 
 **Live site:** https://poglesbyg.github.io/capscan-leaderboard/
@@ -12,8 +12,14 @@ filesystem access, build scripts, proc-macros) their latest releases carry
 
 There's no database. State is the git repo itself:
 
-- [`crates.txt`](crates.txt) -- the curated list of tracked crate names, one
-  per line. Add or remove crates by editing this file.
+- [`crates.txt`](crates.txt) -- the tracked crate names, one per line.
+  Objective and reproducible, not hand-picked: the top 100 by all-time
+  download count from the crates.io API (`sort=downloads`), no manual
+  filtering applied -- see the file's header comment for the exact query
+  and refresh instructions. Edit it directly to add/remove crates or
+  refresh the ranking; removing a name here prunes it from
+  `data/snapshot.json` (and so the published site) on the next run, while
+  its history up to that point stays in `data/history.jsonl`.
 - `data/snapshot.json` -- the last-known `{version, full capscan scan}` for
   every tracked crate, committed after each run.
 - `data/history.jsonl` -- append-only log of every version change detected,

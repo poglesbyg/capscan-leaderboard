@@ -104,6 +104,18 @@ fn now_iso() -> String {
     chrono::Utc::now().to_rfc3339()
 }
 
+/// Drop any snapshot entry for a name no longer in `tracked_names` --
+/// without this, removing a crate from the tracked list would leave it in
+/// `data/snapshot.json` (and so in the published profile table) forever,
+/// since the main loop only ever inserts, never removes. `history.jsonl`
+/// is untouched by this: past entries for a since-removed crate are still
+/// an accurate historical record.
+fn prune_untracked(snapshot: &mut BTreeMap<String, CrateSnapshot>, tracked_names: &[String]) {
+    let tracked: std::collections::BTreeSet<&str> =
+        tracked_names.iter().map(String::as_str).collect();
+    snapshot.retain(|name, _| tracked.contains(name.as_str()));
+}
+
 fn severity_counts(report: &CrateReport) -> (usize, usize, usize) {
     let (mut high, mut medium, mut low) = (0, 0, 0);
     for s in &report.signals {
@@ -183,6 +195,8 @@ fn main() -> Result<()> {
             },
         );
     }
+
+    prune_untracked(&mut snapshot, &names);
 
     save_snapshot(SNAPSHOT_PATH, &snapshot)?;
     append_history(HISTORY_PATH, &new_history_entries)?;
@@ -702,5 +716,32 @@ mod tests {
         // only correct behavior for a unit test to exercise here.
         std::env::remove_var(ALERT_WEBHOOK_ENV);
         send_high_severity_alerts(&[history_entry("x", Some("high"))]);
+    }
+
+    #[test]
+    fn prune_untracked_removes_crates_no_longer_in_the_list() {
+        let mut snapshot = BTreeMap::new();
+        snapshot.insert(
+            "kept".to_string(),
+            CrateSnapshot {
+                version: "1.0.0".to_string(),
+                report: report_with_kinds(&[]),
+                last_checked: "2026-01-01T00:00:00Z".to_string(),
+            },
+        );
+        snapshot.insert(
+            "removed-from-list".to_string(),
+            CrateSnapshot {
+                version: "1.0.0".to_string(),
+                report: report_with_kinds(&[]),
+                last_checked: "2026-01-01T00:00:00Z".to_string(),
+            },
+        );
+
+        prune_untracked(&mut snapshot, &["kept".to_string()]);
+
+        assert_eq!(snapshot.len(), 1);
+        assert!(snapshot.contains_key("kept"));
+        assert!(!snapshot.contains_key("removed-from-list"));
     }
 }

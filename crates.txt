@@ -1,51 +1,118 @@
-# Curated list of popular crates.io crates to track, one name per line.
-# Lines starting with # are ignored. Deliberately mixes categories: pure-safe
-# utility crates, async runtimes, FFI-heavy crypto/sys bindings, and
-# proc-macro crates, so the leaderboard shows real variation in capability
-# surface rather than all looking the same.
-serde
-serde_json
-tokio
+# Tracked crates: the top 100 crates.io crates by all-time download count,
+# fetched 2026-07-20 via the crates.io API --
+#
+#   curl -H "User-Agent: <contact-info>" \
+#     "https://crates.io/api/v1/crates?sort=downloads&per_page=100&page=1"
+#
+# This is a real, objective, reproducible ranking, not a hand-picked list --
+# rerun the query above (crates.io requires a descriptive User-Agent per its
+# data-access policy: https://crates.io/data-access) to refresh it, sorted by
+# `downloads` descending, no manual filtering applied. Composition will
+# naturally include some near-empty platform-linkage crates (windows_*) and
+# split proc-macro/impl crates (thiserror-impl, serde_derive) alongside the
+# well-known top-level crates -- that's what the actual ranking looks like,
+# left as-is rather than curated away.
+#
+# Lines starting with # are ignored. Removing a name here also removes it
+# from the published site on the next run (data/snapshot.json is pruned to
+# match); its history up to that point stays in data/history.jsonl.
+hashbrown
+syn
+getrandom
+bitflags
+rand_core
 rand
+libc
+proc-macro2
+quote
+base64
+indexmap
+windows-sys
+itertools
+regex-syntax
+cfg-if
+thiserror-impl
+thiserror
+serde
+rand_chacha
+memchr
+unicode-ident
+itoa
+serde_derive
+heck
+autocfg
+serde_json
+regex-automata
+once_cell
+log
+cc
+socket2
+smallvec
 regex
 clap
-anyhow
-thiserror
-log
-env_logger
-futures
+ryu
+aho-corasick
+rustix
+parking_lot_core
+windows_x86_64_msvc
+parking_lot
+strsim
+linux-raw-sys
+windows_x86_64_gnu
+windows_aarch64_msvc
+windows_i686_msvc
+windows_i686_gnu
+windows-targets
+digest
 bytes
-hyper
-reqwest
-openssl
-openssl-sys
-libc
-ring
-rustls
-itertools
-chrono
-uuid
-once_cell
-syn
-quote
-proc-macro2
-tracing
-async-trait
-crossbeam
-rayon
-indexmap
-hashbrown
-memchr
-bitflags
-cfg-if
-byteorder
-base64
-sha2
-zstd
-flate2
-tar
-walkdir
-tempfile
-notify
-image
+mio
+version_check
 num-traits
+pin-project-lite
+lazy_static
+semver
+block-buffer
+http
+either
+windows_x86_64_gnullvm
+windows_aarch64_gnullvm
+lock_api
+idna
+tokio
+anyhow
+scopeguard
+hyper
+time
+rustls
+miniz_oxide
+slab
+crossbeam-utils
+sha2
+ppv-lite86
+futures-core
+percent-encoding
+fastrand
+toml
+futures-util
+futures-task
+generic-array
+url
+cpufeatures
+clap_lex
+typenum
+zerocopy
+http-body
+futures-sink
+tracing-core
+futures-channel
+winnow
+tracing
+byteorder
+h2
+errno
+futures-io
+unicode-width
+tempfile
+chrono
+fnv
+crypto-common
