@@ -18,6 +18,7 @@ const SNAPSHOT_PATH: &str = "data/snapshot.json";
 const HISTORY_PATH: &str = "data/history.jsonl";
 const SITE_PATH: &str = "docs/index.html";
 const FEED_PATH: &str = "docs/feed.xml";
+const BADGES_DIR: &str = "docs/badges";
 const HISTORY_DISPLAY_LIMIT: usize = 100;
 const FEED_ENTRY_LIMIT: usize = 50;
 const ALERT_WEBHOOK_ENV: &str = "ALERT_WEBHOOK_URL";
@@ -128,6 +129,67 @@ fn severity_counts(report: &CrateReport) -> (usize, usize, usize) {
     (high, medium, low)
 }
 
+/// shields.io's "endpoint badge" schema: https://shields.io/endpoint --
+/// we publish this JSON, shields.io fetches it and renders the actual
+/// pixel-perfect badge image. Deliberately not hand-rolling badge SVGs
+/// ourselves: text-width metrics for a rounded-rect label/message badge
+/// are exactly the kind of fiddly, easy-to-get-subtly-wrong-per-font
+/// problem worth leaning on existing, battle-tested infra for instead --
+/// same reasoning as shelling out to `cargo`/`curl` elsewhere in this
+/// project rather than reimplementing what they already do correctly.
+#[derive(Debug, Serialize)]
+struct ShieldsBadge {
+    #[serde(rename = "schemaVersion")]
+    schema_version: u32,
+    label: String,
+    message: String,
+    color: String,
+}
+
+fn badge_for(report: &CrateReport) -> ShieldsBadge {
+    let (high, medium, _low) = severity_counts(report);
+    let color = if high > 0 {
+        "critical"
+    } else if medium > 0 {
+        "orange"
+    } else {
+        "brightgreen"
+    };
+    ShieldsBadge {
+        schema_version: 1,
+        label: "capscan".to_string(),
+        message: format!("{high} high, {medium} medium"),
+        color: color.to_string(),
+    }
+}
+
+/// Writes one `{dir}/{crate}.json` per tracked crate, and removes any
+/// leftover file for a crate no longer tracked -- the same staleness bug
+/// class `prune_untracked` exists to prevent for the snapshot, applied
+/// here too, since a badge is exactly the kind of thing someone else's
+/// README might embed and never notice went stale.
+fn write_badges(dir: &str, snapshot: &BTreeMap<String, CrateSnapshot>) -> Result<()> {
+    fs::create_dir_all(dir)?;
+
+    if let Ok(entries) = fs::read_dir(dir) {
+        for entry in entries.flatten() {
+            let path = entry.path();
+            let is_json = path.extension().and_then(|e| e.to_str()) == Some("json");
+            let stem = path.file_stem().and_then(|s| s.to_str());
+            if is_json && stem.is_some_and(|name| !snapshot.contains_key(name)) {
+                let _ = fs::remove_file(&path);
+            }
+        }
+    }
+
+    for (name, snap) in snapshot {
+        let badge = badge_for(&snap.report);
+        let path = Path::new(dir).join(format!("{name}.json"));
+        fs::write(path, serde_json::to_string(&badge)?)?;
+    }
+    Ok(())
+}
+
 fn main() -> Result<()> {
     let names = read_crate_list(CRATES_LIST)?;
     let mut snapshot = load_snapshot(SNAPSHOT_PATH)?;
@@ -210,6 +272,8 @@ fn main() -> Result<()> {
 
     let feed = render_atom_feed(&history);
     fs::write(FEED_PATH, feed)?;
+
+    write_badges(BADGES_DIR, &snapshot)?;
 
     send_high_severity_alerts(&new_history_entries);
 
@@ -743,5 +807,67 @@ mod tests {
         assert_eq!(snapshot.len(), 1);
         assert!(snapshot.contains_key("kept"));
         assert!(!snapshot.contains_key("removed-from-list"));
+    }
+
+    #[test]
+    fn badge_is_critical_when_any_high_signal_present() {
+        let badge = badge_for(&report_with_kinds(&[
+            SignalKind::UnsafeFn,
+            SignalKind::EnvRead,
+        ]));
+        assert_eq!(badge.color, "critical");
+        assert_eq!(badge.message, "1 high, 0 medium");
+    }
+
+    #[test]
+    fn badge_is_orange_when_medium_but_no_high() {
+        let badge = badge_for(&report_with_kinds(&[
+            SignalKind::UnsafeBlock,
+            SignalKind::UnsafeBlock,
+        ]));
+        assert_eq!(badge.color, "orange");
+        assert_eq!(badge.message, "0 high, 2 medium");
+    }
+
+    #[test]
+    fn badge_is_clean_when_no_high_or_medium_signals() {
+        let badge = badge_for(&report_with_kinds(&[SignalKind::EnvRead]));
+        assert_eq!(badge.color, "brightgreen");
+        assert_eq!(badge.message, "0 high, 0 medium");
+        assert_eq!(badge.schema_version, 1);
+        assert_eq!(badge.label, "capscan");
+    }
+
+    #[test]
+    fn write_badges_creates_one_file_per_tracked_crate() {
+        let dir = tempfile::tempdir().unwrap();
+        let mut snapshot = BTreeMap::new();
+        snapshot.insert(
+            "tokio".to_string(),
+            CrateSnapshot {
+                version: "1.0.0".to_string(),
+                report: report_with_kinds(&[SignalKind::UnsafeFn]),
+                last_checked: "2026-01-01T00:00:00Z".to_string(),
+            },
+        );
+
+        write_badges(dir.path().to_str().unwrap(), &snapshot).unwrap();
+
+        let badge_path = dir.path().join("tokio.json");
+        assert!(badge_path.exists());
+        let content = fs::read_to_string(badge_path).unwrap();
+        assert!(content.contains("\"schemaVersion\":1"));
+        assert!(content.contains("critical"));
+    }
+
+    #[test]
+    fn write_badges_removes_files_for_untracked_crates() {
+        let dir = tempfile::tempdir().unwrap();
+        fs::write(dir.path().join("removed-crate.json"), "{}").unwrap();
+
+        let snapshot = BTreeMap::new(); // nothing tracked anymore
+        write_badges(dir.path().to_str().unwrap(), &snapshot).unwrap();
+
+        assert!(!dir.path().join("removed-crate.json").exists());
     }
 }

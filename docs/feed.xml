@@ -4,7 +4,7 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-07-21T15:25:17.229218+00:00</updated>
+  <updated>2026-07-21T15:55:14.354544+00:00</updated>
   <entry>
     <title>libc: 0.2.186 -&gt; 0.2.188 (high severity)</title>
     <link href="https://crates.io/crates/libc"/>
