@@ -1,1 +1,4 @@
 {"name":"libc","old_version":"0.2.186","new_version":"0.2.188","checked_at":"2026-07-21T15:24:29.972300+00:00","worst_severity":"high","added_signals":15,"removed_signals":11,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"syn","old_version":"3.0.2","new_version":"3.0.3","checked_at":"2026-07-22T08:32:34.853012040+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"libc","old_version":"0.2.188","new_version":"0.2.189","checked_at":"2026-07-22T08:32:37.104560769+00:00","worst_severity":"high","added_signals":1,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"clap","old_version":"4.6.3","new_version":"4.6.4","checked_at":"2026-07-22T08:32:45.594688749+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}

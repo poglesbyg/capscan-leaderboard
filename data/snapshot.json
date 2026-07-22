@@ -2986,10 +2986,10 @@
     "last_checked": "2026-07-20T21:51:06.651069+00:00"
   },
   "clap": {
-    "version": "4.6.3",
+    "version": "4.6.4",
     "report": {
       "name": "clap",
-      "version": "4.6.3",
+      "version": "4.6.4",
       "files_scanned": 85,
       "lines_scanned": 4181,
       "dependencies": [
@@ -2998,430 +2998,22 @@
       ],
       "signals": [
         {
-          "kind": "ProcessSpawn",
-          "file": "examples/repl.rs",
-          "line": 64,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/repl.rs",
-          "line": 72,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/repl.rs",
-          "line": 77,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/derive_ref/hand_subcommand.rs",
-          "line": 55,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/derive_ref/hand_subcommand.rs",
-          "line": 56,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/derive_ref/hand_subcommand.rs",
-          "line": 60,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/derive_ref/hand_subcommand.rs",
-          "line": 61,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/derive_ref/augment_subcommands.rs",
-          "line": 12,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/derive_ref/augment_args.rs",
-          "line": 10,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/multicall-hostname.rs",
-          "line": 4,
-          "detail": "Command::new"
-        },
-        {
           "kind": "BuildTimeMacro",
-          "file": "examples/multicall-hostname.rs",
-          "line": 4,
-          "detail": "env"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/multicall-hostname.rs",
-          "line": 9,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/multicall-hostname.rs",
-          "line": 10,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/pacman.rs",
-          "line": 4,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/pacman.rs",
-          "line": 13,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/pacman.rs",
-          "line": 40,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/git.rs",
-          "line": 7,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/git.rs",
-          "line": 13,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/git.rs",
-          "line": 19,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/git.rs",
-          "line": 34,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/git.rs",
-          "line": 40,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/git.rs",
-          "line": 46,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/git.rs",
-          "line": 50,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/git.rs",
-          "line": 51,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/git.rs",
-          "line": 52,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/multicall-busybox.rs",
-          "line": 8,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/multicall-busybox.rs",
-          "line": 9,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/multicall-busybox.rs",
-          "line": 14,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "examples/multicall-busybox.rs",
-          "line": 14,
-          "detail": "env"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/multicall-busybox.rs",
-          "line": 17,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/cargo-example.rs",
-          "line": 2,
-          "detail": "clap::Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/tutorial_builder/02_apps.rs",
-          "line": 4,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/tutorial_builder/03_04_subcommands.rs",
-          "line": 9,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "examples/tutorial_builder/01_quick.rs",
-          "line": 20,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/repl.rs",
-          "line": 4,
+          "file": "src/lib.rs",
+          "line": 49,
           "detail": "include_str"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/escaped_positional.rs",
-          "line": 4,
+          "file": "src/lib.rs",
+          "line": 54,
           "detail": "include_str"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/escaped_positional.rs",
-          "line": 7,
+          "file": "src/lib.rs",
+          "line": 108,
           "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 8,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 11,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 16,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 19,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 24,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 27,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 32,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 35,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/git_derive.rs",
-          "line": 4,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/git_derive.rs",
-          "line": 7,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/escaped_positional_derive.rs",
-          "line": 4,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/escaped_positional_derive.rs",
-          "line": 7,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/repl_derive.rs",
-          "line": 4,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/pacman.rs",
-          "line": 4,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/pacman.rs",
-          "line": 7,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/git.rs",
-          "line": 4,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/git.rs",
-          "line": 7,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/cargo_example_derive.rs",
-          "line": 4,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/cargo_example_derive.rs",
-          "line": 7,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/multicall_busybox.rs",
-          "line": 4,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/multicall_busybox.rs",
-          "line": 7,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/cargo_example.rs",
-          "line": 4,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/cargo_example.rs",
-          "line": 7,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/multicall_hostname.rs",
-          "line": 4,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/multicall_hostname.rs",
-          "line": 7,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/find.rs",
-          "line": 4,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/find.rs",
-          "line": 7,
-          "detail": "include_str"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/bin/stdio-fixture.rs",
-          "line": 5,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/bin/stdio-fixture.rs",
-          "line": 11,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/bin/stdio-fixture.rs",
-          "line": 13,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/bin/stdio-fixture.rs",
-          "line": 18,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/bin/stdio-fixture.rs",
-          "line": 24,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/bin/stdio-fixture.rs",
-          "line": 30,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/bin/stdio-fixture.rs",
-          "line": 36,
-          "detail": "Command::new"
         },
         {
           "kind": "BuildTimeMacro",
@@ -3683,24 +3275,6 @@
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/lib.rs",
-          "line": 49,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/lib.rs",
-          "line": 54,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/lib.rs",
-          "line": 108,
-          "detail": "include_str"
-        },
-        {
-          "kind": "BuildTimeMacro",
           "file": "src/_tutorial.rs",
           "line": 25,
           "detail": "include_str"
@@ -3932,10 +3506,436 @@
           "file": "src/_tutorial.rs",
           "line": 236,
           "detail": "include_str"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/bin/stdio-fixture.rs",
+          "line": 5,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/bin/stdio-fixture.rs",
+          "line": 11,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/bin/stdio-fixture.rs",
+          "line": 13,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/bin/stdio-fixture.rs",
+          "line": 18,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/bin/stdio-fixture.rs",
+          "line": 24,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/bin/stdio-fixture.rs",
+          "line": 30,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/bin/stdio-fixture.rs",
+          "line": 36,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/repl.rs",
+          "line": 4,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/git_derive.rs",
+          "line": 4,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/git_derive.rs",
+          "line": 7,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/pacman.rs",
+          "line": 4,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/pacman.rs",
+          "line": 7,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/git.rs",
+          "line": 4,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/git.rs",
+          "line": 7,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/cargo_example_derive.rs",
+          "line": 4,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/cargo_example_derive.rs",
+          "line": 7,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/cargo_example.rs",
+          "line": 4,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/cargo_example.rs",
+          "line": 7,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/repl_derive.rs",
+          "line": 4,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/escaped_positional.rs",
+          "line": 4,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/escaped_positional.rs",
+          "line": 7,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/multicall_hostname.rs",
+          "line": 4,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/multicall_hostname.rs",
+          "line": 7,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/multicall_busybox.rs",
+          "line": 4,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/multicall_busybox.rs",
+          "line": 7,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 8,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 11,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 16,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 19,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 24,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 27,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 32,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 35,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/find.rs",
+          "line": 4,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/find.rs",
+          "line": 7,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/escaped_positional_derive.rs",
+          "line": 4,
+          "detail": "include_str"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/escaped_positional_derive.rs",
+          "line": 7,
+          "detail": "include_str"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/repl.rs",
+          "line": 64,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/repl.rs",
+          "line": 72,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/repl.rs",
+          "line": 77,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/pacman.rs",
+          "line": 4,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/pacman.rs",
+          "line": 13,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/pacman.rs",
+          "line": 40,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/git.rs",
+          "line": 7,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/git.rs",
+          "line": 13,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/git.rs",
+          "line": 19,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/git.rs",
+          "line": 34,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/git.rs",
+          "line": 40,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/git.rs",
+          "line": 46,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/git.rs",
+          "line": 50,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/git.rs",
+          "line": 51,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/git.rs",
+          "line": 52,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/cargo-example.rs",
+          "line": 2,
+          "detail": "clap::Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/multicall-busybox.rs",
+          "line": 8,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/multicall-busybox.rs",
+          "line": 9,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/multicall-busybox.rs",
+          "line": 14,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "examples/multicall-busybox.rs",
+          "line": 14,
+          "detail": "env"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/multicall-busybox.rs",
+          "line": 17,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/derive_ref/augment_args.rs",
+          "line": 10,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/derive_ref/hand_subcommand.rs",
+          "line": 55,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/derive_ref/hand_subcommand.rs",
+          "line": 56,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/derive_ref/hand_subcommand.rs",
+          "line": 60,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/derive_ref/hand_subcommand.rs",
+          "line": 61,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/derive_ref/augment_subcommands.rs",
+          "line": 12,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/tutorial_builder/03_04_subcommands.rs",
+          "line": 9,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/tutorial_builder/01_quick.rs",
+          "line": 20,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/tutorial_builder/02_apps.rs",
+          "line": 4,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/multicall-hostname.rs",
+          "line": 4,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "examples/multicall-hostname.rs",
+          "line": 4,
+          "detail": "env"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/multicall-hostname.rs",
+          "line": 9,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "examples/multicall-hostname.rs",
+          "line": 10,
+          "detail": "Command::new"
         }
       ]
     },
-    "last_checked": "2026-07-20T21:50:50.812450+00:00"
+    "last_checked": "2026-07-22T08:32:45.594699079+00:00"
   },
   "clap_lex": {
     "version": "1.1.0",
@@ -10750,22 +10750,16 @@
     "last_checked": "2026-07-21T15:24:52.692316+00:00"
   },
   "libc": {
-    "version": "0.2.188",
+    "version": "0.2.189",
     "report": {
       "name": "libc",
-      "version": "0.2.188",
+      "version": "0.2.189",
       "files_scanned": 389,
-      "lines_scanned": 129953,
+      "lines_scanned": 129990,
       "dependencies": [
         "rustc-std-workspace-core"
       ],
       "signals": [
-        {
-          "kind": "UnsafeBlock",
-          "file": "tests/const_fn.rs",
-          "line": 2,
-          "detail": "unsafe { .. }"
-        },
         {
           "kind": "EnvRead",
           "file": "build.rs",
@@ -10888,9 +10882,9 @@
         },
         {
           "kind": "Ffi",
-          "file": "src/hermit.rs",
-          "line": 388,
-          "detail": "extern \"C\" { 46 item(s) }"
+          "file": "src/solid/mod.rs",
+          "line": 407,
+          "detail": "extern \"C\" { 298 item(s) }"
         },
         {
           "kind": "UnsafeBlock",
@@ -10905,424 +10899,16 @@
           "detail": "mem::transmute"
         },
         {
-          "kind": "UnsafeImpl",
-          "file": "src/vxworks/mod.rs",
-          "line": 10,
-          "detail": "DIR"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/vxworks/mod.rs",
-          "line": 11,
-          "detail": "DIR"
-        },
-        {
           "kind": "Ffi",
-          "file": "src/vxworks/mod.rs",
-          "line": 1501,
-          "detail": "extern \"C\" { 108 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/vxworks/mod.rs",
-          "line": 1639,
-          "detail": "extern \"C\" { 93 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/vxworks/mod.rs",
-          "line": 1779,
-          "detail": "extern \"C\" { 169 item(s) }"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/vxworks/mod.rs",
-          "line": 2440,
-          "detail": "posix_memalign"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/vxworks/mod.rs",
-          "line": 2447,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/teeos/mod.rs",
-          "line": 971,
-          "detail": "extern \"C\" { 144 item(s) }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/teeos/mod.rs",
-          "line": 1334,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/fuchsia/mod.rs",
-          "line": 88,
-          "detail": "DIR"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/fuchsia/mod.rs",
-          "line": 89,
-          "detail": "DIR"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/fuchsia/mod.rs",
-          "line": 3124,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/fuchsia/mod.rs",
-          "line": 3129,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/fuchsia/mod.rs",
-          "line": 3133,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/fuchsia/mod.rs",
-          "line": 3138,
-          "detail": "extern \"C\" { 0 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/fuchsia/mod.rs",
-          "line": 3147,
-          "detail": "extern \"C\" { 502 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/psp.rs",
-          "line": 2560,
-          "detail": "extern \"C\" { 278 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/psp.rs",
-          "line": 3152,
-          "detail": "extern \"C\" { 443 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/psp.rs",
-          "line": 3909,
-          "detail": "extern \"C\" { 16 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/psp.rs",
-          "line": 3973,
-          "detail": "extern \"C\" { 81 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/solid/mod.rs",
-          "line": 407,
-          "detail": "extern \"C\" { 298 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/nto/io_pkt/mod.rs",
-          "line": 145,
-          "detail": "extern \"C\" { 2 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/nto/mod.rs",
-          "line": 2401,
-          "detail": "extern \"C\" { 204 item(s) }"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/nto/mod.rs",
-          "line": 2944,
-          "detail": "atexit"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/nto/mod.rs",
-          "line": 2945,
-          "detail": "extern \"C\" { 2 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/nto/neutrino.rs",
-          "line": 516,
-          "detail": "extern \"C\" { 193 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/nto/io_sock/mod.rs",
-          "line": 93,
-          "detail": "extern \"C\" { 2 item(s) }"
+          "file": "src/unix/hurd/mod.rs",
+          "line": 3495,
+          "detail": "extern \"C\" { 350 item(s) }"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/redox/mod.rs",
           "line": 1209,
           "detail": "extern \"C\" { 82 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/newlib/vita/mod.rs",
-          "line": 171,
-          "detail": "extern \"C\" { 17 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/newlib/rtems/mod.rs",
-          "line": 126,
-          "detail": "extern \"C\" { 8 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/newlib/horizon/mod.rs",
-          "line": 229,
-          "detail": "extern \"C\" { 12 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/newlib/mod.rs",
-          "line": 844,
-          "detail": "extern \"C\" { 38 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/newlib/espidf/mod.rs",
-          "line": 113,
-          "detail": "extern \"C\" { 6 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/apple/b32/mod.rs",
-          "line": 68,
-          "detail": "extern \"C\" { 1 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/apple/mod.rs",
-          "line": 4400,
-          "detail": "extern \"C\" { 257 item(s) }"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/bsd/apple/mod.rs",
-          "line": 5214,
-          "detail": "mach_task_self"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/apple/mod.rs",
-          "line": 5254,
-          "detail": "extern \"C\" { 3 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/apple/b64/mod.rs",
-          "line": 61,
-          "detail": "extern \"C\" { 1 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/dragonfly/mod.rs",
-          "line": 1307,
-          "detail": "extern \"C\" { 51 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/dragonfly/mod.rs",
-          "line": 1445,
-          "detail": "extern \"C\" { 10 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/dragonfly/mod.rs",
-          "line": 1469,
-          "detail": "extern \"C\" { 2 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd15/mod.rs",
-          "line": 367,
-          "detail": "extern \"C\" { 9 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd15/mod.rs",
-          "line": 408,
-          "detail": "extern \"C\" { 1 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd12/mod.rs",
-          "line": 341,
-          "detail": "extern \"C\" { 7 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd13/mod.rs",
-          "line": 363,
-          "detail": "extern \"C\" { 9 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd13/mod.rs",
-          "line": 405,
-          "detail": "extern \"C\" { 1 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd14/mod.rs",
-          "line": 365,
-          "detail": "extern \"C\" { 9 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd14/mod.rs",
-          "line": 406,
-          "detail": "extern \"C\" { 1 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 4627,
-          "detail": "extern \"C\" { 167 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5093,
-          "detail": "extern \"C\" { 8 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5109,
-          "detail": "extern \"C\" { 15 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5152,
-          "detail": "extern \"C\" { 17 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5196,
-          "detail": "extern \"C\" { 25 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5288,
-          "detail": "extern \"C\" { 5 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5302,
-          "detail": "extern \"C\" { 6 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd11/mod.rs",
-          "line": 290,
-          "detail": "extern \"C\" { 7 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/mod.rs",
-          "line": 1464,
-          "detail": "extern \"C\" { 144 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/mod.rs",
-          "line": 1842,
-          "detail": "extern \"C\" { 12 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/mod.rs",
-          "line": 1885,
-          "detail": "extern \"C\" { 4 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/mod.rs",
-          "line": 1910,
-          "detail": "extern \"C\" { 3 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/mod.rs",
-          "line": 1917,
-          "detail": "extern \"C\" { 7 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/mod.rs",
-          "line": 527,
-          "detail": "extern \"C\" { 91 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
-          "line": 1903,
-          "detail": "extern \"C\" { 105 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
-          "line": 2280,
-          "detail": "extern \"C\" { 8 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
-          "line": 2302,
-          "detail": "extern \"C\" { 47 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
-          "line": 2447,
-          "detail": "extern \"C\" { 5 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/mod.rs",
-          "line": 703,
-          "detail": "extern \"C\" { 70 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/mod.rs",
-          "line": 885,
-          "detail": "extern \"C\" { 10 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/openbsd/mod.rs",
-          "line": 1917,
-          "detail": "extern \"C\" { 57 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/openbsd/mod.rs",
-          "line": 2073,
-          "detail": "extern \"C\" { 4 item(s) }"
         },
         {
           "kind": "Ffi",
@@ -11422,6 +11008,12 @@
         },
         {
           "kind": "Ffi",
+          "file": "src/unix/haiku/bsd.rs",
+          "line": 64,
+          "detail": "extern \"C\" { 24 item(s) }"
+        },
+        {
+          "kind": "Ffi",
           "file": "src/unix/haiku/mod.rs",
           "line": 1484,
           "detail": "extern \"C\" { 173 item(s) }"
@@ -11434,57 +11026,9 @@
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/haiku/bsd.rs",
-          "line": 64,
-          "detail": "extern \"C\" { 24 item(s) }"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/unix/mod.rs",
-          "line": 45,
-          "detail": "DIR"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/unix/mod.rs",
-          "line": 46,
-          "detail": "DIR"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/mod.rs",
-          "line": 420,
-          "detail": "extern \"C\" { 2 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/mod.rs",
-          "line": 624,
-          "detail": "extern \"C\" { 97 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/mod.rs",
-          "line": 775,
-          "detail": "extern \"C\" { 249 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/mod.rs",
-          "line": 2463,
-          "detail": "extern \"C\" { 1 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux_l4re_shared.rs",
-          "line": 1690,
-          "detail": "extern \"C\" { 83 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/mod.rs",
-          "line": 1886,
-          "detail": "extern \"C\" { 62 item(s) }"
+          "file": "src/unix/cygwin/mod.rs",
+          "line": 1840,
+          "detail": "extern \"C\" { 239 item(s) }"
         },
         {
           "kind": "UnsafeFn",
@@ -11670,7 +11214,103 @@
           "kind": "Ffi",
           "file": "src/unix/linux_like/emscripten/mod.rs",
           "line": 1341,
-          "detail": "extern \"C\" { 46 item(s) }"
+          "detail": "extern \"C\" { 50 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux_l4re_shared.rs",
+          "line": 1690,
+          "detail": "extern \"C\" { 83 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/android/b32/mod.rs",
+          "line": 223,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/android/mod.rs",
+          "line": 3550,
+          "detail": "extern \"C\" { 160 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/android/b64/mod.rs",
+          "line": 196,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b32/x86/mod.rs",
+          "line": 1030,
+          "detail": "extern \"C\" { 4 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b32/mod.rs",
+          "line": 412,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/mod.rs",
+          "line": 987,
+          "detail": "extern \"C\" { 96 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/x86_64/not_x32.rs",
+          "line": 393,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/x86_64/mod.rs",
+          "line": 726,
+          "detail": "extern \"C\" { 4 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/sparc64/mod.rs",
+          "line": 902,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/powerpc64/mod.rs",
+          "line": 1002,
+          "detail": "extern \"C\" { 5 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/s390x.rs",
+          "line": 922,
+          "detail": "extern \"C\" { 5 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/mips64/mod.rs",
+          "line": 879,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/aarch64/mod.rs",
+          "line": 952,
+          "detail": "extern \"C\" { 5 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/uclibc/mips/mips32/mod.rs",
+          "line": 664,
+          "detail": "extern \"C\" { 5 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/uclibc/mod.rs",
+          "line": 340,
+          "detail": "extern \"C\" { 20 item(s) }"
         },
         {
           "kind": "UnsafeFn",
@@ -11884,99 +11524,15 @@
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/uclibc/mips/mips32/mod.rs",
-          "line": 664,
-          "detail": "extern \"C\" { 5 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/uclibc/mod.rs",
-          "line": 340,
-          "detail": "extern \"C\" { 20 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b32/mod.rs",
-          "line": 412,
-          "detail": "extern \"C\" { 1 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b32/x86/mod.rs",
-          "line": 1030,
-          "detail": "extern \"C\" { 4 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/mod.rs",
-          "line": 979,
-          "detail": "extern \"C\" { 96 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/s390x.rs",
-          "line": 922,
-          "detail": "extern \"C\" { 5 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/mips64/mod.rs",
-          "line": 879,
-          "detail": "extern \"C\" { 1 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/sparc64/mod.rs",
-          "line": 903,
-          "detail": "extern \"C\" { 1 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/powerpc64/mod.rs",
-          "line": 1002,
-          "detail": "extern \"C\" { 5 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/aarch64/mod.rs",
-          "line": 952,
-          "detail": "extern \"C\" { 5 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/x86_64/mod.rs",
-          "line": 726,
-          "detail": "extern \"C\" { 4 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/x86_64/not_x32.rs",
-          "line": 393,
-          "detail": "extern \"C\" { 1 item(s) }"
-        },
-        {
-          "kind": "Ffi",
           "file": "src/unix/linux_like/linux/mod.rs",
           "line": 3497,
           "detail": "extern \"C\" { 117 item(s) }"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/linux_like/android/b32/mod.rs",
-          "line": 223,
-          "detail": "extern \"C\" { 1 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/android/mod.rs",
-          "line": 3550,
-          "detail": "extern \"C\" { 160 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/android/b64/mod.rs",
-          "line": 196,
-          "detail": "extern \"C\" { 1 item(s) }"
+          "file": "src/unix/linux_like/mod.rs",
+          "line": 1886,
+          "detail": "extern \"C\" { 62 item(s) }"
         },
         {
           "kind": "Ffi",
@@ -11986,15 +11542,381 @@
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/hurd/mod.rs",
-          "line": 3495,
-          "detail": "extern \"C\" { 350 item(s) }"
+          "file": "src/unix/newlib/rtems/mod.rs",
+          "line": 126,
+          "detail": "extern \"C\" { 8 item(s) }"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/cygwin/mod.rs",
-          "line": 1840,
-          "detail": "extern \"C\" { 239 item(s) }"
+          "file": "src/unix/newlib/espidf/mod.rs",
+          "line": 113,
+          "detail": "extern \"C\" { 6 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/newlib/horizon/mod.rs",
+          "line": 229,
+          "detail": "extern \"C\" { 12 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/newlib/vita/mod.rs",
+          "line": 171,
+          "detail": "extern \"C\" { 17 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/newlib/mod.rs",
+          "line": 844,
+          "detail": "extern \"C\" { 38 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd12/mod.rs",
+          "line": 341,
+          "detail": "extern \"C\" { 7 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd11/mod.rs",
+          "line": 290,
+          "detail": "extern \"C\" { 7 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd13/mod.rs",
+          "line": 363,
+          "detail": "extern \"C\" { 9 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd13/mod.rs",
+          "line": 405,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd15/mod.rs",
+          "line": 367,
+          "detail": "extern \"C\" { 9 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd15/mod.rs",
+          "line": 408,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
+          "line": 4627,
+          "detail": "extern \"C\" { 167 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
+          "line": 5093,
+          "detail": "extern \"C\" { 8 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
+          "line": 5109,
+          "detail": "extern \"C\" { 15 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
+          "line": 5152,
+          "detail": "extern \"C\" { 17 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
+          "line": 5196,
+          "detail": "extern \"C\" { 25 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
+          "line": 5288,
+          "detail": "extern \"C\" { 5 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
+          "line": 5302,
+          "detail": "extern \"C\" { 6 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd14/mod.rs",
+          "line": 365,
+          "detail": "extern \"C\" { 9 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd14/mod.rs",
+          "line": 406,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/mod.rs",
+          "line": 1464,
+          "detail": "extern \"C\" { 144 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/mod.rs",
+          "line": 1842,
+          "detail": "extern \"C\" { 12 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/mod.rs",
+          "line": 1885,
+          "detail": "extern \"C\" { 4 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/mod.rs",
+          "line": 1910,
+          "detail": "extern \"C\" { 3 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/mod.rs",
+          "line": 1917,
+          "detail": "extern \"C\" { 7 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/dragonfly/mod.rs",
+          "line": 1307,
+          "detail": "extern \"C\" { 51 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/dragonfly/mod.rs",
+          "line": 1445,
+          "detail": "extern \"C\" { 10 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/dragonfly/mod.rs",
+          "line": 1469,
+          "detail": "extern \"C\" { 2 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
+          "line": 1903,
+          "detail": "extern \"C\" { 105 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
+          "line": 2280,
+          "detail": "extern \"C\" { 8 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
+          "line": 2302,
+          "detail": "extern \"C\" { 47 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
+          "line": 2447,
+          "detail": "extern \"C\" { 5 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/openbsd/mod.rs",
+          "line": 1917,
+          "detail": "extern \"C\" { 57 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/openbsd/mod.rs",
+          "line": 2073,
+          "detail": "extern \"C\" { 4 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/mod.rs",
+          "line": 703,
+          "detail": "extern \"C\" { 70 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/mod.rs",
+          "line": 885,
+          "detail": "extern \"C\" { 10 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/apple/b32/mod.rs",
+          "line": 68,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/apple/mod.rs",
+          "line": 4400,
+          "detail": "extern \"C\" { 257 item(s) }"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/bsd/apple/mod.rs",
+          "line": 5214,
+          "detail": "mach_task_self"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/apple/mod.rs",
+          "line": 5254,
+          "detail": "extern \"C\" { 3 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/apple/b64/mod.rs",
+          "line": 61,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/mod.rs",
+          "line": 527,
+          "detail": "extern \"C\" { 91 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/nuttx/mod.rs",
+          "line": 655,
+          "detail": "extern \"C\" { 20 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/nto/io_pkt/mod.rs",
+          "line": 145,
+          "detail": "extern \"C\" { 2 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/nto/io_sock/mod.rs",
+          "line": 93,
+          "detail": "extern \"C\" { 2 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/nto/neutrino.rs",
+          "line": 516,
+          "detail": "extern \"C\" { 193 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/nto/mod.rs",
+          "line": 2401,
+          "detail": "extern \"C\" { 204 item(s) }"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/nto/mod.rs",
+          "line": 2944,
+          "detail": "atexit"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/nto/mod.rs",
+          "line": 2945,
+          "detail": "extern \"C\" { 2 item(s) }"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/unix/mod.rs",
+          "line": 46,
+          "detail": "DIR"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/unix/mod.rs",
+          "line": 47,
+          "detail": "DIR"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/mod.rs",
+          "line": 421,
+          "detail": "extern \"C\" { 2 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/mod.rs",
+          "line": 625,
+          "detail": "extern \"C\" { 97 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/mod.rs",
+          "line": 776,
+          "detail": "extern \"C\" { 249 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/mod.rs",
+          "line": 2464,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/solarish/illumos.rs",
+          "line": 229,
+          "detail": "extern \"C\" { 25 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/solarish/solaris.rs",
+          "line": 161,
+          "detail": "extern \"C\" { 10 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/solarish/mod.rs",
+          "line": 2326,
+          "detail": "extern \"C\" { 251 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/solarish/mod.rs",
+          "line": 2966,
+          "detail": "extern \"C\" { 2 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/solarish/mod.rs",
+          "line": 2977,
+          "detail": "extern \"C\" { 12 item(s) }"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/solarish/mod.rs",
+          "line": 3019,
+          "detail": "major"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/solarish/mod.rs",
+          "line": 3023,
+          "detail": "minor"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/solarish/mod.rs",
+          "line": 3027,
+          "detail": "makedev"
         },
         {
           "kind": "UnsafeFn",
@@ -12040,60 +11962,6 @@
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/solarish/mod.rs",
-          "line": 2325,
-          "detail": "extern \"C\" { 251 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/solarish/mod.rs",
-          "line": 2965,
-          "detail": "extern \"C\" { 2 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/solarish/mod.rs",
-          "line": 2976,
-          "detail": "extern \"C\" { 12 item(s) }"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/solarish/mod.rs",
-          "line": 3018,
-          "detail": "major"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/solarish/mod.rs",
-          "line": 3022,
-          "detail": "minor"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/solarish/mod.rs",
-          "line": 3026,
-          "detail": "makedev"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/solarish/illumos.rs",
-          "line": 229,
-          "detail": "extern \"C\" { 25 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/solarish/solaris.rs",
-          "line": 161,
-          "detail": "extern \"C\" { 10 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/nuttx/mod.rs",
-          "line": 647,
-          "detail": "extern \"C\" { 20 item(s) }"
-        },
-        {
-          "kind": "Ffi",
           "file": "src/unix/aix/powerpc64.rs",
           "line": 425,
           "detail": "extern \"C\" { 1 item(s) }"
@@ -12123,213 +11991,93 @@
           "detail": "extern \"C\" { 268 item(s) }"
         },
         {
-          "kind": "Ffi",
-          "file": "src/new/apple/libpthread/pthread_/qos.rs",
-          "line": 8,
-          "detail": "extern \"C\" { 4 item(s) }"
+          "kind": "UnsafeImpl",
+          "file": "src/fuchsia/mod.rs",
+          "line": 88,
+          "detail": "DIR"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/fuchsia/mod.rs",
+          "line": 89,
+          "detail": "DIR"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/fuchsia/mod.rs",
+          "line": 3124,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/fuchsia/mod.rs",
+          "line": 3129,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/fuchsia/mod.rs",
+          "line": 3133,
+          "detail": "unsafe { .. }"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/apple/libpthread/pthread_/pthread_spis.rs",
-          "line": 7,
-          "detail": "extern \"C\" { 1 item(s) }"
+          "file": "src/fuchsia/mod.rs",
+          "line": 3138,
+          "detail": "extern \"C\" { 0 item(s) }"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/apple/libpthread/pthread_/spawn.rs",
-          "line": 7,
-          "detail": "extern \"C\" { 2 item(s) }"
+          "file": "src/fuchsia/mod.rs",
+          "line": 3147,
+          "detail": "extern \"C\" { 502 item(s) }"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/vxworks/mod.rs",
+          "line": 10,
+          "detail": "DIR"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/vxworks/mod.rs",
+          "line": 11,
+          "detail": "DIR"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/apple/libpthread/pthread_/stack_np.rs",
-          "line": 7,
-          "detail": "extern \"C\" { 1 item(s) }"
+          "file": "src/vxworks/mod.rs",
+          "line": 1501,
+          "detail": "extern \"C\" { 108 item(s) }"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/apple/libpthread/pthread_/introspection.rs",
-          "line": 21,
-          "detail": "extern \"C\" { 3 item(s) }"
+          "file": "src/vxworks/mod.rs",
+          "line": 1639,
+          "detail": "extern \"C\" { 93 item(s) }"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/musl/sys/socket.rs",
-          "line": 37,
-          "detail": "extern \"C\" { 2 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/semaphore.rs",
-          "line": 6,
-          "detail": "extern \"C\" { 6 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/pthread.rs",
-          "line": 48,
-          "detail": "extern \"C\" { 97 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/signal.rs",
-          "line": 100,
-          "detail": "extern \"C\" { 11 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/errno.rs",
-          "line": 142,
-          "detail": "extern \"C\" { 1 item(s) }"
+          "file": "src/vxworks/mod.rs",
+          "line": 1779,
+          "detail": "extern \"C\" { 169 item(s) }"
         },
         {
           "kind": "UnsafeFn",
-          "file": "src/new/qurt/errno.rs",
-          "line": 148,
-          "detail": "errno"
+          "file": "src/vxworks/mod.rs",
+          "line": 2440,
+          "detail": "posix_memalign"
         },
         {
-          "kind": "UnsafeFn",
-          "file": "src/new/qurt/errno.rs",
-          "line": 152,
-          "detail": "set_errno"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/time.rs",
-          "line": 12,
-          "detail": "extern \"C\" { 20 item(s) }"
+          "kind": "UnsafeBlock",
+          "file": "src/vxworks/mod.rs",
+          "line": 2447,
+          "detail": "unsafe { .. }"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/qurt/mqueue.rs",
-          "line": 24,
-          "detail": "extern \"C\" { 11 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/dlfcn.rs",
-          "line": 21,
-          "detail": "extern \"C\" { 4 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/mod.rs",
-          "line": 240,
-          "detail": "extern \"C\" { 4 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/mod.rs",
-          "line": 248,
-          "detail": "extern \"C\" { 1 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/mod.rs",
-          "line": 253,
-          "detail": "extern \"C\" { 3 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/mod.rs",
-          "line": 260,
-          "detail": "extern \"C\" { 1 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/mod.rs",
-          "line": 265,
-          "detail": "extern \"C\" { 22 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/mod.rs",
-          "line": 291,
-          "detail": "extern \"C\" { 13 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/sys/mman.rs",
-          "line": 39,
-          "detail": "extern \"C\" { 8 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/sys/sched.rs",
-          "line": 20,
-          "detail": "extern \"C\" { 3 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/sys/stat.rs",
-          "line": 33,
-          "detail": "extern \"C\" { 2 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/stdlib.rs",
-          "line": 13,
-          "detail": "extern \"C\" { 29 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/stdio.rs",
-          "line": 13,
-          "detail": "extern \"C\" { 41 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/fcntl.rs",
-          "line": 48,
-          "detail": "extern \"C\" { 2 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/unistd.rs",
-          "line": 226,
-          "detail": "extern \"C\" { 26 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/bionic_libc/sys/socket.rs",
-          "line": 29,
-          "detail": "extern \"C\" { 3 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/netbsd/utmp_.rs",
-          "line": 26,
-          "detail": "extern \"C\" { 4 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/netbsd/utmpx_.rs",
-          "line": 65,
-          "detail": "extern \"C\" { 12 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/netbsd/sys/timex.rs",
-          "line": 91,
-          "detail": "extern \"C\" { 2 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/common/posix/pthread.rs",
-          "line": 7,
-          "detail": "extern \"C\" { 47 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/common/linux_like/pthread.rs",
-          "line": 3,
-          "detail": "extern \"C\" { 5 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/trusty.rs",
-          "line": 50,
+          "file": "src/wasi/p2.rs",
+          "line": 132,
           "detail": "extern \"C\" { 15 item(s) }"
         },
         {
@@ -12376,20 +12124,14 @@
         },
         {
           "kind": "Ffi",
-          "file": "src/wasi/p2.rs",
-          "line": 132,
-          "detail": "extern \"C\" { 15 item(s) }"
+          "file": "src/windows/gnu/mod.rs",
+          "line": 28,
+          "detail": "extern \"C\" { 3 item(s) }"
         },
         {
           "kind": "Ffi",
           "file": "src/windows/msvc/mod.rs",
           "line": 7,
-          "detail": "extern \"C\" { 3 item(s) }"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/windows/gnu/mod.rs",
-          "line": 28,
           "detail": "extern \"C\" { 3 item(s) }"
         },
         {
@@ -12407,8 +12149,266 @@
         {
           "kind": "Ffi",
           "file": "src/windows/mod.rs",
-          "line": 590,
+          "line": 593,
           "detail": "extern \"system\" { 11 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/hermit.rs",
+          "line": 388,
+          "detail": "extern \"C\" { 46 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/stdio.rs",
+          "line": 13,
+          "detail": "extern \"C\" { 41 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/unistd.rs",
+          "line": 226,
+          "detail": "extern \"C\" { 26 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/sys/stat.rs",
+          "line": 33,
+          "detail": "extern \"C\" { 2 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/sys/mman.rs",
+          "line": 39,
+          "detail": "extern \"C\" { 8 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/sys/sched.rs",
+          "line": 20,
+          "detail": "extern \"C\" { 3 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/stdlib.rs",
+          "line": 13,
+          "detail": "extern \"C\" { 29 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/time.rs",
+          "line": 12,
+          "detail": "extern \"C\" { 20 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mqueue.rs",
+          "line": 24,
+          "detail": "extern \"C\" { 11 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/dlfcn.rs",
+          "line": 21,
+          "detail": "extern \"C\" { 4 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/signal.rs",
+          "line": 100,
+          "detail": "extern \"C\" { 11 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/fcntl.rs",
+          "line": 48,
+          "detail": "extern \"C\" { 2 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/pthread.rs",
+          "line": 48,
+          "detail": "extern \"C\" { 97 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/errno.rs",
+          "line": 142,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/new/qurt/errno.rs",
+          "line": 148,
+          "detail": "errno"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/new/qurt/errno.rs",
+          "line": 152,
+          "detail": "set_errno"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mod.rs",
+          "line": 240,
+          "detail": "extern \"C\" { 4 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mod.rs",
+          "line": 248,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mod.rs",
+          "line": 253,
+          "detail": "extern \"C\" { 3 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mod.rs",
+          "line": 260,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mod.rs",
+          "line": 265,
+          "detail": "extern \"C\" { 22 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mod.rs",
+          "line": 291,
+          "detail": "extern \"C\" { 13 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/semaphore.rs",
+          "line": 6,
+          "detail": "extern \"C\" { 6 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/netbsd/utmp_.rs",
+          "line": 26,
+          "detail": "extern \"C\" { 4 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/netbsd/sys/timex.rs",
+          "line": 91,
+          "detail": "extern \"C\" { 2 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/netbsd/utmpx_.rs",
+          "line": 65,
+          "detail": "extern \"C\" { 12 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/musl/sys/socket.rs",
+          "line": 37,
+          "detail": "extern \"C\" { 2 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/bionic_libc/sys/socket.rs",
+          "line": 29,
+          "detail": "extern \"C\" { 3 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/apple/libpthread/pthread_/pthread_spis.rs",
+          "line": 7,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/apple/libpthread/pthread_/introspection.rs",
+          "line": 21,
+          "detail": "extern \"C\" { 3 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/apple/libpthread/pthread_/stack_np.rs",
+          "line": 7,
+          "detail": "extern \"C\" { 1 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/apple/libpthread/pthread_/qos.rs",
+          "line": 8,
+          "detail": "extern \"C\" { 4 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/apple/libpthread/pthread_/spawn.rs",
+          "line": 7,
+          "detail": "extern \"C\" { 2 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/common/linux_like/pthread.rs",
+          "line": 3,
+          "detail": "extern \"C\" { 5 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/common/posix/pthread.rs",
+          "line": 7,
+          "detail": "extern \"C\" { 47 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/teeos/mod.rs",
+          "line": 971,
+          "detail": "extern \"C\" { 144 item(s) }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/teeos/mod.rs",
+          "line": 1334,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/psp.rs",
+          "line": 2560,
+          "detail": "extern \"C\" { 278 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/psp.rs",
+          "line": 3152,
+          "detail": "extern \"C\" { 443 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/psp.rs",
+          "line": 3909,
+          "detail": "extern \"C\" { 16 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/psp.rs",
+          "line": 3973,
+          "detail": "extern \"C\" { 81 item(s) }"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/trusty.rs",
+          "line": 50,
+          "detail": "extern \"C\" { 15 item(s) }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "tests/const_fn.rs",
+          "line": 2,
+          "detail": "unsafe { .. }"
         },
         {
           "kind": "BuildScript",
@@ -12418,7 +12418,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-21T15:24:29.972307+00:00"
+    "last_checked": "2026-07-22T08:32:37.104575166+00:00"
   },
   "linux-raw-sys": {
     "version": "0.12.1",
@@ -84987,48 +84987,18 @@
     "last_checked": "2026-07-21T15:24:46.673053+00:00"
   },
   "syn": {
-    "version": "3.0.2",
+    "version": "3.0.3",
     "report": {
       "name": "syn",
-      "version": "3.0.2",
+      "version": "3.0.3",
       "files_scanned": 96,
-      "lines_scanned": 66874,
+      "lines_scanned": 66916,
       "dependencies": [
         "proc-macro2",
         "quote",
         "unicode-ident"
       ],
       "signals": [
-        {
-          "kind": "EnvRead",
-          "file": "tests/repo/mod.rs",
-          "line": 699,
-          "detail": "env::var"
-        },
-        {
-          "kind": "EnvRead",
-          "file": "tests/repo/mod.rs",
-          "line": 706,
-          "detail": "env::var"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "tests/repo/mod.rs",
-          "line": 765,
-          "detail": "reqwest::blocking::get"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "tests/repo/mod.rs",
-          "line": 773,
-          "detail": "fs::remove_dir_all"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "tests/repo/mod.rs",
-          "line": 787,
-          "detail": "fs::write"
-        },
         {
           "kind": "UnsafeImpl",
           "file": "src/thread.rs",
@@ -85040,42 +85010,6 @@
           "file": "src/thread.rs",
           "line": 18,
           "detail": "ThreadBound < T >"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/discouraged.rs",
-          "line": 199,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/discouraged.rs",
-          "line": 199,
-          "detail": "mem::transmute"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parse.rs",
-          "line": 383,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/parse.rs",
-          "line": 383,
-          "detail": "mem::transmute"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parse.rs",
-          "line": 394,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/parse.rs",
-          "line": 394,
-          "detail": "mem::transmute"
         },
         {
           "kind": "UnsafeBlock",
@@ -85244,10 +85178,76 @@
           "file": "src/buffer.rs",
           "line": 445,
           "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/discouraged.rs",
+          "line": 199,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/discouraged.rs",
+          "line": 199,
+          "detail": "mem::transmute"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parse.rs",
+          "line": 383,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/parse.rs",
+          "line": 383,
+          "detail": "mem::transmute"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parse.rs",
+          "line": 394,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/parse.rs",
+          "line": 394,
+          "detail": "mem::transmute"
+        },
+        {
+          "kind": "EnvRead",
+          "file": "tests/repo/mod.rs",
+          "line": 699,
+          "detail": "env::var"
+        },
+        {
+          "kind": "EnvRead",
+          "file": "tests/repo/mod.rs",
+          "line": 706,
+          "detail": "env::var"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "tests/repo/mod.rs",
+          "line": 765,
+          "detail": "reqwest::blocking::get"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "tests/repo/mod.rs",
+          "line": 773,
+          "detail": "fs::remove_dir_all"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "tests/repo/mod.rs",
+          "line": 787,
+          "detail": "fs::write"
         }
       ]
     },
-    "last_checked": "2026-07-20T21:51:09.408984+00:00"
+    "last_checked": "2026-07-22T08:32:34.853015326+00:00"
   },
   "tempfile": {
     "version": "3.27.0",
