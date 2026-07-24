@@ -4,7 +4,14 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-07-22T08:33:05.554038761+00:00</updated>
+  <updated>2026-07-24T08:31:17.551298973+00:00</updated>
+  <entry>
+    <title>base64: 0.22.1 -&gt; 0.23.0 (high severity)</title>
+    <link href="https://crates.io/crates/base64"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#base64-0.23.0-2026-07-24T08:30:45.581615160+00:00</id>
+    <updated>2026-07-24T08:30:45.581615160+00:00</updated>
+    <summary>+7 / -0 signal(s). Worst new severity: high.</summary>
+  </entry>
   <entry>
     <title>clap: 4.6.3 -&gt; 4.6.4 (none severity)</title>
     <link href="https://crates.io/crates/clap"/>

@@ -1410,16 +1410,125 @@
     "last_checked": "2026-07-21T15:24:38.947631+00:00"
   },
   "base64": {
-    "version": "0.22.1",
+    "version": "0.23.0",
     "report": {
       "name": "base64",
-      "version": "0.22.1",
-      "files_scanned": 25,
-      "lines_scanned": 7524,
+      "version": "0.23.0",
+      "files_scanned": 26,
+      "lines_scanned": 9449,
       "dependencies": [],
-      "signals": []
+      "signals": [
+        {
+          "kind": "UnsafeFn",
+          "file": "src/engine/simd.rs",
+          "line": 114,
+          "detail": "encode_bulk"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/engine/simd.rs",
+          "line": 176,
+          "detail": "decode_bulk"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/engine/simd.rs",
+          "line": 257,
+          "detail": "encode_bulk"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/engine/simd.rs",
+          "line": 326,
+          "detail": "decode_bulk"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/engine/simd.rs",
+          "line": 406,
+          "detail": "avx2_encode"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/engine/simd.rs",
+          "line": 421,
+          "detail": "avx2_decode"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/engine/simd.rs",
+          "line": 441,
+          "detail": "neon_encode"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/engine/simd.rs",
+          "line": 456,
+          "detail": "neon_decode"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/engine/simd.rs",
+          "line": 553,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/engine/simd.rs",
+          "line": 558,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/engine/simd.rs",
+          "line": 586,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/engine/simd.rs",
+          "line": 598,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/engine/simd.rs",
+          "line": 636,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/engine/simd.rs",
+          "line": 651,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/engine/simd.rs",
+          "line": 695,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/engine/simd.rs",
+          "line": 719,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/engine/simd.rs",
+          "line": 772,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/engine/simd.rs",
+          "line": 796,
+          "detail": "unsafe { .. }"
+        }
+      ]
     },
-    "last_checked": "2026-07-20T21:51:18.621810+00:00"
+    "last_checked": "2026-07-24T08:30:45.581620328+00:00"
   },
   "bitflags": {
     "version": "2.13.1",
