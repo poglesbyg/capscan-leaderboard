@@ -2702,18 +2702,42 @@
     "last_checked": "2026-07-20T21:50:55.862844+00:00"
   },
   "cc": {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "report": {
       "name": "cc",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "files_scanned": 12,
-      "lines_scanned": 7369,
+      "lines_scanned": 7386,
       "dependencies": [
         "find-msvc-tools",
         "jobserver",
         "shlex"
       ],
       "signals": [
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/async_executor.rs",
+          "line": 62,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/async_executor.rs",
+          "line": 63,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/async_executor.rs",
+          "line": 67,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/job_token.rs",
+          "line": 41,
+          "detail": "unsafe { .. }"
+        },
         {
           "kind": "UnsafeBlock",
           "file": "src/parallel/stderr.rs",
@@ -2737,144 +2761,6 @@
           "file": "src/parallel/stderr.rs",
           "line": 83,
           "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parallel/job_token.rs",
-          "line": 41,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parallel/async_executor.rs",
-          "line": 62,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parallel/async_executor.rs",
-          "line": 63,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parallel/async_executor.rs",
-          "line": 67,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/lib.rs",
-          "line": 1485,
-          "detail": "fs::File::create"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/lib.rs",
-          "line": 2882,
-          "detail": "fs::remove_file"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/lib.rs",
-          "line": 2931,
-          "detail": "fs::remove_file"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 3132,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 3704,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 3793,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "EnvRead",
-          "file": "src/lib.rs",
-          "line": 4145,
-          "detail": "env::var_os"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 4681,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 4701,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 4703,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/tempfile.rs",
-          "line": 23,
-          "detail": "OpenOptions::new"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/tempfile.rs",
-          "line": 84,
-          "detail": "remove_file"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/tool.rs",
-          "line": 117,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/tool.rs",
-          "line": 142,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/tool.rs",
-          "line": 203,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/tool.rs",
-          "line": 217,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/tool.rs",
-          "line": 236,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/tool.rs",
-          "line": 378,
-          "detail": "Command::new"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/tool.rs",
-          "line": 382,
-          "detail": "Command::new"
         },
         {
           "kind": "EnvRead",
@@ -2929,10 +2815,124 @@
           "file": "src/utilities.rs",
           "line": 142,
           "detail": "std::env::var_os"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/lib.rs",
+          "line": 1485,
+          "detail": "fs::File::create"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/lib.rs",
+          "line": 2899,
+          "detail": "fs::remove_file"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/lib.rs",
+          "line": 2948,
+          "detail": "fs::remove_file"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 3149,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 3721,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 3810,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "EnvRead",
+          "file": "src/lib.rs",
+          "line": 4162,
+          "detail": "env::var_os"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 4698,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 4718,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 4720,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/tool.rs",
+          "line": 117,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/tool.rs",
+          "line": 142,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/tool.rs",
+          "line": 203,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/tool.rs",
+          "line": 217,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/tool.rs",
+          "line": 236,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/tool.rs",
+          "line": 378,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/tool.rs",
+          "line": 382,
+          "detail": "Command::new"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/tempfile.rs",
+          "line": 23,
+          "detail": "OpenOptions::new"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/tempfile.rs",
+          "line": 84,
+          "detail": "remove_file"
         }
       ]
     },
-    "last_checked": "2026-07-21T15:24:41.147560+00:00"
+    "last_checked": "2026-07-25T08:09:46.213430488+00:00"
   },
   "cfg-if": {
     "version": "1.0.4",
@@ -4501,12 +4501,12 @@
     "last_checked": "2026-07-21T15:24:50.340643+00:00"
   },
   "either": {
-    "version": "1.16.0",
+    "version": "1.17.0",
     "report": {
       "name": "either",
-      "version": "1.16.0",
+      "version": "1.17.0",
       "files_scanned": 5,
-      "lines_scanned": 2348,
+      "lines_scanned": 2381,
       "dependencies": [
         "serde"
       ],
@@ -4525,7 +4525,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-21T15:24:54.560292+00:00"
+    "last_checked": "2026-07-25T08:09:53.928070630+00:00"
   },
   "errno": {
     "version": "0.3.14",
