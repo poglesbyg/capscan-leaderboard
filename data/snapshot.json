@@ -9728,12 +9728,12 @@
     "last_checked": "2026-07-21T15:24:38.505709+00:00"
   },
   "http": {
-    "version": "1.4.2",
+    "version": "1.5.0",
     "report": {
       "name": "http",
-      "version": "1.4.2",
+      "version": "1.5.0",
       "files_scanned": 24,
-      "lines_scanned": 15719,
+      "lines_scanned": 15824,
       "dependencies": [
         "bytes",
         "itoa"
@@ -9743,42 +9743,6 @@
           "kind": "UnsafeBlock",
           "file": "tests/header_map.rs",
           "line": 747,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/byte_str.rs",
-          "line": 63,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/status.rs",
-          "line": 146,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/method.rs",
-          "line": 351,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/method.rs",
-          "line": 369,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/uri/scheme.rs",
-          "line": 84,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/uri/path.rs",
-          "line": 35,
           "detail": "unsafe { .. }"
         },
         {
@@ -9807,80 +9771,32 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/header/value.rs",
-          "line": 249,
+          "file": "src/uri/scheme.rs",
+          "line": 84,
           "detail": "unsafe { .. }"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/header/value.rs",
-          "line": 368,
+          "file": "src/uri/path.rs",
+          "line": 35,
           "detail": "unsafe { .. }"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/header/value.rs",
-          "line": 379,
+          "file": "src/byte_str.rs",
+          "line": 63,
           "detail": "unsafe { .. }"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/header/name.rs",
-          "line": 1086,
+          "file": "src/method.rs",
+          "line": 357,
           "detail": "unsafe { .. }"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/header/name.rs",
-          "line": 1123,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/header/name.rs",
-          "line": 1144,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/header/name.rs",
-          "line": 1177,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/header/name.rs",
-          "line": 1192,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/header/name.rs",
-          "line": 1538,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/header/name.rs",
-          "line": 1556,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/header/name.rs",
-          "line": 1636,
-          "detail": "unsafe { .. }"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/header/name.rs",
-          "line": 1643,
-          "detail": "slice_assume_init"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/header/name.rs",
-          "line": 1698,
+          "file": "src/method.rs",
+          "line": 375,
           "detail": "unsafe { .. }"
         },
         {
@@ -10104,10 +10020,94 @@
           "file": "src/header/map.rs",
           "line": 3607,
           "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/header/name.rs",
+          "line": 1086,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/header/name.rs",
+          "line": 1123,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/header/name.rs",
+          "line": 1144,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/header/name.rs",
+          "line": 1177,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/header/name.rs",
+          "line": 1192,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/header/name.rs",
+          "line": 1538,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/header/name.rs",
+          "line": 1556,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/header/name.rs",
+          "line": 1636,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/header/name.rs",
+          "line": 1643,
+          "detail": "slice_assume_init"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/header/name.rs",
+          "line": 1698,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/header/value.rs",
+          "line": 255,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/header/value.rs",
+          "line": 374,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/header/value.rs",
+          "line": 385,
+          "detail": "unsafe { .. }"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/status.rs",
+          "line": 146,
+          "detail": "unsafe { .. }"
         }
       ]
     },
-    "last_checked": "2026-07-21T15:24:54.150070+00:00"
+    "last_checked": "2026-07-30T08:30:52.805735639+00:00"
   },
   "http-body": {
     "version": "1.1.0",
@@ -81665,12 +81665,12 @@
     "last_checked": "2026-07-21T15:24:44.727654+00:00"
   },
   "rustls": {
-    "version": "0.23.42",
+    "version": "0.23.43",
     "report": {
       "name": "rustls",
-      "version": "0.23.42",
+      "version": "0.23.43",
       "files_scanned": 110,
-      "lines_scanned": 48123,
+      "lines_scanned": 48168,
       "dependencies": [
         "aws-lc-rs",
         "brotli",
@@ -81737,20 +81737,182 @@
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/crypto/tls12.rs",
-          "line": 102,
+          "file": "src/msgs/mod.rs",
+          "line": 62,
           "detail": "include_bytes"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/crypto/tls12.rs",
-          "line": 120,
+          "file": "src/msgs/deframer/mod.rs",
+          "line": 171,
           "detail": "include_bytes"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/crypto/tls12.rs",
-          "line": 138,
+          "file": "src/msgs/deframer/mod.rs",
+          "line": 183,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/msgs/deframer/mod.rs",
+          "line": 193,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/msgs/deframer/mod.rs",
+          "line": 203,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/msgs/deframer/mod.rs",
+          "line": 213,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/msgs/deframer/handshake.rs",
+          "line": 482,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/msgs/handshake_test.rs",
+          "line": 738,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/key_log_file.rs",
+          "line": 29,
+          "detail": "OpenOptions::new"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 441,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 451,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 460,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 494,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 504,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 513,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 546,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 555,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 580,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 590,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 599,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 665,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 684,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 703,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 722,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 741,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 760,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 771,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 782,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 793,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 803,
           "detail": "include_bytes"
         },
         {
@@ -81911,140 +82073,20 @@
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 441,
+          "file": "src/crypto/tls12.rs",
+          "line": 102,
           "detail": "include_bytes"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 451,
+          "file": "src/crypto/tls12.rs",
+          "line": 120,
           "detail": "include_bytes"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 460,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 494,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 504,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 513,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 546,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 555,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 580,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 590,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 599,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 665,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 684,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 703,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 722,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 741,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 760,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 771,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 782,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 793,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 803,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/key_log_file.rs",
-          "line": 29,
-          "detail": "OpenOptions::new"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/server/test.rs",
-          "line": 273,
+          "file": "src/crypto/tls12.rs",
+          "line": 138,
           "detail": "include_bytes"
         },
         {
@@ -82109,62 +82151,8 @@
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/msgs/handshake_test.rs",
-          "line": 738,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/msgs/mod.rs",
-          "line": 62,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/msgs/deframer/handshake.rs",
-          "line": 482,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/msgs/deframer/mod.rs",
-          "line": 171,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/msgs/deframer/mod.rs",
-          "line": 183,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/msgs/deframer/mod.rs",
-          "line": 193,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/msgs/deframer/mod.rs",
-          "line": 203,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/msgs/deframer/mod.rs",
-          "line": 213,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/client/test.rs",
-          "line": 478,
-          "detail": "include_bytes"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/client/test.rs",
-          "line": 708,
+          "file": "src/server/test.rs",
+          "line": 273,
           "detail": "include_bytes"
         },
         {
@@ -82342,6 +82330,18 @@
           "detail": "include_bytes"
         },
         {
+          "kind": "BuildTimeMacro",
+          "file": "src/client/test.rs",
+          "line": 478,
+          "detail": "include_bytes"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/client/test.rs",
+          "line": 708,
+          "detail": "include_bytes"
+        },
+        {
           "kind": "BuildScript",
           "file": "build.rs",
           "line": 0,
@@ -82349,7 +82349,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-20T21:51:04.503177+00:00"
+    "last_checked": "2026-07-30T08:30:57.482556858+00:00"
   },
   "ryu": {
     "version": "1.0.23",
