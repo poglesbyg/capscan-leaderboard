@@ -191,9 +191,23 @@ fn write_badges(dir: &str, snapshot: &BTreeMap<String, CrateSnapshot>) -> Result
 }
 
 fn main() -> Result<()> {
+    // Normally a crate is only rescanned when its published version changes.
+    // That is the right default -- rescanning 100 unchanged crates every run
+    // is wasted work -- but it means a snapshot is pinned to whatever capscan
+    // produced when the version last moved. When capscan's *detection* changes
+    // (0.4.0 stopped counting `tests/` and stopped reading `clap::Command::new`
+    // as a process spawn), every stored report is stale and no version bump
+    // will ever refresh it. `--rescan` forces a full re-scan for exactly that
+    // case.
+    let rescan = std::env::args().any(|a| a == "--rescan");
+
     let names = read_crate_list(CRATES_LIST)?;
     let mut snapshot = load_snapshot(SNAPSHOT_PATH)?;
     let mut new_history_entries = Vec::new();
+
+    if rescan {
+        println!("--rescan: re-scanning every tracked crate with the current capscan\n");
+    }
 
     for name in &names {
         print!("checking {name}... ");
@@ -211,8 +225,8 @@ fn main() -> Result<()> {
         };
 
         let existing = snapshot.get(name).cloned();
-        let needs_scan = existing.as_ref().is_none_or(|s| s.version != latest);
-        if !needs_scan {
+        let version_changed = existing.as_ref().is_none_or(|s| s.version != latest);
+        if !version_changed && !rescan {
             println!("unchanged at {latest}");
             continue;
         }
@@ -230,7 +244,9 @@ fn main() -> Result<()> {
         };
 
         match existing {
-            Some(old) => {
+            // A genuine release. This is the only case that belongs in the
+            // history feed.
+            Some(old) if old.version != latest => {
                 println!("updated {} -> {latest}", old.version);
                 let diff = diff_reports(&old.report, &new_report);
                 new_history_entries.push(HistoryEntry {
@@ -245,6 +261,11 @@ fn main() -> Result<()> {
                     removed_dependencies: diff.removed_dependencies,
                 });
             }
+            // Same version, rescanned under a newer capscan. The stored
+            // profile is refreshed, but nothing happened *to the crate* --
+            // recording a diff here would publish a change the maintainers
+            // never made.
+            Some(_) => println!("rescanned at {latest}"),
             None => println!("new: {latest}"),
         }
 
@@ -577,7 +598,7 @@ fn send_high_severity_alerts(new_entries: &[HistoryEntry]) {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use capscan::{Signal, SignalKind};
+    use capscan::{Signal, SignalKind, SignalScope};
 
     fn report_with_kinds(kinds: &[SignalKind]) -> CrateReport {
         CrateReport {
@@ -593,6 +614,7 @@ mod tests {
                     file: "src/lib.rs".to_string(),
                     line: 1,
                     detail: "x".to_string(),
+                    scope: SignalScope::Shipped,
                 })
                 .collect(),
         }

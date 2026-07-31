@@ -140,6 +140,23 @@ compare against, so nothing shows up under "recent changes" yet -- just
 the baseline capability profile). Every run after that only re-scans
 crates whose latest version actually changed.
 
+### `--rescan`
+
+```
+cargo run --release -- --rescan
+```
+
+Forces a re-scan of every tracked crate even when its version hasn't
+moved. Needed when *capscan itself* changes what it detects -- 0.4.0
+stopped counting `tests/`/`benches/`/`examples/` and stopped reading
+`clap::Command::new` as a process spawn, which made every stored report
+stale in a way no crate release would ever refresh.
+
+Re-scanning an unchanged version deliberately writes **no** history
+entry. The stored profile is updated, but nothing happened to the crate,
+and publishing a diff there would announce a change its maintainers never
+made.
+
 ## Why a leaderboard and not just per-project `cargo capscan audit`
 
 `audit` (in [capscan](https://github.com/poglesbyg/capscan) and

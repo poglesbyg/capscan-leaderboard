@@ -1,6 +1,6 @@
 [package]
 name = "capscan-leaderboard"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 description = "Track a curated crates.txt of crates.io crates over time with capscan, and publish a static leaderboard (HTML + Atom feed + shields.io badges) of which ones gained new capability signals."
 license = "MIT OR Apache-2.0"
@@ -17,7 +17,7 @@ categories = ["development-tools::cargo-plugins", "command-line-utilities"]
 exclude = ["data/", "docs/"]
 
 [dependencies]
-capscan = "0.1"
+capscan = "0.4"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 anyhow = "1"

@@ -87,9 +87,9 @@ checksum = "72f5acc6cb2ba439de613abc23857ec3d78374d8ed5ac84e9d11336e87da8649"
 
 [[package]]
 name = "capscan"
-version = "0.1.0"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f2f0578d0f05919db61a976dc74f4cdafc4212fc0424093f23bf67b11b2a3518"
+checksum = "80f173874cee31e3f2570938d7f5d65aa7a76bf03bacd0aee9d14254c579e339"
 dependencies = [
  "anyhow",
  "clap",
@@ -106,7 +106,7 @@ dependencies = [
 
 [[package]]
 name = "capscan-leaderboard"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "anyhow",
  "capscan",
