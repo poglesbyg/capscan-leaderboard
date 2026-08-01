@@ -3310,12 +3310,12 @@
     "last_checked": "2026-07-31T15:03:41.774970+00:00"
   },
   "clap": {
-    "version": "4.6.4",
+    "version": "4.6.5",
     "report": {
       "name": "clap",
-      "version": "4.6.4",
+      "version": "4.6.5",
       "files_scanned": 22,
-      "lines_scanned": 1671,
+      "lines_scanned": 1675,
       "dependencies": [
         "clap_builder",
         "clap_derive"
@@ -3323,211 +3323,57 @@
       "signals": [
         {
           "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/repl.rs",
-          "line": 4,
+          "file": "src/lib.rs",
+          "line": 49,
           "detail": "include_str",
           "scope": "shipped"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/escaped_positional.rs",
-          "line": 4,
+          "file": "src/lib.rs",
+          "line": 54,
           "detail": "include_str",
           "scope": "shipped"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/escaped_positional.rs",
-          "line": 7,
+          "file": "src/lib.rs",
+          "line": 108,
           "detail": "include_str",
           "scope": "shipped"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 8,
+          "file": "src/_derive/mod.rs",
+          "line": 22,
           "detail": "include_str",
           "scope": "shipped"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 11,
+          "file": "src/_derive/mod.rs",
+          "line": 458,
           "detail": "include_str",
           "scope": "shipped"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 16,
+          "file": "src/_derive/mod.rs",
+          "line": 472,
           "detail": "include_str",
           "scope": "shipped"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 19,
+          "file": "src/_derive/mod.rs",
+          "line": 492,
           "detail": "include_str",
           "scope": "shipped"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 24,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 27,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 32,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 35,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/git_derive.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/git_derive.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/escaped_positional_derive.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/escaped_positional_derive.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/repl_derive.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/pacman.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/pacman.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/git.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/git.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/cargo_example_derive.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/cargo_example_derive.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/multicall_busybox.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/multicall_busybox.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/cargo_example.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/cargo_example.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/multicall_hostname.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/multicall_hostname.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/find.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/find.rs",
-          "line": 7,
+          "file": "src/_derive/mod.rs",
+          "line": 511,
           "detail": "include_str",
           "scope": "shipped"
         },
@@ -3794,62 +3640,6 @@
           "kind": "BuildTimeMacro",
           "file": "src/_derive/_tutorial.rs",
           "line": 245,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/mod.rs",
-          "line": 22,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/mod.rs",
-          "line": 458,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/mod.rs",
-          "line": 472,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/mod.rs",
-          "line": 492,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/mod.rs",
-          "line": 511,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/lib.rs",
-          "line": 49,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/lib.rs",
-          "line": 54,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/lib.rs",
-          "line": 108,
           "detail": "include_str",
           "scope": "shipped"
         },
@@ -4125,10 +3915,220 @@
           "line": 236,
           "detail": "include_str",
           "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/git.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/git.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/escaped_positional.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/escaped_positional.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/pacman.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/pacman.rs",
+          "line": 10,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/multicall_busybox.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/multicall_busybox.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/cargo_example.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/cargo_example.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/cargo_example_derive.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/cargo_example_derive.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/repl_derive.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/git_derive.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/git_derive.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/escaped_positional_derive.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/escaped_positional_derive.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/multicall_hostname.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/multicall_hostname.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/repl.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 8,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 11,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 16,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 19,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 24,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 27,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 32,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 35,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/find.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/find.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:09.647525+00:00"
+    "last_checked": "2026-08-01T08:24:12.828702028+00:00"
   },
   "clap_lex": {
     "version": "1.1.0",
@@ -98475,12 +98475,12 @@
     "last_checked": "2026-07-31T15:02:51.162997+00:00"
   },
   "time": {
-    "version": "0.3.54",
+    "version": "0.3.55",
     "report": {
       "name": "time",
-      "version": "0.3.54",
+      "version": "0.3.55",
       "files_scanned": 119,
-      "lines_scanned": 36031,
+      "lines_scanned": 36098,
       "dependencies": [
         "deranged",
         "num-conv",
@@ -98496,1318 +98496,156 @@
       "signals": [
         {
           "kind": "UnsafeBlock",
-          "file": "src/format_description/parse/strftime.rs",
-          "line": 71,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/format_description/parse/strftime.rs",
-          "line": 158,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/format_description/parse/lexer_ast.rs",
-          "line": 396,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/format_description/parse/lexer_ast.rs",
-          "line": 427,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/format_description/parse/lexer_ast.rs",
-          "line": 818,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/format_description/parse/lexer_ast.rs",
-          "line": 836,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/format_description/format_description_v3.rs",
-          "line": 337,
+          "file": "src/timestamp.rs",
+          "line": 109,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "Transmute",
-          "file": "src/format_description/format_description_v3.rs",
-          "line": 338,
+          "file": "src/timestamp.rs",
+          "line": 109,
           "detail": "core::mem::transmute",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/utc_date_time.rs",
-          "line": 202,
+          "file": "src/timestamp.rs",
+          "line": 151,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/utc_date_time.rs",
-          "line": 210,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/utc_date_time.rs",
-          "line": 247,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/utc_date_time.rs",
-          "line": 323,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/utc_date_time.rs",
-          "line": 356,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/utc_date_time.rs",
-          "line": 1286,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/utc_date_time.rs",
-          "line": 1288,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/utc_date_time.rs",
-          "line": 1303,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/rand08.rs",
-          "line": 28,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/iter/date_iter.rs",
-          "line": 76,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/iter/date_iter.rs",
-          "line": 124,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/iter/date_iter.rs",
-          "line": 127,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/iter/date_iter.rs",
-          "line": 134,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/iter/date_iter.rs",
-          "line": 163,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/iter/date_iter.rs",
-          "line": 190,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/iter/date_iter.rs",
-          "line": 193,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/iter/date_iter.rs",
-          "line": 200,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util.rs",
-          "line": 76,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/util.rs",
-          "line": 86,
-          "detail": "refresh_tz_unchecked",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util.rs",
-          "line": 123,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/util.rs",
-          "line": 149,
-          "detail": "set_soundness",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/plain_date_time.rs",
-          "line": 1159,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/plain_date_time.rs",
-          "line": 1164,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/plain_date_time.rs",
-          "line": 1175,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/rand09.rs",
-          "line": 28,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/interop/offsetdatetime_timestamp.rs",
-          "line": 71,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/interop/offsetdatetime_timestamp.rs",
-          "line": 85,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/interop/timestamp_utcdatetime.rs",
-          "line": 65,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/interop/timestamp_utcdatetime.rs",
-          "line": 79,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ext/systemtime.rs",
-          "line": 78,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 126,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/time.rs",
-          "line": 126,
-          "detail": "core::mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 169,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 485,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 525,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 569,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 607,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 643,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 673,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 822,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 866,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 1015,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 1021,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 1031,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 1042,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 1053,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 1057,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 1074,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/time.rs",
-          "line": 1223,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/rand010.rs",
-          "line": 28,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/offset_date_time.rs",
-          "line": 243,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/offset_date_time.rs",
-          "line": 310,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/offset_date_time.rs",
-          "line": 349,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/offset_date_time.rs",
-          "line": 398,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/offset_date_time.rs",
-          "line": 452,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/offset_date_time.rs",
-          "line": 460,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/offset_date_time.rs",
-          "line": 498,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/offset_date_time.rs",
-          "line": 1635,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/offset_date_time.rs",
-          "line": 1638,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/offset_date_time.rs",
-          "line": 1653,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 74,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 80,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 86,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 108,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 127,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 167,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 203,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 250,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 269,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 272,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 292,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 332,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 380,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 522,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 618,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 622,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 640,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 648,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 798,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 853,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 913,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 975,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1035,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1214,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1222,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1232,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1236,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1284,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1317,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1348,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1590,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1596,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1603,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1610,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1621,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1632,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/date.rs",
-          "line": 1649,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sys/refresh_tz/unix.rs",
-          "line": 19,
-          "detail": "refresh_tz_unchecked",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/sys/refresh_tz/unix.rs",
-          "line": 24,
-          "detail": "extern \"C\" { 1 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/refresh_tz/unix.rs",
-          "line": 30,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/refresh_tz/unix.rs",
-          "line": 49,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sys/refresh_tz/imp.rs",
-          "line": 3,
-          "detail": "refresh_tz_unchecked",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sys/refresh_tz/mod.rs",
-          "line": 4,
-          "detail": "refresh_tz_unchecked",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/refresh_tz/mod.rs",
-          "line": 10,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/local_offset_at/unix.rs",
-          "line": 21,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/local_offset_at/unix.rs",
-          "line": 27,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/sys/local_offset_at/windows.rs",
-          "line": 34,
-          "detail": "extern \"system\" { 2 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/local_offset_at/windows.rs",
-          "line": 53,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/local_offset_at/windows.rs",
-          "line": 58,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/local_offset_at/windows.rs",
-          "line": 96,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/utc_offset.rs",
-          "line": 119,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/utc_offset.rs",
-          "line": 121,
-          "detail": "core::mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/utc_offset.rs",
-          "line": 128,
-          "detail": "core::mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/utc_offset.rs",
-          "line": 174,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/utc_offset.rs",
-          "line": 296,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/utc_offset.rs",
-          "line": 583,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/utc_offset.rs",
-          "line": 606,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/component_provider.rs",
-          "line": 196,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/component_provider.rs",
-          "line": 210,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/component_provider.rs",
-          "line": 226,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/component_provider.rs",
+          "file": "src/timestamp.rs",
           "line": 228,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/formatting/component_provider.rs",
-          "line": 236,
+          "file": "src/timestamp.rs",
+          "line": 257,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/formatting/component_provider.rs",
-          "line": 242,
+          "file": "src/timestamp.rs",
+          "line": 286,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/formatting/component_provider.rs",
-          "line": 248,
+          "file": "src/timestamp.rs",
+          "line": 438,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/formatting/component_provider.rs",
-          "line": 259,
+          "file": "src/timestamp.rs",
+          "line": 813,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/formatting/component_provider.rs",
-          "line": 263,
+          "file": "src/timestamp.rs",
+          "line": 856,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/formatting/formattable.rs",
-          "line": 309,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 340,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 367,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 392,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 421,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 435,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 485,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 534,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 583,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 608,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 630,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 655,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 688,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 809,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
-          "line": 868,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/mod.rs",
+          "file": "src/timestamp.rs",
           "line": 884,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/formatting/iso8601.rs",
-          "line": 41,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/iso8601.rs",
-          "line": 53,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/iso8601.rs",
-          "line": 66,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/iso8601.rs",
-          "line": 79,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/iso8601.rs",
-          "line": 90,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/iso8601.rs",
-          "line": 198,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/formatting/iso8601.rs",
-          "line": 211,
+          "file": "src/timestamp.rs",
+          "line": 912,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/timestamp.rs",
-          "line": 107,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/timestamp.rs",
-          "line": 107,
-          "detail": "core::mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/timestamp.rs",
-          "line": 149,
+          "line": 1031,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/timestamp.rs",
-          "line": 226,
+          "line": 1053,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/timestamp.rs",
-          "line": 255,
+          "line": 1155,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/timestamp.rs",
-          "line": 284,
+          "line": 1178,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/timestamp.rs",
-          "line": 436,
+          "line": 1200,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/timestamp.rs",
-          "line": 811,
+          "line": 1287,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/timestamp.rs",
-          "line": 854,
+          "line": 1291,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/timestamp.rs",
-          "line": 882,
+          "line": 1398,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/timestamp.rs",
-          "line": 910,
+          "line": 1407,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/timestamp.rs",
-          "line": 1029,
+          "line": 1420,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/timestamp.rs",
-          "line": 1051,
+          "line": 1438,
           "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/timestamp.rs",
-          "line": 1153,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/timestamp.rs",
-          "line": 1176,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/timestamp.rs",
-          "line": 1198,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/timestamp.rs",
-          "line": 1285,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/timestamp.rs",
-          "line": 1289,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/timestamp.rs",
-          "line": 1396,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/timestamp.rs",
-          "line": 1405,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/timestamp.rs",
-          "line": 1418,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/timestamp.rs",
-          "line": 1436,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/quickcheck.rs",
-          "line": 60,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parsing/parsed.rs",
-          "line": 1163,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parsing/component.rs",
-          "line": 324,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parsing/component.rs",
-          "line": 460,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/parsing/component.rs",
-          "line": 460,
-          "detail": "core::mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parsing/component.rs",
-          "line": 518,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/parsing/component.rs",
-          "line": 518,
-          "detail": "core::mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parsing/component.rs",
-          "line": 540,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/parsing/component.rs",
-          "line": 540,
-          "detail": "core::mem::transmute",
           "scope": "shipped"
         },
         {
@@ -99926,6 +98764,90 @@
           "kind": "UnsafeBlock",
           "file": "src/signed_duration.rs",
           "line": 1309,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/rand09.rs",
+          "line": 28,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_date_time.rs",
+          "line": 202,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_date_time.rs",
+          "line": 210,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_date_time.rs",
+          "line": 248,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_date_time.rs",
+          "line": 254,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_date_time.rs",
+          "line": 330,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_date_time.rs",
+          "line": 363,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_date_time.rs",
+          "line": 1293,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_date_time.rs",
+          "line": 1295,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_date_time.rs",
+          "line": 1310,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/rand08.rs",
+          "line": 28,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/quickcheck.rs",
+          "line": 60,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -100236,10 +99158,1109 @@
           "line": 609,
           "detail": "unsafe { .. }",
           "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_offset.rs",
+          "line": 119,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/utc_offset.rs",
+          "line": 121,
+          "detail": "core::mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/utc_offset.rs",
+          "line": 128,
+          "detail": "core::mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_offset.rs",
+          "line": 174,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_offset.rs",
+          "line": 296,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_offset.rs",
+          "line": 583,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/utc_offset.rs",
+          "line": 606,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 126,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/time.rs",
+          "line": 126,
+          "detail": "core::mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 169,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 485,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 525,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 569,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 607,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 643,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 673,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 822,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 866,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 1015,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 1021,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 1031,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 1042,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 1053,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 1057,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 1074,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/time.rs",
+          "line": 1223,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parsing/component.rs",
+          "line": 324,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parsing/component.rs",
+          "line": 460,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/parsing/component.rs",
+          "line": 460,
+          "detail": "core::mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parsing/component.rs",
+          "line": 518,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/parsing/component.rs",
+          "line": 518,
+          "detail": "core::mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parsing/component.rs",
+          "line": 540,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/parsing/component.rs",
+          "line": 540,
+          "detail": "core::mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parsing/parsed.rs",
+          "line": 1163,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/serde/visitor.rs",
+          "line": 105,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 74,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 80,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 86,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 108,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 127,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 167,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 203,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 250,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 269,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 272,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 292,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 332,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 380,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 522,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 618,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 622,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 640,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 648,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 798,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 853,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 913,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 975,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1035,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1214,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1222,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1232,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1236,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1284,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1317,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1348,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1590,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1596,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1603,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1610,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1621,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1632,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/date.rs",
+          "line": 1649,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/interop/timestamp_utcdatetime.rs",
+          "line": 65,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/interop/timestamp_utcdatetime.rs",
+          "line": 79,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/interop/offsetdatetime_timestamp.rs",
+          "line": 71,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/interop/offsetdatetime_timestamp.rs",
+          "line": 85,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/plain_date_time.rs",
+          "line": 1159,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/plain_date_time.rs",
+          "line": 1164,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/plain_date_time.rs",
+          "line": 1175,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 340,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 367,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 392,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 421,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 435,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 485,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 534,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 583,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 608,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 630,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 655,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 688,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 809,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 868,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/mod.rs",
+          "line": 884,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/formattable.rs",
+          "line": 309,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/iso8601.rs",
+          "line": 41,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/iso8601.rs",
+          "line": 53,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/iso8601.rs",
+          "line": 66,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/iso8601.rs",
+          "line": 79,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/iso8601.rs",
+          "line": 90,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/iso8601.rs",
+          "line": 198,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/iso8601.rs",
+          "line": 211,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/component_provider.rs",
+          "line": 196,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/component_provider.rs",
+          "line": 210,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/component_provider.rs",
+          "line": 226,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/component_provider.rs",
+          "line": 228,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/component_provider.rs",
+          "line": 236,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/component_provider.rs",
+          "line": 242,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/component_provider.rs",
+          "line": 248,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/component_provider.rs",
+          "line": 259,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/formatting/component_provider.rs",
+          "line": 263,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ext/systemtime.rs",
+          "line": 78,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/offset_date_time.rs",
+          "line": 243,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/offset_date_time.rs",
+          "line": 310,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/offset_date_time.rs",
+          "line": 349,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/offset_date_time.rs",
+          "line": 398,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/offset_date_time.rs",
+          "line": 452,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/offset_date_time.rs",
+          "line": 460,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/offset_date_time.rs",
+          "line": 499,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/offset_date_time.rs",
+          "line": 505,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/offset_date_time.rs",
+          "line": 1642,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/offset_date_time.rs",
+          "line": 1645,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/offset_date_time.rs",
+          "line": 1660,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util.rs",
+          "line": 76,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/util.rs",
+          "line": 86,
+          "detail": "refresh_tz_unchecked",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util.rs",
+          "line": 123,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/util.rs",
+          "line": 149,
+          "detail": "set_soundness",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/rand010.rs",
+          "line": 28,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/format_description/format_description_v3.rs",
+          "line": 337,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/format_description/format_description_v3.rs",
+          "line": 338,
+          "detail": "core::mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/format_description/parse/lexer_ast.rs",
+          "line": 396,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/format_description/parse/lexer_ast.rs",
+          "line": 427,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/format_description/parse/lexer_ast.rs",
+          "line": 818,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/format_description/parse/lexer_ast.rs",
+          "line": 836,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/format_description/parse/strftime.rs",
+          "line": 71,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/format_description/parse/strftime.rs",
+          "line": 158,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/local_offset_at/unix.rs",
+          "line": 21,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/local_offset_at/unix.rs",
+          "line": 27,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/sys/local_offset_at/windows.rs",
+          "line": 34,
+          "detail": "extern \"system\" { 2 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/local_offset_at/windows.rs",
+          "line": 53,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/local_offset_at/windows.rs",
+          "line": 58,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/local_offset_at/windows.rs",
+          "line": 96,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/sys/refresh_tz/mod.rs",
+          "line": 4,
+          "detail": "refresh_tz_unchecked",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/refresh_tz/mod.rs",
+          "line": 10,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/sys/refresh_tz/unix.rs",
+          "line": 19,
+          "detail": "refresh_tz_unchecked",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/sys/refresh_tz/unix.rs",
+          "line": 24,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/refresh_tz/unix.rs",
+          "line": 30,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/refresh_tz/unix.rs",
+          "line": 49,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/sys/refresh_tz/imp.rs",
+          "line": 3,
+          "detail": "refresh_tz_unchecked",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/iter/date_iter.rs",
+          "line": 76,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/iter/date_iter.rs",
+          "line": 124,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/iter/date_iter.rs",
+          "line": 127,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/iter/date_iter.rs",
+          "line": 134,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/iter/date_iter.rs",
+          "line": 163,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/iter/date_iter.rs",
+          "line": 190,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/iter/date_iter.rs",
+          "line": 193,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/iter/date_iter.rs",
+          "line": 200,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:25.986011+00:00"
+    "last_checked": "2026-08-01T08:24:22.290875548+00:00"
   },
   "tokio": {
     "version": "1.53.1",
