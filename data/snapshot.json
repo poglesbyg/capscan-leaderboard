@@ -1,30 +1,16 @@
 {
   "aho-corasick": {
-    "version": "1.1.4",
+    "version": "1.1.5",
     "report": {
       "name": "aho-corasick",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "files_scanned": 32,
-      "lines_scanned": 20923,
+      "lines_scanned": 20937,
       "dependencies": [
         "log",
         "memchr"
       ],
       "signals": [
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/ahocorasick.rs",
-          "line": 2660,
-          "detail": "Arc < dyn AcAutomaton >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/nfa/noncontiguous.rs",
-          "line": 591,
-          "detail": "NFA",
-          "scope": "shipped"
-        },
         {
           "kind": "UnsafeImpl",
           "file": "src/nfa/contiguous.rs",
@@ -33,24 +19,10 @@
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeBlock",
-          "file": "src/packed/pattern.rs",
-          "line": 300,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/packed/pattern.rs",
-          "line": 332,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/packed/pattern.rs",
-          "line": 335,
-          "detail": "is_equal_raw",
+          "kind": "UnsafeImpl",
+          "file": "src/nfa/noncontiguous.rs",
+          "line": 591,
+          "detail": "NFA",
           "scope": "shipped"
         },
         {
@@ -741,6 +713,27 @@
         },
         {
           "kind": "UnsafeBlock",
+          "file": "src/packed/pattern.rs",
+          "line": 300,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/packed/pattern.rs",
+          "line": 332,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/packed/pattern.rs",
+          "line": 335,
+          "detail": "is_equal_raw",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
           "file": "src/packed/teddy/builder.rs",
           "line": 362,
           "detail": "unsafe { .. }",
@@ -755,6 +748,13 @@
         },
         {
           "kind": "UnsafeImpl",
+          "file": "src/ahocorasick.rs",
+          "line": 2660,
+          "detail": "Arc < dyn AcAutomaton >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
           "file": "src/dfa.rs",
           "line": 190,
           "detail": "DFA",
@@ -762,7 +762,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:10.591772+00:00"
+    "last_checked": "2026-08-04T08:40:29.675155031+00:00"
   },
   "anyhow": {
     "version": "1.0.104",

@@ -4,7 +4,14 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-08-01T08:24:31.659223794+00:00</updated>
+  <updated>2026-08-04T08:40:48.770677155+00:00</updated>
+  <entry>
+    <title>aho-corasick: 1.1.4 -&gt; 1.1.5 (none severity)</title>
+    <link href="https://crates.io/crates/aho-corasick"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#aho-corasick-1.1.5-2026-08-04T08:40:29.675148719+00:00</id>
+    <updated>2026-08-04T08:40:29.675148719+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>time: 0.3.54 -&gt; 0.3.55 (none severity)</title>
     <link href="https://crates.io/crates/time"/>
