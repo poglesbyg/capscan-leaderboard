@@ -1512,12 +1512,12 @@
     "last_checked": "2026-07-31T15:02:55.855488+00:00"
   },
   "base64": {
-    "version": "0.23.0",
+    "version": "0.23.1",
     "report": {
       "name": "base64",
-      "version": "0.23.0",
+      "version": "0.23.1",
       "files_scanned": 22,
-      "lines_scanned": 8837,
+      "lines_scanned": 8891,
       "dependencies": [],
       "signals": [
         {
@@ -1648,7 +1648,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-31T15:02:47.766271+00:00"
+    "last_checked": "2026-08-05T08:39:09.358871855+00:00"
   },
   "bitflags": {
     "version": "2.13.1",
@@ -82953,12 +82953,12 @@
     "last_checked": "2026-07-31T15:03:08.089744+00:00"
   },
   "regex-automata": {
-    "version": "0.4.16",
+    "version": "0.4.18",
     "report": {
       "name": "regex-automata",
-      "version": "0.4.16",
+      "version": "0.4.18",
       "files_scanned": 72,
-      "lines_scanned": 65779,
+      "lines_scanned": 65894,
       "dependencies": [
         "aho-corasick",
         "log",
@@ -82969,42 +82969,42 @@
         {
           "kind": "UnsafeImpl",
           "file": "src/util/pool.rs",
-          "line": 431,
+          "line": 481,
           "detail": "Pool < T , F >",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/util/pool.rs",
-          "line": 567,
+          "line": 629,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/util/pool.rs",
-          "line": 691,
+          "line": 753,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/util/pool.rs",
-          "line": 716,
+          "line": 778,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
           "file": "src/util/pool.rs",
-          "line": 972,
+          "line": 1042,
           "detail": "Mutex < T >",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/util/pool.rs",
-          "line": 1004,
+          "line": 1074,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -83101,41 +83101,6 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/dfa/dense.rs",
-          "line": 2346,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/dfa/dense.rs",
-          "line": 3163,
-          "detail": "DFA < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/dfa/accel.rs",
-          "line": 214,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/dfa/accel.rs",
-          "line": 241,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/dfa/automaton.rs",
-          "line": 1829,
-          "detail": "& 'a A",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
           "file": "src/dfa/search.rs",
           "line": 99,
           "detail": "unsafe { .. }",
@@ -83205,6 +83170,41 @@
           "scope": "shipped"
         },
         {
+          "kind": "UnsafeImpl",
+          "file": "src/dfa/automaton.rs",
+          "line": 1829,
+          "detail": "& 'a A",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/dfa/dense.rs",
+          "line": 2346,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/dfa/dense.rs",
+          "line": 3163,
+          "detail": "DFA < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/dfa/accel.rs",
+          "line": 214,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/dfa/accel.rs",
+          "line": 241,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
           "kind": "UnsafeBlock",
           "file": "src/hybrid/search.rs",
           "line": 196,
@@ -83262,7 +83262,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-31T15:02:57.073672+00:00"
+    "last_checked": "2026-08-05T08:39:14.440333081+00:00"
   },
   "regex-syntax": {
     "version": "0.8.11",
