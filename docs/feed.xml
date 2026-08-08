@@ -4,7 +4,28 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-08-07T07:19:32.438006442+00:00</updated>
+  <updated>2026-08-08T06:57:26.771925591+00:00</updated>
+  <entry>
+    <title>cc: 1.4.0 -&gt; 1.4.2 (none severity)</title>
+    <link href="https://crates.io/crates/cc"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#cc-1.4.2-2026-08-08T06:57:06.527538745+00:00</id>
+    <updated>2026-08-08T06:57:06.527538745+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>thiserror: 2.0.19 -&gt; 2.0.20 (none severity)</title>
+    <link href="https://crates.io/crates/thiserror"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#thiserror-2.0.20-2026-08-08T06:57:02.541854500+00:00</id>
+    <updated>2026-08-08T06:57:02.541854500+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>thiserror-impl: 2.0.19 -&gt; 2.0.20 (none severity)</title>
+    <link href="https://crates.io/crates/thiserror-impl"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#thiserror-impl-2.0.20-2026-08-08T06:57:01.864250831+00:00</id>
+    <updated>2026-08-08T06:57:01.864250831+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>zerocopy: 0.8.55 -&gt; 0.8.56 (none severity)</title>
     <link href="https://crates.io/crates/zerocopy"/>

@@ -2902,18 +2902,46 @@
     "last_checked": "2026-07-31T15:03:17.593284+00:00"
   },
   "cc": {
-    "version": "1.4.0",
+    "version": "1.4.2",
     "report": {
       "name": "cc",
-      "version": "1.4.0",
+      "version": "1.4.2",
       "files_scanned": 12,
-      "lines_scanned": 7386,
+      "lines_scanned": 7387,
       "dependencies": [
         "find-msvc-tools",
         "jobserver",
         "shlex"
       ],
       "signals": [
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/async_executor.rs",
+          "line": 62,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/async_executor.rs",
+          "line": 63,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/async_executor.rs",
+          "line": 67,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/job_token.rs",
+          "line": 41,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
         {
           "kind": "UnsafeBlock",
           "file": "src/parallel/stderr.rs",
@@ -2940,167 +2968,6 @@
           "file": "src/parallel/stderr.rs",
           "line": 83,
           "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parallel/job_token.rs",
-          "line": 41,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parallel/async_executor.rs",
-          "line": 62,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parallel/async_executor.rs",
-          "line": 63,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parallel/async_executor.rs",
-          "line": 67,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/lib.rs",
-          "line": 1485,
-          "detail": "fs::File::create",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/lib.rs",
-          "line": 2899,
-          "detail": "fs::remove_file",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/lib.rs",
-          "line": 2948,
-          "detail": "fs::remove_file",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 3149,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 3721,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 3810,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "EnvRead",
-          "file": "src/lib.rs",
-          "line": 4162,
-          "detail": "env::var_os",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 4698,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 4718,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 4720,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/tempfile.rs",
-          "line": 23,
-          "detail": "OpenOptions::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/tempfile.rs",
-          "line": 84,
-          "detail": "remove_file",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/tool.rs",
-          "line": 117,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/tool.rs",
-          "line": 142,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/tool.rs",
-          "line": 203,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/tool.rs",
-          "line": 217,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/tool.rs",
-          "line": 236,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/tool.rs",
-          "line": 378,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/tool.rs",
-          "line": 382,
-          "detail": "Command::new",
           "scope": "shipped"
         },
         {
@@ -3165,10 +3032,143 @@
           "line": 142,
           "detail": "std::env::var_os",
           "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/lib.rs",
+          "line": 1485,
+          "detail": "fs::File::create",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/lib.rs",
+          "line": 2908,
+          "detail": "fs::remove_file",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/lib.rs",
+          "line": 2957,
+          "detail": "fs::remove_file",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 3158,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 3730,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 3819,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "EnvRead",
+          "file": "src/lib.rs",
+          "line": 4172,
+          "detail": "env::var_os",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 4708,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 4728,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 4730,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/tool.rs",
+          "line": 117,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/tool.rs",
+          "line": 142,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/tool.rs",
+          "line": 203,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/tool.rs",
+          "line": 217,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/tool.rs",
+          "line": 236,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/tool.rs",
+          "line": 378,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/tool.rs",
+          "line": 382,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/tempfile.rs",
+          "line": 26,
+          "detail": "OpenOptions::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/tempfile.rs",
+          "line": 87,
+          "detail": "remove_file",
+          "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:02:58.309376+00:00"
+    "last_checked": "2026-08-08T06:57:06.527543013+00:00"
   },
   "cfg-if": {
     "version": "1.0.4",
@@ -98324,16 +98324,30 @@
     "last_checked": "2026-07-31T15:03:41.218124+00:00"
   },
   "thiserror": {
-    "version": "2.0.19",
+    "version": "2.0.20",
     "report": {
       "name": "thiserror",
-      "version": "2.0.19",
+      "version": "2.0.20",
       "files_scanned": 8,
       "lines_scanned": 694,
       "dependencies": [
         "thiserror-impl"
       ],
       "signals": [
+        {
+          "kind": "BuildTimeMacro",
+          "file": "build/probe.rs",
+          "line": 33,
+          "detail": "option_env",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/lib.rs",
+          "line": 291,
+          "detail": "include",
+          "scope": "shipped"
+        },
         {
           "kind": "EnvRead",
           "file": "build.rs",
@@ -98426,20 +98440,6 @@
           "scope": "shipped"
         },
         {
-          "kind": "BuildTimeMacro",
-          "file": "build/probe.rs",
-          "line": 33,
-          "detail": "option_env",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/lib.rs",
-          "line": 291,
-          "detail": "include",
-          "scope": "shipped"
-        },
-        {
           "kind": "BuildScript",
           "file": "build.rs",
           "line": 0,
@@ -98448,15 +98448,15 @@
         }
       ]
     },
-    "last_checked": "2026-07-31T15:02:51.645305+00:00"
+    "last_checked": "2026-08-08T06:57:02.541857335+00:00"
   },
   "thiserror-impl": {
-    "version": "2.0.19",
+    "version": "2.0.20",
     "report": {
       "name": "thiserror-impl",
-      "version": "2.0.19",
+      "version": "2.0.20",
       "files_scanned": 11,
-      "lines_scanned": 2435,
+      "lines_scanned": 2437,
       "dependencies": [
         "proc-macro2",
         "quote",
@@ -98472,7 +98472,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-31T15:02:51.162997+00:00"
+    "last_checked": "2026-08-08T06:57:01.864254778+00:00"
   },
   "time": {
     "version": "0.3.55",
