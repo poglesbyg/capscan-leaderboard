@@ -4812,10 +4812,10 @@
     "last_checked": "2026-07-31T15:03:42.187823+00:00"
   },
   "futures-channel": {
-    "version": "0.3.33",
+    "version": "0.3.34",
     "report": {
       "name": "futures-channel",
-      "version": "0.3.33",
+      "version": "0.3.34",
       "files_scanned": 6,
       "lines_scanned": 2346,
       "dependencies": [
@@ -4848,55 +4848,6 @@
           "kind": "UnsafeBlock",
           "file": "src/lock.rs",
           "line": 77,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/mpsc/queue.rs",
-          "line": 78,
-          "detail": "Queue < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/mpsc/queue.rs",
-          "line": 79,
-          "detail": "Queue < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/mpsc/queue.rs",
-          "line": 91,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/mpsc/queue.rs",
-          "line": 97,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/mpsc/queue.rs",
-          "line": 117,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/mpsc/queue.rs",
-          "line": 144,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/mpsc/queue.rs",
-          "line": 168,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -4955,29 +4906,71 @@
           "line": 1434,
           "detail": "BoundedInner < T >",
           "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/mpsc/queue.rs",
+          "line": 78,
+          "detail": "Queue < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/mpsc/queue.rs",
+          "line": 79,
+          "detail": "Queue < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/mpsc/queue.rs",
+          "line": 91,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/mpsc/queue.rs",
+          "line": 97,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/mpsc/queue.rs",
+          "line": 117,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/mpsc/queue.rs",
+          "line": 144,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/mpsc/queue.rs",
+          "line": 168,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:37.029082+00:00"
+    "last_checked": "2026-08-12T07:28:27.572243027+00:00"
   },
   "futures-core": {
-    "version": "0.3.33",
+    "version": "0.3.34",
     "report": {
       "name": "futures-core",
-      "version": "0.3.33",
+      "version": "0.3.34",
       "files_scanned": 7,
       "lines_scanned": 840,
       "dependencies": [
         "portable-atomic"
       ],
       "signals": [
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream.rs",
-          "line": 232,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
         {
           "kind": "UnsafeBlock",
           "file": "src/task/__internal/atomic_waker.rs",
@@ -5005,28 +4998,35 @@
           "line": 423,
           "detail": "AtomicWaker",
           "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/stream.rs",
+          "line": 232,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:29.198626+00:00"
+    "last_checked": "2026-08-12T07:28:22.279025561+00:00"
   },
   "futures-io": {
-    "version": "0.3.33",
+    "version": "0.3.34",
     "report": {
       "name": "futures-io",
-      "version": "0.3.33",
+      "version": "0.3.34",
       "files_scanned": 1,
       "lines_scanned": 561,
       "dependencies": [],
       "signals": []
     },
-    "last_checked": "2026-07-31T15:03:40.088871+00:00"
+    "last_checked": "2026-08-12T07:28:29.489874747+00:00"
   },
   "futures-sink": {
-    "version": "0.3.33",
+    "version": "0.3.34",
     "report": {
       "name": "futures-sink",
-      "version": "0.3.33",
+      "version": "0.3.34",
       "files_scanned": 1,
       "lines_scanned": 240,
       "dependencies": [],
@@ -5047,15 +5047,15 @@
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:36.181480+00:00"
+    "last_checked": "2026-08-12T07:28:26.746260900+00:00"
   },
   "futures-task": {
-    "version": "0.3.33",
+    "version": "0.3.34",
     "report": {
       "name": "futures-task",
-      "version": "0.3.33",
+      "version": "0.3.34",
       "files_scanned": 7,
-      "lines_scanned": 819,
+      "lines_scanned": 820,
       "dependencies": [],
       "signals": [
         {
@@ -5069,83 +5069,6 @@
           "kind": "UnsafeBlock",
           "file": "src/waker_ref.rs",
           "line": 64,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/waker.rs",
-          "line": 25,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/waker.rs",
-          "line": 31,
-          "detail": "increase_refcount",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/waker.rs",
-          "line": 34,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/waker.rs",
-          "line": 40,
-          "detail": "clone_arc_raw",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/waker.rs",
-          "line": 42,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/waker.rs",
-          "line": 46,
-          "detail": "wake_arc_raw",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/waker.rs",
-          "line": 47,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/waker.rs",
-          "line": 52,
-          "detail": "wake_by_ref_arc_raw",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/waker.rs",
-          "line": 54,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/waker.rs",
-          "line": 58,
-          "detail": "drop_arc_raw",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/waker.rs",
-          "line": 59,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -5383,42 +5306,119 @@
         {
           "kind": "UnsafeFn",
           "file": "src/noop_waker.rs",
-          "line": 10,
+          "line": 11,
           "detail": "noop",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/noop_waker.rs",
-          "line": 31,
+          "line": 32,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
           "file": "src/noop_waker.rs",
-          "line": 47,
+          "line": 48,
           "detail": "SyncRawWaker",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/noop_waker.rs",
+          "line": 53,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/waker.rs",
+          "line": 25,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/waker.rs",
+          "line": 31,
+          "detail": "increase_refcount",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/waker.rs",
+          "line": 34,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/waker.rs",
+          "line": 40,
+          "detail": "clone_arc_raw",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/waker.rs",
+          "line": 42,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/waker.rs",
+          "line": 46,
+          "detail": "wake_arc_raw",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/waker.rs",
+          "line": 47,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/waker.rs",
           "line": 52,
+          "detail": "wake_by_ref_arc_raw",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/waker.rs",
+          "line": 54,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/waker.rs",
+          "line": 58,
+          "detail": "drop_arc_raw",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/waker.rs",
+          "line": 59,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:32.111690+00:00"
+    "last_checked": "2026-08-12T07:28:24.143672365+00:00"
   },
   "futures-util": {
-    "version": "0.3.33",
+    "version": "0.3.34",
     "report": {
       "name": "futures-util",
-      "version": "0.3.33",
+      "version": "0.3.34",
       "files_scanned": 182,
-      "lines_scanned": 26103,
+      "lines_scanned": 26108,
       "dependencies": [
         "futures-channel",
         "futures-core",
@@ -5439,30 +5439,205 @@
       "signals": [
         {
           "kind": "UnsafeBlock",
-          "file": "src/compat/compat01as03.rs",
-          "line": 335,
+          "file": "src/io/read_to_string.rs",
+          "line": 45,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/io/buf_writer.rs",
+          "line": 131,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/io/buf_writer.rs",
+          "line": 148,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/io/fill_buf.rs",
+          "line": 37,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/io/read_to_end.rs",
+          "line": 35,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/io/read_line.rs",
+          "line": 52,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/io/read_line.rs",
+          "line": 74,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/either.rs",
+          "line": 41,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/either.rs",
+          "line": 57,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/future/future/shared.rs",
+          "line": 71,
+          "detail": "Inner < Fut >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/future/future/shared.rs",
+          "line": 78,
+          "detail": "Inner < Fut >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/future/shared.rs",
+          "line": 117,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/future/shared.rs",
+          "line": 200,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/future/shared.rs",
+          "line": 246,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/future/shared.rs",
+          "line": 276,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/future/shared.rs",
+          "line": 298,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/future/shared.rs",
+          "line": 323,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/future/shared.rs",
+          "line": 349,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/future/shared.rs",
+          "line": 370,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/try_maybe_done.rs",
+          "line": 39,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/try_maybe_done.rs",
+          "line": 55,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/try_maybe_done.rs",
+          "line": 77,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/maybe_done.rs",
+          "line": 55,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/maybe_done.rs",
+          "line": 71,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/maybe_done.rs",
+          "line": 93,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/join_all.rs",
+          "line": 22,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/future/join_all.rs",
+          "line": 22,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/compat/compat01as03.rs",
-          "line": 341,
+          "line": 338,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeImpl",
+          "kind": "UnsafeBlock",
           "file": "src/compat/compat01as03.rs",
-          "line": 345,
-          "detail": "NotifyWaker",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/compat/compat01as03.rs",
-          "line": 346,
-          "detail": "NotifyWaker",
+          "line": 344,
+          "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
@@ -5473,16 +5648,30 @@
           "scope": "shipped"
         },
         {
+          "kind": "UnsafeImpl",
+          "file": "src/compat/compat01as03.rs",
+          "line": 349,
+          "detail": "NotifyWaker",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/compat/compat01as03.rs",
+          "line": 351,
+          "detail": "NotifyWaker",
+          "scope": "shipped"
+        },
+        {
           "kind": "UnsafeBlock",
           "file": "src/compat/compat01as03.rs",
-          "line": 350,
+          "line": 353,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/compat/compat01as03.rs",
-          "line": 360,
+          "line": 363,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -5510,252 +5699,42 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/compat/compat03as01.rs",
-          "line": 170,
+          "line": 171,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "Transmute",
           "file": "src/compat/compat03as01.rs",
-          "line": 171,
+          "line": 172,
           "detail": "mem::transmute",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
           "file": "src/compat/compat03as01.rs",
-          "line": 176,
+          "line": 177,
           "detail": "drop",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
           "file": "src/compat/compat03as01.rs",
-          "line": 177,
+          "line": 178,
           "detail": "wake",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/compat/compat03as01.rs",
-          "line": 178,
+          "line": 179,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/compat/compat03as01.rs",
-          "line": 183,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/stream/stream/flatten_unordered.rs",
-          "line": 202,
-          "detail": "WrappedWaker",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/stream/stream/flatten_unordered.rs",
-          "line": 203,
-          "detail": "WrappedWaker",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/stream/flatten_unordered.rs",
-          "line": 215,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/stream/flatten_unordered.rs",
-          "line": 229,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/stream/flatten_unordered.rs",
-          "line": 415,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/futures_unordered/iter.rs",
-          "line": 53,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/futures_unordered/iter.rs",
-          "line": 94,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/futures_unordered/iter.rs",
-          "line": 137,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/stream/futures_unordered/iter.rs",
-          "line": 175,
-          "detail": "IterPinRef < '_ , Fut >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/stream/futures_unordered/iter.rs",
-          "line": 176,
-          "detail": "IterPinRef < '_ , Fut >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/stream/futures_unordered/iter.rs",
-          "line": 180,
-          "detail": "IterPinMut < '_ , Fut >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/stream/futures_unordered/iter.rs",
-          "line": 181,
-          "detail": "IterPinMut < '_ , Fut >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/stream/futures_unordered/iter.rs",
-          "line": 183,
-          "detail": "IntoIter < Fut >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/stream/futures_unordered/iter.rs",
           "line": 184,
-          "detail": "IntoIter < Fut >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 98,
-          "detail": "Task < Fut >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 99,
-          "detail": "Task < Fut >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 133,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 171,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 212,
-          "detail": "waker_ref",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 227,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 243,
-          "detail": "increase_refcount",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 245,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 250,
-          "detail": "clone_arc_raw",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 251,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 255,
-          "detail": "wake_arc_raw",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 256,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 260,
-          "detail": "wake_by_ref_arc_raw",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 262,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 266,
-          "detail": "drop_arc_raw",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/stream/futures_unordered/task.rs",
-          "line": 267,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -5879,6 +5858,118 @@
           "scope": "shipped"
         },
         {
+          "kind": "UnsafeImpl",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 98,
+          "detail": "Task < Fut >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 99,
+          "detail": "Task < Fut >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 133,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 171,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 212,
+          "detail": "waker_ref",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 227,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 243,
+          "detail": "increase_refcount",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 245,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 250,
+          "detail": "clone_arc_raw",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 252,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 256,
+          "detail": "wake_arc_raw",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 257,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 261,
+          "detail": "wake_by_ref_arc_raw",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 263,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 267,
+          "detail": "drop_arc_raw",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/stream/futures_unordered/task.rs",
+          "line": 268,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
           "kind": "UnsafeBlock",
           "file": "src/stream/futures_unordered/ready_to_run_queue.rs",
           "line": 34,
@@ -5901,50 +5992,99 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/io/read_to_end.rs",
-          "line": 35,
+          "file": "src/stream/futures_unordered/iter.rs",
+          "line": 53,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/io/fill_buf.rs",
-          "line": 37,
+          "file": "src/stream/futures_unordered/iter.rs",
+          "line": 94,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/io/read_line.rs",
-          "line": 52,
+          "file": "src/stream/futures_unordered/iter.rs",
+          "line": 137,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/stream/futures_unordered/iter.rs",
+          "line": 175,
+          "detail": "IterPinRef < '_ , Fut >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/stream/futures_unordered/iter.rs",
+          "line": 176,
+          "detail": "IterPinRef < '_ , Fut >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/stream/futures_unordered/iter.rs",
+          "line": 180,
+          "detail": "IterPinMut < '_ , Fut >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/stream/futures_unordered/iter.rs",
+          "line": 181,
+          "detail": "IterPinMut < '_ , Fut >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/stream/futures_unordered/iter.rs",
+          "line": 183,
+          "detail": "IntoIter < Fut >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/stream/futures_unordered/iter.rs",
+          "line": 184,
+          "detail": "IntoIter < Fut >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/stream/stream/flatten_unordered.rs",
+          "line": 202,
+          "detail": "WrappedWaker",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/stream/stream/flatten_unordered.rs",
+          "line": 203,
+          "detail": "WrappedWaker",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/stream/stream/flatten_unordered.rs",
+          "line": 215,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/io/read_line.rs",
-          "line": 74,
+          "file": "src/stream/stream/flatten_unordered.rs",
+          "line": 229,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/io/buf_writer.rs",
-          "line": 131,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/io/buf_writer.rs",
-          "line": 148,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/io/read_to_string.rs",
-          "line": 45,
+          "file": "src/stream/stream/flatten_unordered.rs",
+          "line": 415,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -6178,150 +6318,10 @@
           "line": 296,
           "detail": "core::mem::transmute",
           "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/try_maybe_done.rs",
-          "line": 39,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/try_maybe_done.rs",
-          "line": 55,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/try_maybe_done.rs",
-          "line": 77,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/either.rs",
-          "line": 41,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/either.rs",
-          "line": 57,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/maybe_done.rs",
-          "line": 55,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/maybe_done.rs",
-          "line": 71,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/maybe_done.rs",
-          "line": 93,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/future/future/shared.rs",
-          "line": 71,
-          "detail": "Inner < Fut >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/future/future/shared.rs",
-          "line": 78,
-          "detail": "Inner < Fut >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/future/shared.rs",
-          "line": 117,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/future/shared.rs",
-          "line": 200,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/future/shared.rs",
-          "line": 246,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/future/shared.rs",
-          "line": 276,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/future/shared.rs",
-          "line": 298,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/future/shared.rs",
-          "line": 323,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/future/shared.rs",
-          "line": 349,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/future/shared.rs",
-          "line": 370,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/join_all.rs",
-          "line": 22,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/future/join_all.rs",
-          "line": 22,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:31.671260+00:00"
+    "last_checked": "2026-08-12T07:28:23.878547348+00:00"
   },
   "generic-array": {
     "version": "1.4.4",
