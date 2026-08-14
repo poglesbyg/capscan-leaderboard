@@ -24,3 +24,4 @@
 {"name":"futures-sink","old_version":"0.3.33","new_version":"0.3.34","checked_at":"2026-08-12T07:28:26.746257194+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"futures-channel","old_version":"0.3.33","new_version":"0.3.34","checked_at":"2026-08-12T07:28:27.572237789+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"futures-io","old_version":"0.3.33","new_version":"0.3.34","checked_at":"2026-08-12T07:28:29.489871533+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"generic-array","old_version":"1.4.4","new_version":"1.4.5","checked_at":"2026-08-14T07:27:41.371484653+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
