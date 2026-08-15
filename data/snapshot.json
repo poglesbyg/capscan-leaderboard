@@ -2902,18 +2902,25 @@
     "last_checked": "2026-07-31T15:03:17.593284+00:00"
   },
   "cc": {
-    "version": "1.4.2",
+    "version": "1.4.3",
     "report": {
       "name": "cc",
-      "version": "1.4.2",
+      "version": "1.4.3",
       "files_scanned": 12,
-      "lines_scanned": 7387,
+      "lines_scanned": 7377,
       "dependencies": [
         "find-msvc-tools",
         "jobserver",
         "shlex"
       ],
       "signals": [
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/job_token.rs",
+          "line": 41,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
         {
           "kind": "UnsafeBlock",
           "file": "src/parallel/async_executor.rs",
@@ -2932,13 +2939,6 @@
           "kind": "UnsafeBlock",
           "file": "src/parallel/async_executor.rs",
           "line": 67,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parallel/job_token.rs",
-          "line": 41,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -2968,13 +2968,6 @@
           "file": "src/parallel/stderr.rs",
           "line": 83,
           "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "EnvRead",
-          "file": "src/command_helpers.rs",
-          "line": 48,
-          "detail": "std::env::var_os",
           "scope": "shipped"
         },
         {
@@ -3035,71 +3028,92 @@
         },
         {
           "kind": "FilesystemWrite",
+          "file": "src/tempfile.rs",
+          "line": 26,
+          "detail": "OpenOptions::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/tempfile.rs",
+          "line": 87,
+          "detail": "remove_file",
+          "scope": "shipped"
+        },
+        {
+          "kind": "EnvRead",
+          "file": "src/command_helpers.rs",
+          "line": 48,
+          "detail": "std::env::var_os",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 1485,
+          "line": 1481,
           "detail": "fs::File::create",
           "scope": "shipped"
         },
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 2908,
+          "line": 2901,
           "detail": "fs::remove_file",
           "scope": "shipped"
         },
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 2957,
+          "line": 2950,
           "detail": "fs::remove_file",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 3158,
+          "line": 3151,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 3730,
+          "line": 3723,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 3819,
+          "line": 3812,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "src/lib.rs",
-          "line": 4172,
+          "line": 4165,
           "detail": "env::var_os",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4708,
+          "line": 4698,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4728,
+          "line": 4718,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4730,
+          "line": 4720,
           "detail": "Command::new",
           "scope": "shipped"
         },
@@ -3151,24 +3165,10 @@
           "line": 382,
           "detail": "Command::new",
           "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/tempfile.rs",
-          "line": 26,
-          "detail": "OpenOptions::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/tempfile.rs",
-          "line": 87,
-          "detail": "remove_file",
-          "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-08-08T06:57:06.527543013+00:00"
+    "last_checked": "2026-08-15T06:40:53.550870660+00:00"
   },
   "cfg-if": {
     "version": "1.0.4",
