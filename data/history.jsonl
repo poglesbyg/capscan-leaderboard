@@ -26,3 +26,4 @@
 {"name":"futures-io","old_version":"0.3.33","new_version":"0.3.34","checked_at":"2026-08-12T07:28:29.489871533+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"generic-array","old_version":"1.4.4","new_version":"1.4.5","checked_at":"2026-08-14T07:27:41.371484653+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"cc","old_version":"1.4.2","new_version":"1.4.3","checked_at":"2026-08-15T06:40:53.550866143+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"h2","old_version":"0.4.15","new_version":"0.4.16","checked_at":"2026-08-18T06:46:37.894210243+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
