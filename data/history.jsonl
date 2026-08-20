@@ -27,3 +27,4 @@
 {"name":"generic-array","old_version":"1.4.4","new_version":"1.4.5","checked_at":"2026-08-14T07:27:41.371484653+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"cc","old_version":"1.4.2","new_version":"1.4.3","checked_at":"2026-08-15T06:40:53.550866143+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"h2","old_version":"0.4.15","new_version":"0.4.16","checked_at":"2026-08-18T06:46:37.894210243+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"h2","old_version":"0.4.16","new_version":"0.4.17","checked_at":"2026-08-20T06:49:36.580525349+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
