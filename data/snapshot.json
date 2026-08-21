@@ -4648,12 +4648,12 @@
     "last_checked": "2026-07-31T15:03:17.217008+00:00"
   },
   "either": {
-    "version": "1.17.0",
+    "version": "1.18.0",
     "report": {
       "name": "either",
-      "version": "1.17.0",
+      "version": "1.18.0",
       "files_scanned": 5,
-      "lines_scanned": 2381,
+      "lines_scanned": 2423,
       "dependencies": [
         "serde"
       ],
@@ -4674,7 +4674,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:21.290630+00:00"
+    "last_checked": "2026-08-21T06:51:35.521193064+00:00"
   },
   "errno": {
     "version": "0.3.14",
@@ -8196,12 +8196,12 @@
     "last_checked": "2026-07-31T15:02:35.382389+00:00"
   },
   "h2": {
-    "version": "0.4.17",
+    "version": "0.4.18",
     "report": {
       "name": "h2",
-      "version": "0.4.17",
+      "version": "0.4.18",
       "files_scanned": 52,
-      "lines_scanned": 22154,
+      "lines_scanned": 22216,
       "dependencies": [
         "atomic-waker",
         "bytes",
@@ -8225,7 +8225,7 @@
         }
       ]
     },
-    "last_checked": "2026-08-20T06:49:36.580528253+00:00"
+    "last_checked": "2026-08-21T06:51:44.849556857+00:00"
   },
   "hashbrown": {
     "version": "0.17.1",
