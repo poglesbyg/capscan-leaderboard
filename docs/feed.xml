@@ -4,7 +4,14 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-08-22T06:43:08.788039864+00:00</updated>
+  <updated>2026-08-23T06:43:57.390629131+00:00</updated>
+  <entry>
+    <title>log: 0.4.33 -&gt; 0.4.34 (none severity)</title>
+    <link href="https://crates.io/crates/log"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#log-0.4.34-2026-08-23T06:43:39.907322510+00:00</id>
+    <updated>2026-08-23T06:43:39.907322510+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>cc: 1.4.3 -&gt; 1.4.4 (none severity)</title>
     <link href="https://crates.io/crates/cc"/>

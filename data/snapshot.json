@@ -78217,12 +78217,12 @@
     "last_checked": "2026-07-31T15:03:22.416462+00:00"
   },
   "log": {
-    "version": "0.4.33",
+    "version": "0.4.34",
     "report": {
       "name": "log",
-      "version": "0.4.33",
+      "version": "0.4.34",
       "files_scanned": 9,
-      "lines_scanned": 5745,
+      "lines_scanned": 5754,
       "dependencies": [
         "serde_core",
         "sval",
@@ -78233,55 +78233,55 @@
         {
           "kind": "UnsafeImpl",
           "file": "src/lib.rs",
-          "line": 442,
+          "line": 451,
           "detail": "AtomicUsize",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
           "file": "src/lib.rs",
-          "line": 1381,
+          "line": 1390,
           "detail": "set_max_level_racy",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/lib.rs",
-          "line": 1429,
+          "line": 1438,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "Transmute",
           "file": "src/lib.rs",
-          "line": 1429,
+          "line": 1438,
           "detail": "mem::transmute",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/lib.rs",
-          "line": 1520,
+          "line": 1529,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
           "file": "src/lib.rs",
-          "line": 1536,
+          "line": 1545,
           "detail": "set_logger_racy",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/lib.rs",
-          "line": 1620,
+          "line": 1629,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:02:57.872483+00:00"
+    "last_checked": "2026-08-23T06:43:39.907325796+00:00"
   },
   "memchr": {
     "version": "2.8.3",
