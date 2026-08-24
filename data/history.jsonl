@@ -32,3 +32,4 @@
 {"name":"h2","old_version":"0.4.17","new_version":"0.4.18","checked_at":"2026-08-21T06:51:44.849553300+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"cc","old_version":"1.4.3","new_version":"1.4.4","checked_at":"2026-08-22T06:42:51.200662447+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"log","old_version":"0.4.33","new_version":"0.4.34","checked_at":"2026-08-23T06:43:39.907322510+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"syn","old_version":"3.0.3","new_version":"3.0.4","checked_at":"2026-08-24T07:02:12.596070045+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}

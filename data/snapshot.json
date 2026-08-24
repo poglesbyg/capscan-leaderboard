@@ -97941,12 +97941,12 @@
     "last_checked": "2026-07-31T15:03:13.384272+00:00"
   },
   "syn": {
-    "version": "3.0.3",
+    "version": "3.0.4",
     "report": {
       "name": "syn",
-      "version": "3.0.3",
+      "version": "3.0.4",
       "files_scanned": 55,
-      "lines_scanned": 51753,
+      "lines_scanned": 51754,
       "dependencies": [
         "proc-macro2",
         "quote",
@@ -97954,20 +97954,6 @@
       ],
       "signals": [
         {
-          "kind": "UnsafeImpl",
-          "file": "src/thread.rs",
-          "line": 12,
-          "detail": "ThreadBound < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/thread.rs",
-          "line": 18,
-          "detail": "ThreadBound < T >",
-          "scope": "shipped"
-        },
-        {
           "kind": "UnsafeBlock",
           "file": "src/discouraged.rs",
           "line": 199,
@@ -97978,34 +97964,6 @@
           "kind": "Transmute",
           "file": "src/discouraged.rs",
           "line": 199,
-          "detail": "mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parse.rs",
-          "line": 383,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/parse.rs",
-          "line": 383,
-          "detail": "mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parse.rs",
-          "line": 394,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/parse.rs",
-          "line": 394,
           "detail": "mem::transmute",
           "scope": "shipped"
         },
@@ -98204,10 +98162,52 @@
           "line": 445,
           "detail": "unsafe { .. }",
           "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/thread.rs",
+          "line": 12,
+          "detail": "ThreadBound < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/thread.rs",
+          "line": 18,
+          "detail": "ThreadBound < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parse.rs",
+          "line": 383,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/parse.rs",
+          "line": 383,
+          "detail": "mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parse.rs",
+          "line": 394,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/parse.rs",
+          "line": 394,
+          "detail": "mem::transmute",
+          "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:02:34.977523+00:00"
+    "last_checked": "2026-08-24T07:02:12.596074001+00:00"
   },
   "tempfile": {
     "version": "3.27.0",
