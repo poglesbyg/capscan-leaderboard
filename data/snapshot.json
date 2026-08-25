@@ -8196,12 +8196,12 @@
     "last_checked": "2026-07-31T15:02:35.382389+00:00"
   },
   "h2": {
-    "version": "0.4.18",
+    "version": "0.4.19",
     "report": {
       "name": "h2",
-      "version": "0.4.18",
+      "version": "0.4.19",
       "files_scanned": 52,
-      "lines_scanned": 22216,
+      "lines_scanned": 22328,
       "dependencies": [
         "atomic-waker",
         "bytes",
@@ -8225,7 +8225,7 @@
         }
       ]
     },
-    "last_checked": "2026-08-21T06:51:44.849556857+00:00"
+    "last_checked": "2026-08-25T06:52:20.036333156+00:00"
   },
   "hashbrown": {
     "version": "0.17.1",
