@@ -4193,10 +4193,10 @@
     "last_checked": "2026-07-31T15:03:34.260840+00:00"
   },
   "cpufeatures": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "report": {
       "name": "cpufeatures",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "files_scanned": 5,
       "lines_scanned": 589,
       "dependencies": [],
@@ -4238,7 +4238,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:33.845479+00:00"
+    "last_checked": "2026-08-28T18:20:03.335348983+00:00"
   },
   "crossbeam-utils": {
     "version": "0.8.22",
@@ -11121,12 +11121,12 @@
     "last_checked": "2026-07-31T15:03:35.770900+00:00"
   },
   "hyper": {
-    "version": "1.11.0",
+    "version": "1.11.1",
     "report": {
       "name": "hyper",
-      "version": "1.11.0",
+      "version": "1.11.1",
       "files_scanned": 64,
-      "lines_scanned": 22149,
+      "lines_scanned": 22248,
       "dependencies": [
         "atomic-waker",
         "bytes",
@@ -11150,70 +11150,238 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/upgrade.rs",
-          "line": 318,
+          "line": 322,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/proto/h1/role.rs",
-          "line": 261,
+          "file": "src/common/task.rs",
+          "line": 28,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/proto/h1/role.rs",
-          "line": 1091,
+          "file": "src/common/io/compat.rs",
+          "line": 18,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/proto/h1/role.rs",
-          "line": 1118,
+          "file": "src/common/io/compat.rs",
+          "line": 41,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/proto/h1/role.rs",
-          "line": 3085,
+          "file": "src/common/io/compat.rs",
+          "line": 58,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/proto/h1/role.rs",
-          "line": 3126,
+          "file": "src/common/io/compat.rs",
+          "line": 113,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/common/io/compat.rs",
+          "line": 121,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ffi/io.rs",
+          "line": 150,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ffi/io.rs",
+          "line": 162,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/ffi/io.rs",
+          "line": 197,
+          "detail": "hyper_io",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/ffi/io.rs",
+          "line": 198,
+          "detail": "hyper_io",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/ffi/task.rs",
+          "line": 466,
+          "detail": "()",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/ffi/task.rs",
+          "line": 472,
+          "detail": "crate :: Error",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ffi/task.rs",
+          "line": 516,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/ffi/task.rs",
+          "line": 516,
+          "detail": "std::mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/ffi/client.rs",
+          "line": 172,
+          "detail": "hyper_clientconn",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ffi/body.rs",
+          "line": 221,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/ffi/body.rs",
+          "line": 246,
+          "detail": "UserBody",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/ffi/body.rs",
+          "line": 247,
+          "detail": "UserBody",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/ffi/body.rs",
+          "line": 298,
+          "detail": "hyper_buf",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/ffi/mod.rs",
+          "line": 84,
+          "detail": "UserDataPointer",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/ffi/mod.rs",
+          "line": 85,
+          "detail": "UserDataPointer",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/ffi/http_types.rs",
+          "line": 423,
+          "detail": "hyper_response",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/ffi/http_types.rs",
+          "line": 559,
+          "detail": "raw_name_value",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ffi/http_types.rs",
+          "line": 631,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ffi/http_types.rs",
+          "line": 695,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/proto/h1/io.rs",
-          "line": 235,
+          "line": 240,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/proto/h1/io.rs",
-          "line": 244,
+          "line": 249,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/proto/h1/role.rs",
+          "line": 264,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/proto/h1/role.rs",
+          "line": 1094,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/proto/h1/role.rs",
+          "line": 1121,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/proto/h1/role.rs",
+          "line": 3122,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/proto/h1/role.rs",
+          "line": 3163,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/proto/h1/conn.rs",
-          "line": 1190,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/rt/timer.rs",
-          "line": 128,
+          "line": 1200,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -11275,182 +11443,14 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/common/io/compat.rs",
-          "line": 18,
+          "file": "src/rt/timer.rs",
+          "line": 128,
           "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/common/io/compat.rs",
-          "line": 41,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/common/io/compat.rs",
-          "line": 58,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/common/io/compat.rs",
-          "line": 113,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/common/io/compat.rs",
-          "line": 121,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/common/task.rs",
-          "line": 28,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/ffi/http_types.rs",
-          "line": 423,
-          "detail": "hyper_response",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/ffi/http_types.rs",
-          "line": 559,
-          "detail": "raw_name_value",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ffi/http_types.rs",
-          "line": 631,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ffi/http_types.rs",
-          "line": 695,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ffi/io.rs",
-          "line": 150,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ffi/io.rs",
-          "line": 162,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/ffi/io.rs",
-          "line": 197,
-          "detail": "hyper_io",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/ffi/io.rs",
-          "line": 198,
-          "detail": "hyper_io",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/ffi/client.rs",
-          "line": 172,
-          "detail": "hyper_clientconn",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ffi/body.rs",
-          "line": 221,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/ffi/body.rs",
-          "line": 246,
-          "detail": "UserBody",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/ffi/body.rs",
-          "line": 247,
-          "detail": "UserBody",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/ffi/body.rs",
-          "line": 298,
-          "detail": "hyper_buf",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/ffi/task.rs",
-          "line": 466,
-          "detail": "()",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/ffi/task.rs",
-          "line": 472,
-          "detail": "crate :: Error",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ffi/task.rs",
-          "line": 516,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/ffi/task.rs",
-          "line": 516,
-          "detail": "std::mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/ffi/mod.rs",
-          "line": 84,
-          "detail": "UserDataPointer",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/ffi/mod.rs",
-          "line": 85,
-          "detail": "UserDataPointer",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:25.349297+00:00"
+    "last_checked": "2026-08-28T18:19:58.160431293+00:00"
   },
   "idna": {
     "version": "1.1.0",
