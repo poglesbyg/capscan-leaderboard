@@ -11582,12 +11582,12 @@
     "last_checked": "2026-07-31T15:03:23.072288+00:00"
   },
   "indexmap": {
-    "version": "2.14.0",
+    "version": "2.14.1",
     "report": {
       "name": "indexmap",
-      "version": "2.14.0",
-      "files_scanned": 26,
-      "lines_scanned": 13603,
+      "version": "2.14.1",
+      "files_scanned": 27,
+      "lines_scanned": 13612,
       "dependencies": [
         "arbitrary",
         "borsh",
@@ -11599,6 +11599,27 @@
         "sval"
       ],
       "signals": [
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/set/slice.rs",
+          "line": 28,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/set/slice.rs",
+          "line": 32,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/set/slice.rs",
+          "line": 36,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
         {
           "kind": "UnsafeBlock",
           "file": "src/inner/extract.rs",
@@ -11650,35 +11671,21 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/map/slice.rs",
-          "line": 381,
+          "file": "src/map/disjoint.rs",
+          "line": 26,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/set/slice.rs",
-          "line": 28,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/set/slice.rs",
-          "line": 32,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/set/slice.rs",
-          "line": 36,
+          "file": "src/map/disjoint.rs",
+          "line": 55,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:02:48.242258+00:00"
+    "last_checked": "2026-08-29T12:27:55.616795598+00:00"
   },
   "itertools": {
     "version": "0.15.0",

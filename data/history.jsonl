@@ -36,3 +36,4 @@
 {"name":"h2","old_version":"0.4.18","new_version":"0.4.19","checked_at":"2026-08-25T06:52:20.036328918+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"hyper","old_version":"1.11.0","new_version":"1.11.1","checked_at":"2026-08-28T18:19:58.160428027+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"cpufeatures","old_version":"0.3.0","new_version":"0.3.1","checked_at":"2026-08-28T18:20:03.335346188+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"indexmap","old_version":"2.14.0","new_version":"2.14.1","checked_at":"2026-08-29T12:27:55.616792903+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
