@@ -41,3 +41,5 @@
 {"name":"mio","old_version":"1.2.2","new_version":"1.2.3","checked_at":"2026-09-03T10:52:00.538745391+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"toml","old_version":"1.1.4+spec-1.1.0","new_version":"1.1.5+spec-1.1.0","checked_at":"2026-09-03T10:52:08.203946265+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"cc","old_version":"1.4.4","new_version":"1.4.5","checked_at":"2026-09-04T10:51:49.632076075+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"syn","old_version":"3.0.4","new_version":"3.0.5","checked_at":"2026-09-05T10:09:46.339481582+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"indexmap","old_version":"2.14.1","new_version":"2.14.2","checked_at":"2026-09-05T10:09:49.167296635+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}

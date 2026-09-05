@@ -11582,12 +11582,12 @@
     "last_checked": "2026-07-31T15:03:23.072288+00:00"
   },
   "indexmap": {
-    "version": "2.14.1",
+    "version": "2.14.2",
     "report": {
       "name": "indexmap",
-      "version": "2.14.1",
+      "version": "2.14.2",
       "files_scanned": 27,
-      "lines_scanned": 13612,
+      "lines_scanned": 13676,
       "dependencies": [
         "arbitrary",
         "borsh",
@@ -11601,43 +11601,15 @@
       "signals": [
         {
           "kind": "UnsafeBlock",
-          "file": "src/set/slice.rs",
-          "line": 28,
+          "file": "src/map/disjoint.rs",
+          "line": 26,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/set/slice.rs",
-          "line": 32,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/set/slice.rs",
-          "line": 36,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/inner/extract.rs",
-          "line": 19,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/inner/extract.rs",
-          "line": 50,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/inner/extract.rs",
-          "line": 84,
+          "file": "src/map/disjoint.rs",
+          "line": 55,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -11671,21 +11643,49 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/map/disjoint.rs",
-          "line": 26,
+          "file": "src/inner/extract.rs",
+          "line": 19,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/map/disjoint.rs",
-          "line": 55,
+          "file": "src/inner/extract.rs",
+          "line": 50,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/inner/extract.rs",
+          "line": 84,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/set/slice.rs",
+          "line": 28,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/set/slice.rs",
+          "line": 32,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/set/slice.rs",
+          "line": 36,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-08-29T12:27:55.616795598+00:00"
+    "last_checked": "2026-09-05T10:09:49.167300321+00:00"
   },
   "itertools": {
     "version": "0.15.0",
@@ -97948,12 +97948,12 @@
     "last_checked": "2026-07-31T15:03:13.384272+00:00"
   },
   "syn": {
-    "version": "3.0.4",
+    "version": "3.0.5",
     "report": {
       "name": "syn",
-      "version": "3.0.4",
+      "version": "3.0.5",
       "files_scanned": 55,
-      "lines_scanned": 51754,
+      "lines_scanned": 51755,
       "dependencies": [
         "proc-macro2",
         "quote",
@@ -97962,16 +97962,44 @@
       "signals": [
         {
           "kind": "UnsafeBlock",
-          "file": "src/discouraged.rs",
-          "line": 199,
+          "file": "src/parse.rs",
+          "line": 383,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "Transmute",
-          "file": "src/discouraged.rs",
-          "line": 199,
+          "file": "src/parse.rs",
+          "line": 383,
           "detail": "mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parse.rs",
+          "line": 394,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/parse.rs",
+          "line": 394,
+          "detail": "mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/thread.rs",
+          "line": 12,
+          "detail": "ThreadBound < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/thread.rs",
+          "line": 18,
+          "detail": "ThreadBound < T >",
           "scope": "shipped"
         },
         {
@@ -98171,50 +98199,22 @@
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeImpl",
-          "file": "src/thread.rs",
-          "line": 12,
-          "detail": "ThreadBound < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/thread.rs",
-          "line": 18,
-          "detail": "ThreadBound < T >",
-          "scope": "shipped"
-        },
-        {
           "kind": "UnsafeBlock",
-          "file": "src/parse.rs",
-          "line": 383,
+          "file": "src/discouraged.rs",
+          "line": 199,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "Transmute",
-          "file": "src/parse.rs",
-          "line": 383,
-          "detail": "mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parse.rs",
-          "line": 394,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/parse.rs",
-          "line": 394,
+          "file": "src/discouraged.rs",
+          "line": 199,
           "detail": "mem::transmute",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-08-24T07:02:12.596074001+00:00"
+    "last_checked": "2026-09-05T10:09:46.339485208+00:00"
   },
   "tempfile": {
     "version": "3.27.0",
