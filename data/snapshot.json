@@ -4241,12 +4241,12 @@
     "last_checked": "2026-08-28T18:20:03.335348983+00:00"
   },
   "crossbeam-utils": {
-    "version": "0.8.22",
+    "version": "0.8.23",
     "report": {
       "name": "crossbeam-utils",
-      "version": "0.8.22",
+      "version": "0.8.23",
       "files_scanned": 17,
-      "lines_scanned": 4242,
+      "lines_scanned": 4245,
       "dependencies": [],
       "signals": [
         {
@@ -4273,57 +4273,15 @@
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 44,
+          "line": 43,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeImpl",
-          "file": "src/thread.rs",
-          "line": 224,
-          "detail": "Scope < '_ >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/thread.rs",
-          "line": 466,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/thread.rs",
-          "line": 466,
-          "detail": "mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/thread.rs",
-          "line": 489,
-          "detail": "ScopedJoinHandle < '_ , T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/thread.rs",
-          "line": 490,
-          "detail": "ScopedJoinHandle < '_ , T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/cache_padded.rs",
-          "line": 158,
-          "detail": "CachePadded < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/cache_padded.rs",
-          "line": 159,
-          "detail": "CachePadded < T >",
+          "kind": "EnvRead",
+          "file": "build.rs",
+          "line": 47,
+          "detail": "env::var",
           "scope": "shipped"
         },
         {
@@ -4418,6 +4376,41 @@
           "scope": "shipped"
         },
         {
+          "kind": "UnsafeImpl",
+          "file": "src/thread.rs",
+          "line": 224,
+          "detail": "Scope < '_ >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/thread.rs",
+          "line": 466,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/thread.rs",
+          "line": 466,
+          "detail": "mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/thread.rs",
+          "line": 489,
+          "detail": "ScopedJoinHandle < '_ , T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/thread.rs",
+          "line": 490,
+          "detail": "ScopedJoinHandle < '_ , T >",
+          "scope": "shipped"
+        },
+        {
           "kind": "UnsafeBlock",
           "file": "src/sync/wait_group.rs",
           "line": 109,
@@ -4462,7 +4455,7 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/sync/sharded_lock.rs",
-          "line": 359,
+          "line": 362,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -4504,7 +4497,7 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/sync/sharded_lock.rs",
-          "line": 529,
+          "line": 532,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -4520,6 +4513,27 @@
           "file": "src/sync/sharded_lock.rs",
           "line": 562,
           "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sync/parker.rs",
+          "line": 58,
+          "detail": "Parker",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sync/parker.rs",
+          "line": 221,
+          "detail": "Unparker",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sync/parker.rs",
+          "line": 222,
+          "detail": "Unparker",
           "scope": "shipped"
         },
         {
@@ -4566,23 +4580,16 @@
         },
         {
           "kind": "UnsafeImpl",
-          "file": "src/sync/parker.rs",
-          "line": 58,
-          "detail": "Parker",
+          "file": "src/cache_padded.rs",
+          "line": 158,
+          "detail": "CachePadded < T >",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
-          "file": "src/sync/parker.rs",
-          "line": 221,
-          "detail": "Unparker",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sync/parker.rs",
-          "line": 222,
-          "detail": "Unparker",
+          "file": "src/cache_padded.rs",
+          "line": 159,
+          "detail": "CachePadded < T >",
           "scope": "shipped"
         },
         {
@@ -4594,7 +4601,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:27.721440+00:00"
+    "last_checked": "2026-09-06T10:30:41.942526534+00:00"
   },
   "crypto-common": {
     "version": "0.2.2",
