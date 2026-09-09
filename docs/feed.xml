@@ -4,7 +4,14 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-09-07T11:54:06.192136626+00:00</updated>
+  <updated>2026-09-09T10:56:24.178659662+00:00</updated>
+  <entry>
+    <title>zerocopy: 0.8.56 -&gt; 0.8.57 (none severity)</title>
+    <link href="https://crates.io/crates/zerocopy"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#zerocopy-0.8.57-2026-09-09T10:56:20.043072679+00:00</id>
+    <updated>2026-09-09T10:56:20.043072679+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>rustls: 0.23.43 -&gt; 0.23.44 (medium severity)</title>
     <link href="https://crates.io/crates/rustls"/>
