@@ -1651,12 +1651,12 @@
     "last_checked": "2026-08-05T08:39:09.358871855+00:00"
   },
   "bitflags": {
-    "version": "2.13.1",
+    "version": "2.13.2",
     "report": {
       "name": "bitflags",
-      "version": "2.13.1",
+      "version": "2.13.2",
       "files_scanned": 45,
-      "lines_scanned": 5986,
+      "lines_scanned": 6018,
       "dependencies": [
         "arbitrary",
         "bytemuck",
@@ -1664,7 +1664,7 @@
       ],
       "signals": []
     },
-    "last_checked": "2026-07-31T15:02:35.756798+00:00"
+    "last_checked": "2026-09-10T10:52:38.273687133+00:00"
   },
   "block-buffer": {
     "version": "0.12.1",
