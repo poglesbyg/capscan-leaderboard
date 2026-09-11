@@ -47,3 +47,4 @@
 {"name":"rustls","old_version":"0.23.43","new_version":"0.23.44","checked_at":"2026-09-07T11:53:58.364401405+00:00","worst_severity":"medium","added_signals":1,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"zerocopy","old_version":"0.8.56","new_version":"0.8.57","checked_at":"2026-09-09T10:56:20.043072679+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"bitflags","old_version":"2.13.1","new_version":"2.13.2","checked_at":"2026-09-10T10:52:38.273684899+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"toml","old_version":"1.1.5+spec-1.1.0","new_version":"1.1.6+spec-1.1.0","checked_at":"2026-09-11T10:49:43.509112466+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}

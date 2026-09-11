@@ -106295,10 +106295,10 @@
     "last_checked": "2026-07-31T15:03:23.778226+00:00"
   },
   "toml": {
-    "version": "1.1.5+spec-1.1.0",
+    "version": "1.1.6+spec-1.1.0",
     "report": {
       "name": "toml",
-      "version": "1.1.5+spec-1.1.0",
+      "version": "1.1.6+spec-1.1.0",
       "files_scanned": 36,
       "lines_scanned": 9121,
       "dependencies": [
@@ -106323,7 +106323,7 @@
         }
       ]
     },
-    "last_checked": "2026-09-03T10:52:08.203949239+00:00"
+    "last_checked": "2026-09-11T10:49:43.509116002+00:00"
   },
   "tracing": {
     "version": "0.1.44",
