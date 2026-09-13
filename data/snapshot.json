@@ -2902,12 +2902,12 @@
     "last_checked": "2026-07-31T15:03:17.593284+00:00"
   },
   "cc": {
-    "version": "1.4.5",
+    "version": "1.4.6",
     "report": {
       "name": "cc",
-      "version": "1.4.5",
+      "version": "1.4.6",
       "files_scanned": 12,
-      "lines_scanned": 7613,
+      "lines_scanned": 7631,
       "dependencies": [
         "find-msvc-tools",
         "jobserver",
@@ -2924,28 +2924,28 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/parallel/stderr.rs",
-          "line": 12,
+          "line": 14,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/parallel/stderr.rs",
-          "line": 29,
+          "line": 31,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/parallel/stderr.rs",
-          "line": 60,
+          "line": 62,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/parallel/stderr.rs",
-          "line": 83,
+          "line": 84,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -2980,63 +2980,63 @@
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 2978,
+          "line": 2982,
           "detail": "fs::remove_file",
           "scope": "shipped"
         },
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 3027,
+          "line": 3031,
           "detail": "fs::remove_file",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 3228,
+          "line": 3232,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 3806,
+          "line": 3810,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 3897,
+          "line": 3901,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "src/lib.rs",
-          "line": 4250,
+          "line": 4254,
           "detail": "env::var_os",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4783,
+          "line": 4787,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4803,
+          "line": 4807,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4805,
+          "line": 4809,
           "detail": "Command::new",
           "scope": "shipped"
         },
@@ -3168,7 +3168,7 @@
         }
       ]
     },
-    "last_checked": "2026-09-04T10:51:49.632080963+00:00"
+    "last_checked": "2026-09-13T11:18:15.326038158+00:00"
   },
   "cfg-if": {
     "version": "1.0.4",

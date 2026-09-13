@@ -49,3 +49,4 @@
 {"name":"bitflags","old_version":"2.13.1","new_version":"2.13.2","checked_at":"2026-09-10T10:52:38.273684899+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"toml","old_version":"1.1.5+spec-1.1.0","new_version":"1.1.6+spec-1.1.0","checked_at":"2026-09-11T10:49:43.509112466+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"smallvec","old_version":"1.16.0","new_version":"1.16.1","checked_at":"2026-09-12T10:18:01.163088802+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"cc","old_version":"1.4.5","new_version":"1.4.6","checked_at":"2026-09-13T11:18:15.326034493+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
