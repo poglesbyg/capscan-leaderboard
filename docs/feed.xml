@@ -4,7 +4,28 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-09-13T11:18:42.232366036+00:00</updated>
+  <updated>2026-09-15T11:20:29.378702227+00:00</updated>
+  <entry>
+    <title>clap_lex: 1.1.0 -&gt; 1.1.1 (none severity)</title>
+    <link href="https://crates.io/crates/clap_lex"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#clap_lex-1.1.1-2026-09-15T11:20:23.140320991+00:00</id>
+    <updated>2026-09-15T11:20:23.140320991+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>rustls: 0.23.44 -&gt; 0.23.45 (none severity)</title>
+    <link href="https://crates.io/crates/rustls"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#rustls-0.23.45-2026-09-15T11:20:17.242376212+00:00</id>
+    <updated>2026-09-15T11:20:17.242376212+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>clap: 4.6.6 -&gt; 4.6.7 (none severity)</title>
+    <link href="https://crates.io/crates/clap"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#clap-4.6.7-2026-09-15T11:20:03.618371440+00:00</id>
+    <updated>2026-09-15T11:20:03.618371440+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>cc: 1.4.5 -&gt; 1.4.6 (none severity)</title>
     <link href="https://crates.io/crates/cc"/>
@@ -333,26 +354,5 @@
     <id>https://poglesbyg.github.io/capscan-leaderboard/#cc-1.4.0-2026-07-25T08:09:46.213425940+00:00</id>
     <updated>2026-07-25T08:09:46.213425940+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>base64: 0.22.1 -&gt; 0.23.0 (high severity)</title>
-    <link href="https://crates.io/crates/base64"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#base64-0.23.0-2026-07-24T08:30:45.581615160+00:00</id>
-    <updated>2026-07-24T08:30:45.581615160+00:00</updated>
-    <summary>+7 / -0 signal(s). Worst new severity: high.</summary>
-  </entry>
-  <entry>
-    <title>clap: 4.6.3 -&gt; 4.6.4 (none severity)</title>
-    <link href="https://crates.io/crates/clap"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#clap-4.6.4-2026-07-22T08:32:45.594688749+00:00</id>
-    <updated>2026-07-22T08:32:45.594688749+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>libc: 0.2.188 -&gt; 0.2.189 (high severity)</title>
-    <link href="https://crates.io/crates/libc"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#libc-0.2.189-2026-07-22T08:32:37.104560769+00:00</id>
-    <updated>2026-07-22T08:32:37.104560769+00:00</updated>
-    <summary>+1 / -0 signal(s). Worst new severity: high.</summary>
   </entry>
 </feed>
