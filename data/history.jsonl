@@ -53,3 +53,7 @@
 {"name":"clap","old_version":"4.6.6","new_version":"4.6.7","checked_at":"2026-09-15T11:20:03.618371440+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"rustls","old_version":"0.23.44","new_version":"0.23.45","checked_at":"2026-09-15T11:20:17.242376212+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"clap_lex","old_version":"1.1.0","new_version":"1.1.1","checked_at":"2026-09-15T11:20:23.140320991+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"syn","old_version":"3.0.5","new_version":"3.0.6","checked_at":"2026-09-17T11:13:01.219763580+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"cfg-if","old_version":"1.0.4","new_version":"1.0.5","checked_at":"2026-09-17T11:13:05.318663672+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"unicode-ident","old_version":"1.0.24","new_version":"1.0.26","checked_at":"2026-09-17T11:13:06.973385365+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"rustix","old_version":"1.1.4","new_version":"1.1.5","checked_at":"2026-09-17T11:13:12.001449902+00:00","worst_severity":"medium","added_signals":1,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
