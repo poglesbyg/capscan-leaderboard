@@ -2902,12 +2902,12 @@
     "last_checked": "2026-07-31T15:03:17.593284+00:00"
   },
   "cc": {
-    "version": "1.4.6",
+    "version": "1.4.7",
     "report": {
       "name": "cc",
-      "version": "1.4.6",
+      "version": "1.4.7",
       "files_scanned": 12,
-      "lines_scanned": 7631,
+      "lines_scanned": 7639,
       "dependencies": [
         "find-msvc-tools",
         "jobserver",
@@ -3162,13 +3162,13 @@
         {
           "kind": "FilesystemWrite",
           "file": "src/tempfile.rs",
-          "line": 87,
+          "line": 89,
           "detail": "remove_file",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-09-13T11:18:15.326038158+00:00"
+    "last_checked": "2026-09-19T10:30:31.468961368+00:00"
   },
   "cfg-if": {
     "version": "1.0.5",

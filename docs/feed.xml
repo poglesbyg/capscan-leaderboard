@@ -4,7 +4,14 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-09-17T11:13:28.633013561+00:00</updated>
+  <updated>2026-09-19T10:30:48.418192982+00:00</updated>
+  <entry>
+    <title>cc: 1.4.6 -&gt; 1.4.7 (none severity)</title>
+    <link href="https://crates.io/crates/cc"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#cc-1.4.7-2026-09-19T10:30:31.468957320+00:00</id>
+    <updated>2026-09-19T10:30:31.468957320+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>rustix: 1.1.4 -&gt; 1.1.5 (medium severity)</title>
     <link href="https://crates.io/crates/rustix"/>
@@ -346,13 +353,6 @@
     <link href="https://crates.io/crates/clap"/>
     <id>https://poglesbyg.github.io/capscan-leaderboard/#clap-4.6.5-2026-08-01T08:24:12.828694304+00:00</id>
     <updated>2026-08-01T08:24:12.828694304+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>rustls: 0.23.42 -&gt; 0.23.43 (none severity)</title>
-    <link href="https://crates.io/crates/rustls"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#rustls-0.23.43-2026-07-30T08:30:57.482548403+00:00</id>
-    <updated>2026-07-30T08:30:57.482548403+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>
