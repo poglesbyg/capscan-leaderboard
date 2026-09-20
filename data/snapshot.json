@@ -82776,12 +82776,12 @@
     "last_checked": "2026-07-31T15:02:46.781061+00:00"
   },
   "rand": {
-    "version": "0.10.2",
+    "version": "0.10.3",
     "report": {
       "name": "rand",
-      "version": "0.10.2",
+      "version": "0.10.3",
       "files_scanned": 29,
-      "lines_scanned": 10182,
+      "lines_scanned": 10365,
       "dependencies": [
         "chacha20",
         "getrandom",
@@ -82812,30 +82812,44 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/rngs/thread.rs",
-          "line": 144,
+          "file": "src/distr/integer.rs",
+          "line": 122,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeBlock",
-          "file": "src/rngs/thread.rs",
-          "line": 219,
-          "detail": "unsafe { .. }",
+          "kind": "Transmute",
+          "file": "src/distr/integer.rs",
+          "line": 122,
+          "detail": "core::mem::transmute",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/rngs/thread.rs",
-          "line": 227,
+          "file": "src/distr/integer.rs",
+          "line": 135,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
+          "kind": "Transmute",
+          "file": "src/distr/integer.rs",
+          "line": 135,
+          "detail": "core::mem::transmute",
+          "scope": "shipped"
+        },
+        {
           "kind": "UnsafeBlock",
-          "file": "src/rngs/thread.rs",
-          "line": 235,
+          "file": "src/distr/integer.rs",
+          "line": 151,
           "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/distr/integer.rs",
+          "line": 151,
+          "detail": "core::mem::transmute",
           "scope": "shipped"
         },
         {
@@ -82861,49 +82875,35 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/distr/integer.rs",
-          "line": 122,
+          "file": "src/rngs/thread.rs",
+          "line": 144,
           "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/distr/integer.rs",
-          "line": 122,
-          "detail": "core::mem::transmute",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/distr/integer.rs",
-          "line": 135,
+          "file": "src/rngs/thread.rs",
+          "line": 219,
           "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/distr/integer.rs",
-          "line": 135,
-          "detail": "core::mem::transmute",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/distr/integer.rs",
-          "line": 151,
+          "file": "src/rngs/thread.rs",
+          "line": 227,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
-          "kind": "Transmute",
-          "file": "src/distr/integer.rs",
-          "line": 151,
-          "detail": "core::mem::transmute",
+          "kind": "UnsafeBlock",
+          "file": "src/rngs/thread.rs",
+          "line": 235,
+          "detail": "unsafe { .. }",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:02:45.215319+00:00"
+    "last_checked": "2026-09-20T10:52:30.945404419+00:00"
   },
   "rand_chacha": {
     "version": "0.10.0",

@@ -58,3 +58,4 @@
 {"name":"unicode-ident","old_version":"1.0.24","new_version":"1.0.26","checked_at":"2026-09-17T11:13:06.973385365+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"rustix","old_version":"1.1.4","new_version":"1.1.5","checked_at":"2026-09-17T11:13:12.001449902+00:00","worst_severity":"medium","added_signals":1,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"cc","old_version":"1.4.6","new_version":"1.4.7","checked_at":"2026-09-19T10:30:31.468957320+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"rand","old_version":"0.10.2","new_version":"0.10.3","checked_at":"2026-09-20T10:52:30.945400562+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
