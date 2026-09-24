@@ -59,3 +59,6 @@
 {"name":"rustix","old_version":"1.1.4","new_version":"1.1.5","checked_at":"2026-09-17T11:13:12.001449902+00:00","worst_severity":"medium","added_signals":1,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"cc","old_version":"1.4.6","new_version":"1.4.7","checked_at":"2026-09-19T10:30:31.468957320+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"rand","old_version":"0.10.2","new_version":"0.10.3","checked_at":"2026-09-20T10:52:30.945400562+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"thiserror-impl","old_version":"2.0.20","new_version":"2.0.21","checked_at":"2026-09-24T11:19:13.216024093+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"thiserror","old_version":"2.0.20","new_version":"2.0.21","checked_at":"2026-09-24T11:19:13.820999595+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"zerocopy","old_version":"0.8.57","new_version":"0.8.58","checked_at":"2026-09-24T11:19:32.217010411+00:00","worst_severity":"high","added_signals":3,"removed_signals":3,"added_dependencies":[],"removed_dependencies":[]}

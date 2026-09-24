@@ -4,7 +4,28 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-09-20T10:53:00.364782379+00:00</updated>
+  <updated>2026-09-24T11:19:36.201828146+00:00</updated>
+  <entry>
+    <title>zerocopy: 0.8.57 -&gt; 0.8.58 (high severity)</title>
+    <link href="https://crates.io/crates/zerocopy"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#zerocopy-0.8.58-2026-09-24T11:19:32.217010411+00:00</id>
+    <updated>2026-09-24T11:19:32.217010411+00:00</updated>
+    <summary>+3 / -3 signal(s). Worst new severity: high.</summary>
+  </entry>
+  <entry>
+    <title>thiserror: 2.0.20 -&gt; 2.0.21 (none severity)</title>
+    <link href="https://crates.io/crates/thiserror"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#thiserror-2.0.21-2026-09-24T11:19:13.820999595+00:00</id>
+    <updated>2026-09-24T11:19:13.820999595+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>thiserror-impl: 2.0.20 -&gt; 2.0.21 (none severity)</title>
+    <link href="https://crates.io/crates/thiserror-impl"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#thiserror-impl-2.0.21-2026-09-24T11:19:13.216024093+00:00</id>
+    <updated>2026-09-24T11:19:13.216024093+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>rand: 0.10.2 -&gt; 0.10.3 (none severity)</title>
     <link href="https://crates.io/crates/rand"/>
@@ -332,27 +353,6 @@
     <link href="https://crates.io/crates/regex-automata"/>
     <id>https://poglesbyg.github.io/capscan-leaderboard/#regex-automata-0.4.18-2026-08-05T08:39:14.440329554+00:00</id>
     <updated>2026-08-05T08:39:14.440329554+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>base64: 0.23.0 -&gt; 0.23.1 (none severity)</title>
-    <link href="https://crates.io/crates/base64"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#base64-0.23.1-2026-08-05T08:39:09.358867166+00:00</id>
-    <updated>2026-08-05T08:39:09.358867166+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>aho-corasick: 1.1.4 -&gt; 1.1.5 (none severity)</title>
-    <link href="https://crates.io/crates/aho-corasick"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#aho-corasick-1.1.5-2026-08-04T08:40:29.675148719+00:00</id>
-    <updated>2026-08-04T08:40:29.675148719+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>time: 0.3.54 -&gt; 0.3.55 (none severity)</title>
-    <link href="https://crates.io/crates/time"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#time-0.3.55-2026-08-01T08:24:22.290863736+00:00</id>
-    <updated>2026-08-01T08:24:22.290863736+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>
