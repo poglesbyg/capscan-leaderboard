@@ -2902,12 +2902,12 @@
     "last_checked": "2026-07-31T15:03:17.593284+00:00"
   },
   "cc": {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "report": {
       "name": "cc",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "files_scanned": 12,
-      "lines_scanned": 7871,
+      "lines_scanned": 7915,
       "dependencies": [
         "find-msvc-tools",
         "jobserver",
@@ -3050,70 +3050,70 @@
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 1511,
+          "line": 1530,
           "detail": "fs::File::create",
           "scope": "shipped"
         },
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 3054,
+          "line": 3098,
           "detail": "fs::remove_file",
           "scope": "shipped"
         },
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 3103,
+          "line": 3147,
           "detail": "fs::remove_file",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 3304,
+          "line": 3348,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 3882,
+          "line": 3926,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 3973,
+          "line": 4017,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "src/lib.rs",
-          "line": 4326,
+          "line": 4370,
           "detail": "env::var_os",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4879,
+          "line": 4923,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4899,
+          "line": 4943,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4901,
+          "line": 4945,
           "detail": "Command::new",
           "scope": "shipped"
         },
@@ -3168,7 +3168,7 @@
         }
       ]
     },
-    "last_checked": "2026-09-25T11:24:34.502880277+00:00"
+    "last_checked": "2026-09-26T11:00:34.502791371+00:00"
   },
   "cfg-if": {
     "version": "1.0.5",
@@ -169802,12 +169802,12 @@
     "last_checked": "2026-07-31T15:03:37.492069+00:00"
   },
   "zerocopy": {
-    "version": "0.8.58",
+    "version": "0.8.59",
     "report": {
       "name": "zerocopy",
-      "version": "0.8.58",
+      "version": "0.8.59",
       "files_scanned": 21,
-      "lines_scanned": 28922,
+      "lines_scanned": 29427,
       "dependencies": [
         "zerocopy-derive"
       ],
@@ -169824,6 +169824,454 @@
           "file": "build.rs",
           "line": 235,
           "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/error.rs",
+          "line": 367,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/error.rs",
+          "line": 379,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/error.rs",
+          "line": 660,
+          "detail": "crate :: ValidityError < Src , Dst >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/error.rs",
+          "line": 799,
+          "detail": "crate :: CastError < Src , Dst >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/layout.rs",
+          "line": 768,
+          "detail": "CastFrom < Dst >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/layout.rs",
+          "line": 777,
+          "detail": "CastFrom < Dst >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/layout.rs",
+          "line": 788,
+          "detail": "CastFrom < Dst >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/layout.rs",
+          "line": 1040,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/layout.rs",
+          "line": 1091,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/layout.rs",
+          "line": 1662,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/layout.rs",
+          "line": 1668,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/layout.rs",
+          "line": 1734,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/byte_slice.rs",
+          "line": 120,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/byte_slice.rs",
+          "line": 199,
+          "detail": "& [u8]",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/byte_slice.rs",
+          "line": 203,
+          "detail": "& [u8]",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/byte_slice.rs",
+          "line": 207,
+          "detail": "& [u8]",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/byte_slice.rs",
+          "line": 212,
+          "detail": "& [u8]",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/byte_slice.rs",
+          "line": 217,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/byte_slice.rs",
+          "line": 225,
+          "detail": "& 'a [u8]",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/byte_slice.rs",
+          "line": 237,
+          "detail": "& mut [u8]",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/byte_slice.rs",
+          "line": 243,
+          "detail": "& mut [u8]",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/byte_slice.rs",
+          "line": 254,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/byte_slice.rs",
+          "line": 263,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/byte_slice.rs",
+          "line": 293,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/byte_slice.rs",
+          "line": 301,
+          "detail": "& 'a mut [u8]",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/byte_slice.rs",
+          "line": 313,
+          "detail": "& 'a mut [u8]",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/byte_slice.rs",
+          "line": 325,
+          "detail": "cell :: Ref < '_ , [u8] >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/byte_slice.rs",
+          "line": 332,
+          "detail": "cell :: Ref < '_ , [u8] >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/byte_slice.rs",
+          "line": 338,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/byte_slice.rs",
+          "line": 345,
+          "detail": "cell :: RefMut < '_ , [u8] >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/byte_slice.rs",
+          "line": 352,
+          "detail": "cell :: RefMut < '_ , [u8] >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/byte_slice.rs",
+          "line": 358,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/byte_slice.rs",
+          "line": 380,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/byte_slice.rs",
+          "line": 395,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/byte_slice.rs",
+          "line": 419,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/byte_slice.rs",
+          "line": 430,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/lib.rs",
+          "line": 1020,
+          "detail": "[T]",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 1204,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 1224,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 3446,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 3570,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 3590,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 3609,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 3626,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 3788,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 3828,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 3883,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 3888,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 3894,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 3948,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 4057,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 5458,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 5516,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 5568,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 5622,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 5627,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 6030,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 6106,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 6187,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 6275,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 6381,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 6747,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/lib.rs",
+          "line": 6747,
+          "detail": "mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 7515,
+          "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
@@ -170108,363 +170556,6 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 100,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 166,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 185,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 246,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/split_at.rs",
-          "line": 253,
-          "detail": "[T]",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 311,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 595,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 609,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 800,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 817,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 827,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 835,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 847,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 860,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 876,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 895,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 914,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 931,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 947,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 1034,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 1036,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 1042,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/split_at.rs",
-          "line": 1044,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/lib.rs",
-          "line": 1020,
-          "detail": "[T]",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 1204,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 1224,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 3294,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 3372,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 3451,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/lib.rs",
-          "line": 3500,
-          "detail": "try_read_from",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 3518,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 3543,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 3705,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 3745,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 3800,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 3805,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 3811,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 3865,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 3974,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 5375,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 5433,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 5485,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 5539,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 5544,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 5937,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 6013,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 6094,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 6182,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 6288,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/lib.rs",
-          "line": 6654,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/lib.rs",
-          "line": 6654,
-          "detail": "mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
           "file": "src/wrappers.rs",
           "line": 149,
           "detail": "unsafe { .. }",
@@ -170557,862 +170648,295 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/wrappers.rs",
-          "line": 660,
+          "line": 667,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/wrappers.rs",
-          "line": 672,
+          "line": 679,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/wrappers.rs",
-          "line": 685,
+          "line": 692,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
           "file": "src/wrappers.rs",
-          "line": 695,
+          "line": 702,
           "detail": "CastFromReadOnly",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
           "file": "src/wrappers.rs",
-          "line": 699,
+          "line": 706,
           "detail": "CastToReadOnly",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
           "file": "src/wrappers.rs",
-          "line": 712,
+          "line": 719,
           "detail": "ReadOnly < T >",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
           "file": "src/wrappers.rs",
-          "line": 716,
+          "line": 723,
           "detail": "T",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/wrappers.rs",
-          "line": 724,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/wrappers.rs",
-          "line": 735,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/wrappers.rs",
           "line": 754,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/wrappers.rs",
+          "line": 765,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/wrappers.rs",
+          "line": 843,
           "detail": "ReadOnly < T >",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
           "file": "src/wrappers.rs",
-          "line": 800,
-          "detail": "ReadOnly < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/wrappers.rs",
-          "line": 828,
-          "detail": "ReadOnly < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/wrappers.rs",
-          "line": 911,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/wrappers.rs",
-          "line": 998,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/wrappers.rs",
-          "line": 1007,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/wrappers.rs",
-          "line": 1017,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/byte_slice.rs",
-          "line": 120,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/byte_slice.rs",
-          "line": 199,
-          "detail": "& [u8]",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/byte_slice.rs",
-          "line": 203,
-          "detail": "& [u8]",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/byte_slice.rs",
-          "line": 207,
-          "detail": "& [u8]",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/byte_slice.rs",
-          "line": 212,
-          "detail": "& [u8]",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/byte_slice.rs",
-          "line": 217,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/byte_slice.rs",
-          "line": 225,
-          "detail": "& 'a [u8]",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/byte_slice.rs",
-          "line": 237,
-          "detail": "& mut [u8]",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/byte_slice.rs",
-          "line": 243,
-          "detail": "& mut [u8]",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/byte_slice.rs",
-          "line": 254,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/byte_slice.rs",
-          "line": 263,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/byte_slice.rs",
-          "line": 293,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/byte_slice.rs",
-          "line": 301,
-          "detail": "& 'a mut [u8]",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/byte_slice.rs",
-          "line": 313,
-          "detail": "& 'a mut [u8]",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/byte_slice.rs",
-          "line": 325,
-          "detail": "cell :: Ref < '_ , [u8] >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/byte_slice.rs",
-          "line": 332,
-          "detail": "cell :: Ref < '_ , [u8] >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/byte_slice.rs",
-          "line": 338,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/byte_slice.rs",
-          "line": 345,
-          "detail": "cell :: RefMut < '_ , [u8] >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/byte_slice.rs",
-          "line": 352,
-          "detail": "cell :: RefMut < '_ , [u8] >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/byte_slice.rs",
-          "line": 358,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/byte_slice.rs",
-          "line": 380,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/byte_slice.rs",
-          "line": 395,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/byte_slice.rs",
-          "line": 419,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/byte_slice.rs",
-          "line": 430,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/util/mod.rs",
-          "line": 36,
-          "detail": "SendSyncPhantomData < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/util/mod.rs",
-          "line": 39,
-          "detail": "SendSyncPhantomData < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/util/mod.rs",
-          "line": 61,
-          "detail": "extern \"Rust\" { 1 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 137,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/util/mod.rs",
-          "line": 276,
-          "detail": "copy_unchecked",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 294,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/util/mod.rs",
-          "line": 299,
-          "detail": "transmute_unchecked",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 333,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/util/mod.rs",
-          "line": 336,
-          "detail": "transmute_ref",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 349,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/util/mod.rs",
-          "line": 353,
-          "detail": "transmute_mut",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 366,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/util/mod.rs",
-          "line": 370,
-          "detail": "new_box",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 415,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 425,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 443,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/util/mod.rs",
-          "line": 443,
-          "detail": "mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 456,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 467,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 542,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 582,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 656,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 670,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 717,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 768,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 784,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/mod.rs",
-          "line": 800,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/util/macros.rs",
-          "line": 840,
-          "detail": "__unsafe",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 121,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 585,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 645,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 695,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 709,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 781,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/util/macro_util.rs",
-          "line": 783,
-          "detail": "mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 799,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 808,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 815,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 864,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 879,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 885,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
           "line": 889,
+          "detail": "ReadOnly < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/wrappers.rs",
+          "line": 917,
+          "detail": "ReadOnly < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/wrappers.rs",
+          "line": 1090,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 924,
+          "file": "src/wrappers.rs",
+          "line": 1177,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/util/macro_util.rs",
-          "line": 957,
+          "file": "src/wrappers.rs",
+          "line": 1186,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/wrappers.rs",
+          "line": 1196,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
-          "file": "src/layout.rs",
-          "line": 768,
-          "detail": "CastFrom < Dst >",
+          "file": "src/pointer/transmute.rs",
+          "line": 153,
+          "detail": "Dst",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
-          "file": "src/layout.rs",
-          "line": 777,
-          "detail": "CastFrom < Dst >",
+          "file": "src/pointer/transmute.rs",
+          "line": 172,
+          "detail": "Dst",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
-          "file": "src/layout.rs",
-          "line": 788,
-          "detail": "CastFrom < Dst >",
+          "file": "src/pointer/transmute.rs",
+          "line": 200,
+          "detail": "Dst",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeBlock",
-          "file": "src/layout.rs",
-          "line": 1040,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/layout.rs",
-          "line": 1091,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/layout.rs",
-          "line": 1662,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/layout.rs",
-          "line": 1668,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/layout.rs",
-          "line": 1734,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/transmute.rs",
           "line": 219,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 244,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 266,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 319,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 382,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 388,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 448,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 604,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 629,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 636,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 641,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 677,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 684,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 696,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 726,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 744,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 763,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 769,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 787,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 794,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 811,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 818,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 823,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 853,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 860,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 872,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/ref.rs",
-          "line": 956,
-          "detail": "cast_for_sized",
+          "detail": "T",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
-          "file": "src/ref.rs",
-          "line": 977,
-          "detail": "CastForSized",
+          "file": "src/pointer/transmute.rs",
+          "line": 223,
+          "detail": "Dst",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
-          "file": "src/ref.rs",
-          "line": 989,
-          "detail": "CastForSized",
+          "file": "src/pointer/transmute.rs",
+          "line": 258,
+          "detail": "ManuallyDrop < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/transmute.rs",
+          "line": 260,
+          "detail": "T",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/transmute.rs",
+          "line": 284,
+          "detail": "Dst",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/transmute.rs",
+          "line": 342,
+          "detail": "Dst",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/transmute.rs",
+          "line": 352,
+          "detail": "Dst",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/transmute.rs",
+          "line": 366,
+          "detail": "Dst",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/transmute.rs",
+          "line": 380,
+          "detail": "Dst",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 1329,
+          "file": "src/pointer/transmute.rs",
+          "line": 397,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/ref.rs",
-          "line": 1353,
+          "file": "src/pointer/transmute.rs",
+          "line": 403,
           "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/pointer/transmute.rs",
+          "line": 411,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/pointer/transmute.rs",
+          "line": 436,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/pointer/transmute.rs",
+          "line": 444,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/pointer/transmute.rs",
+          "line": 458,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/pointer/transmute.rs",
+          "line": 480,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/transmute.rs",
+          "line": 489,
+          "detail": "MaybeUninit < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/invariant.rs",
+          "line": 183,
+          "detail": "Uninit",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/invariant.rs",
+          "line": 217,
+          "detail": "AsInitialized",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/invariant.rs",
+          "line": 228,
+          "detail": "Initialized",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/invariant.rs",
+          "line": 237,
+          "detail": "Safe",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/invariant.rs",
+          "line": 255,
+          "detail": "DT",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/invariant.rs",
+          "line": 257,
+          "detail": "DT",
           "scope": "shipped"
         },
         {
@@ -171616,300 +171140,6 @@
           "file": "src/pointer/inner.rs",
           "line": 736,
           "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/transmute.rs",
-          "line": 153,
-          "detail": "Dst",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/transmute.rs",
-          "line": 172,
-          "detail": "Dst",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/transmute.rs",
-          "line": 200,
-          "detail": "Dst",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/transmute.rs",
-          "line": 219,
-          "detail": "T",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/transmute.rs",
-          "line": 223,
-          "detail": "Dst",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/transmute.rs",
-          "line": 258,
-          "detail": "ManuallyDrop < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/transmute.rs",
-          "line": 260,
-          "detail": "T",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/transmute.rs",
-          "line": 284,
-          "detail": "Dst",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/transmute.rs",
-          "line": 342,
-          "detail": "Dst",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/transmute.rs",
-          "line": 352,
-          "detail": "Dst",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/transmute.rs",
-          "line": 366,
-          "detail": "Dst",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/transmute.rs",
-          "line": 380,
-          "detail": "Dst",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/pointer/transmute.rs",
-          "line": 397,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/pointer/transmute.rs",
-          "line": 403,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/pointer/transmute.rs",
-          "line": 411,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/pointer/transmute.rs",
-          "line": 436,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/pointer/transmute.rs",
-          "line": 444,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/pointer/transmute.rs",
-          "line": 458,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/pointer/transmute.rs",
-          "line": 480,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/transmute.rs",
-          "line": 489,
-          "detail": "MaybeUninit < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 100,
-          "detail": "IdCast",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 108,
-          "detail": "IdCast",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 111,
-          "detail": "IdCast",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 128,
-          "detail": "CastSized",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 137,
-          "detail": "CastSized",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 155,
-          "detail": "CastSizedExact",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 164,
-          "detail": "CastSizedExact",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 168,
-          "detail": "CastSizedExact",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 190,
-          "detail": "CastUnsized",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 218,
-          "detail": "CastUnsized",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 232,
-          "detail": "CastUnsized",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 255,
-          "detail": "Projection < Client , F , VARIANT_ID , FIELD_ID >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 299,
-          "detail": "Projection < Client , F , { crate :: REPR_C_UNION_VARIANT_ID } , FIELD_ID >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 325,
-          "detail": "TransitiveProject < U , TU , UV >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 342,
-          "detail": "TransitiveProject < U , TU , UV >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 355,
-          "detail": "TransitiveProject < U , TU , UV >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 376,
-          "detail": "AsBytesCast",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/pointer/mod.rs",
-          "line": 386,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 394,
-          "detail": "AsBytesCast",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 397,
-          "detail": "AsBytesCast",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 405,
-          "detail": "CastToUnit",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/pointer/mod.rs",
-          "line": 413,
-          "detail": "CastToUnit",
           "scope": "shipped"
         },
         {
@@ -172215,72 +171445,842 @@
         },
         {
           "kind": "UnsafeImpl",
-          "file": "src/pointer/invariant.rs",
-          "line": 183,
-          "detail": "Uninit",
+          "file": "src/pointer/mod.rs",
+          "line": 100,
+          "detail": "IdCast",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
-          "file": "src/pointer/invariant.rs",
-          "line": 217,
-          "detail": "AsInitialized",
+          "file": "src/pointer/mod.rs",
+          "line": 108,
+          "detail": "IdCast",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
-          "file": "src/pointer/invariant.rs",
-          "line": 228,
-          "detail": "Initialized",
+          "file": "src/pointer/mod.rs",
+          "line": 111,
+          "detail": "IdCast",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
-          "file": "src/pointer/invariant.rs",
-          "line": 237,
-          "detail": "Safe",
+          "file": "src/pointer/mod.rs",
+          "line": 128,
+          "detail": "CastSized",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
-          "file": "src/pointer/invariant.rs",
+          "file": "src/pointer/mod.rs",
+          "line": 137,
+          "detail": "CastSized",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 155,
+          "detail": "CastSizedExact",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 164,
+          "detail": "CastSizedExact",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 168,
+          "detail": "CastSizedExact",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 190,
+          "detail": "CastUnsized",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 218,
+          "detail": "CastUnsized",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 232,
+          "detail": "CastUnsized",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
           "line": 255,
-          "detail": "DT",
+          "detail": "Projection < Client , F , VARIANT_ID , FIELD_ID >",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
-          "file": "src/pointer/invariant.rs",
-          "line": 257,
-          "detail": "DT",
+          "file": "src/pointer/mod.rs",
+          "line": 299,
+          "detail": "Projection < Client , F , { crate :: REPR_C_UNION_VARIANT_ID } , FIELD_ID >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 325,
+          "detail": "TransitiveProject < U , TU , UV >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 342,
+          "detail": "TransitiveProject < U , TU , UV >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 355,
+          "detail": "TransitiveProject < U , TU , UV >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 376,
+          "detail": "AsBytesCast",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/error.rs",
-          "line": 367,
+          "file": "src/pointer/mod.rs",
+          "line": 386,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 394,
+          "detail": "AsBytesCast",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 397,
+          "detail": "AsBytesCast",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 405,
+          "detail": "CastToUnit",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/pointer/mod.rs",
+          "line": 413,
+          "detail": "CastToUnit",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
+          "line": 121,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/error.rs",
-          "line": 379,
+          "file": "src/util/macro_util.rs",
+          "line": 585,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeImpl",
-          "file": "src/error.rs",
-          "line": 660,
-          "detail": "crate :: ValidityError < Src , Dst >",
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
+          "line": 645,
+          "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeImpl",
-          "file": "src/error.rs",
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
+          "line": 695,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
+          "line": 709,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
+          "line": 781,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/util/macro_util.rs",
+          "line": 783,
+          "detail": "mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
           "line": 799,
-          "detail": "crate :: CastError < Src , Dst >",
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
+          "line": 808,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
+          "line": 815,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
+          "line": 864,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
+          "line": 879,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
+          "line": 885,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
+          "line": 889,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
+          "line": 924,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/macro_util.rs",
+          "line": 957,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/util/macros.rs",
+          "line": 840,
+          "detail": "__unsafe",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/util/mod.rs",
+          "line": 36,
+          "detail": "SendSyncPhantomData < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/util/mod.rs",
+          "line": 39,
+          "detail": "SendSyncPhantomData < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/util/mod.rs",
+          "line": 61,
+          "detail": "extern \"Rust\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 137,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/util/mod.rs",
+          "line": 276,
+          "detail": "copy_unchecked",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 294,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/util/mod.rs",
+          "line": 299,
+          "detail": "transmute_unchecked",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 333,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/util/mod.rs",
+          "line": 336,
+          "detail": "transmute_ref",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 349,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/util/mod.rs",
+          "line": 353,
+          "detail": "transmute_mut",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 366,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/util/mod.rs",
+          "line": 370,
+          "detail": "new_box",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 415,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 425,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 443,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/util/mod.rs",
+          "line": 443,
+          "detail": "mem::transmute",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 456,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 467,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 542,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 582,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 656,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 670,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 717,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 768,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 784,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/util/mod.rs",
+          "line": 800,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 219,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 244,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 266,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 319,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 382,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 388,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 448,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 604,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 629,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 636,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 641,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 677,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 684,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 696,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 726,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 744,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 763,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 769,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 787,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 794,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 811,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 818,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 823,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 853,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 860,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 872,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/ref.rs",
+          "line": 956,
+          "detail": "cast_for_sized",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/ref.rs",
+          "line": 977,
+          "detail": "CastForSized",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/ref.rs",
+          "line": 989,
+          "detail": "CastForSized",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 1329,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/ref.rs",
+          "line": 1353,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 100,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 166,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 185,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 246,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/split_at.rs",
+          "line": 253,
+          "detail": "[T]",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 311,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 595,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 609,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 800,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 817,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 827,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 835,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 847,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 860,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 876,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 895,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 914,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 931,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 947,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 1034,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 1036,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 1042,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/split_at.rs",
+          "line": 1044,
+          "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
@@ -172292,6 +172292,6 @@
         }
       ]
     },
-    "last_checked": "2026-09-24T11:19:32.217026395+00:00"
+    "last_checked": "2026-09-26T11:00:52.007047002+00:00"
   }
 }

@@ -64,3 +64,5 @@
 {"name":"zerocopy","old_version":"0.8.57","new_version":"0.8.58","checked_at":"2026-09-24T11:19:32.217010411+00:00","worst_severity":"high","added_signals":3,"removed_signals":3,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"cc","old_version":"1.4.7","new_version":"1.5.0","checked_at":"2026-09-25T11:24:34.502875768+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"smallvec","old_version":"1.16.1","new_version":"1.16.2","checked_at":"2026-09-25T11:24:35.462088329+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"cc","old_version":"1.5.0","new_version":"1.5.1","checked_at":"2026-09-26T11:00:34.502788105+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"zerocopy","old_version":"0.8.58","new_version":"0.8.59","checked_at":"2026-09-26T11:00:52.007038296+00:00","worst_severity":null,"added_signals":0,"removed_signals":1,"added_dependencies":[],"removed_dependencies":[]}
