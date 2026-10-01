@@ -11858,12 +11858,12 @@
     "last_checked": "2026-07-31T15:02:54.415572+00:00"
   },
   "lazy_static": {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "report": {
       "name": "lazy_static",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "files_scanned": 3,
-      "lines_scanned": 288,
+      "lines_scanned": 296,
       "dependencies": [
         "spin"
       ],
@@ -11884,7 +11884,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:19.753019+00:00"
+    "last_checked": "2026-10-01T12:41:04.500942298+00:00"
   },
   "libc": {
     "version": "0.2.189",
