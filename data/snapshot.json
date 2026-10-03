@@ -2902,12 +2902,12 @@
     "last_checked": "2026-07-31T15:03:17.593284+00:00"
   },
   "cc": {
-    "version": "1.5.1",
+    "version": "1.6.0",
     "report": {
       "name": "cc",
-      "version": "1.5.1",
-      "files_scanned": 12,
-      "lines_scanned": 7915,
+      "version": "1.6.0",
+      "files_scanned": 14,
+      "lines_scanned": 8642,
       "dependencies": [
         "find-msvc-tools",
         "jobserver",
@@ -2945,35 +2945,35 @@
         {
           "kind": "UnsafeImpl",
           "file": "src/utilities.rs",
-          "line": 115,
+          "line": 125,
           "detail": "OnceLock < T >",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
           "file": "src/utilities.rs",
-          "line": 116,
+          "line": 126,
           "detail": "OnceLock < T >",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/utilities.rs",
-          "line": 127,
+          "line": 137,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "src/utilities.rs",
-          "line": 140,
+          "line": 150,
           "detail": "std::env::var_os",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "src/command_helpers.rs",
-          "line": 48,
+          "line": 55,
           "detail": "std::env::var_os",
           "scope": "shipped"
         },
@@ -3050,125 +3050,118 @@
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 1530,
+          "line": 1618,
           "detail": "fs::File::create",
           "scope": "shipped"
         },
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 3098,
+          "line": 3298,
           "detail": "fs::remove_file",
           "scope": "shipped"
         },
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 3147,
+          "line": 3345,
           "detail": "fs::remove_file",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 3348,
+          "line": 3546,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 3926,
+          "line": 4129,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4017,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "EnvRead",
-          "file": "src/lib.rs",
-          "line": 4370,
-          "detail": "env::var_os",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 4923,
+          "line": 4220,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4943,
+          "line": 5204,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 4945,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/tool.rs",
+          "file": "src/build_env.rs",
           "line": 134,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
+          "file": "src/build_env.rs",
+          "line": 153,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
           "file": "src/tool.rs",
-          "line": 162,
+          "line": 147,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/tool.rs",
+          "line": 175,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "BuildTimeMacro",
           "file": "src/tool.rs",
-          "line": 228,
+          "line": 240,
           "detail": "include_bytes",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/tool.rs",
-          "line": 242,
+          "line": 253,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/tool.rs",
-          "line": 261,
+          "line": 272,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/tool.rs",
-          "line": 413,
+          "line": 426,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/tool.rs",
-          "line": 417,
+          "line": 430,
           "detail": "Command::new",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-09-26T11:00:34.502791371+00:00"
+    "last_checked": "2026-10-03T11:16:48.498699864+00:00"
   },
   "cfg-if": {
     "version": "1.0.5",
@@ -11887,12 +11880,12 @@
     "last_checked": "2026-10-01T12:41:04.500942298+00:00"
   },
   "libc": {
-    "version": "0.2.189",
+    "version": "0.2.190",
     "report": {
       "name": "libc",
-      "version": "0.2.189",
-      "files_scanned": 388,
-      "lines_scanned": 129987,
+      "version": "0.2.190",
+      "files_scanned": 442,
+      "lines_scanned": 133620,
       "dependencies": [
         "rustc-std-workspace-core"
       ],
@@ -11900,162 +11893,218 @@
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 89,
+          "line": 157,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 90,
+          "line": 158,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 91,
+          "line": 159,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 92,
+          "line": 160,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 93,
+          "line": 161,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 104,
+          "line": 175,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 117,
+          "line": 184,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 187,
+          "line": 194,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 190,
+          "line": 233,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 197,
+          "line": 242,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 198,
+          "line": 279,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 243,
+          "line": 282,
+          "detail": "env::var",
+          "scope": "shipped"
+        },
+        {
+          "kind": "EnvRead",
+          "file": "build.rs",
+          "line": 289,
+          "detail": "env::var",
+          "scope": "shipped"
+        },
+        {
+          "kind": "EnvRead",
+          "file": "build.rs",
+          "line": 290,
+          "detail": "env::var",
+          "scope": "shipped"
+        },
+        {
+          "kind": "EnvRead",
+          "file": "build.rs",
+          "line": 370,
           "detail": "env::var_os",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 245,
+          "line": 372,
           "detail": "env::var_os",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "build.rs",
-          "line": 246,
+          "line": 373,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "build.rs",
-          "line": 248,
+          "line": 375,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "build.rs",
-          "line": 256,
+          "line": 383,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "build.rs",
-          "line": 319,
+          "line": 533,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "build.rs",
-          "line": 344,
+          "line": 560,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 366,
+          "line": 582,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 387,
+          "line": 599,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/hermit.rs",
-          "line": 388,
-          "detail": "extern \"C\" { 46 item(s) }",
+          "file": "src/helenos.rs",
+          "line": 46,
+          "detail": "extern \"C\" { 15 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/fuchsia/mod.rs",
+          "line": 133,
+          "detail": "DIR",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/fuchsia/mod.rs",
+          "line": 134,
+          "detail": "DIR",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/types.rs",
-          "line": 121,
+          "file": "src/fuchsia/mod.rs",
+          "line": 3289,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
-          "kind": "Transmute",
-          "file": "src/types.rs",
-          "line": 121,
-          "detail": "mem::transmute",
+          "kind": "UnsafeBlock",
+          "file": "src/fuchsia/mod.rs",
+          "line": 3294,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/fuchsia/mod.rs",
+          "line": 3298,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/fuchsia/mod.rs",
+          "line": 3303,
+          "detail": "extern \"C\" { 0 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/fuchsia/mod.rs",
+          "line": 3311,
+          "detail": "extern \"C\" { 502 item(s) }",
           "scope": "shipped"
         },
         {
@@ -12075,35 +12124,847 @@
         {
           "kind": "Ffi",
           "file": "src/vxworks/mod.rs",
-          "line": 1501,
+          "line": 1527,
           "detail": "extern \"C\" { 108 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/vxworks/mod.rs",
-          "line": 1639,
+          "line": 1665,
           "detail": "extern \"C\" { 93 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/vxworks/mod.rs",
-          "line": 1779,
+          "line": 1809,
           "detail": "extern \"C\" { 169 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
           "file": "src/vxworks/mod.rs",
-          "line": 2440,
+          "line": 2443,
           "detail": "posix_memalign",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/vxworks/mod.rs",
-          "line": 2447,
+          "line": 2450,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/wasi/p2.rs",
+          "line": 128,
+          "detail": "extern \"C\" { 15 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/wasi/mod.rs",
+          "line": 59,
+          "detail": "DIR",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/wasi/mod.rs",
+          "line": 60,
+          "detail": "DIR",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/wasi/mod.rs",
+          "line": 70,
+          "detail": "clockid_t",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/wasi/mod.rs",
+          "line": 71,
+          "detail": "clockid_t",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/wasi/mod.rs",
+          "line": 554,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/wasi/mod.rs",
+          "line": 556,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/wasi/mod.rs",
+          "line": 703,
+          "detail": "extern \"C\" { 329 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/solid/mod.rs",
+          "line": 409,
+          "detail": "extern \"C\" { 298 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 118,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 123,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 128,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 133,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 138,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 143,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 148,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 153,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 160,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 165,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 170,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 181,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 186,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 191,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 196,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 201,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/uclibc/sysdeps/linux/common/bits/siginfo.rs",
+          "line": 206,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/glibc/io/sys/statvfs.rs",
+          "line": 6,
+          "detail": "extern \"C\" { 4 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 141,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 146,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 151,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 156,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 161,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 166,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 171,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 176,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 183,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 188,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 193,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 199,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 204,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 209,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 214,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 219,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 224,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 229,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 234,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 239,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/glibc/sysdeps/unix/linux/bits/types/siginfo_t.rs",
+          "line": 244,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/glibc/signal.rs",
+          "line": 8,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/apple/libpthread/pthread_/stack_np.rs",
+          "line": 7,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/apple/libpthread/pthread_/pthread_spis.rs",
+          "line": 7,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/apple/libpthread/pthread_/introspection.rs",
+          "line": 21,
+          "detail": "extern \"C\" { 3 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/apple/libpthread/pthread_/qos.rs",
+          "line": 8,
+          "detail": "extern \"C\" { 4 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/apple/libpthread/pthread_/spawn.rs",
+          "line": 7,
+          "detail": "extern \"C\" { 2 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/bionic_libc/sys/socket.rs",
+          "line": 29,
+          "detail": "extern \"C\" { 3 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/dlfcn.rs",
+          "line": 21,
+          "detail": "extern \"C\" { 4 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/pthread.rs",
+          "line": 48,
+          "detail": "extern \"C\" { 97 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/semaphore.rs",
+          "line": 6,
+          "detail": "extern \"C\" { 6 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/errno.rs",
+          "line": 142,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/new/qurt/errno.rs",
+          "line": 148,
+          "detail": "errno",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/new/qurt/errno.rs",
+          "line": 152,
+          "detail": "set_errno",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/sys/mman.rs",
+          "line": 39,
+          "detail": "extern \"C\" { 8 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/sys/sched.rs",
+          "line": 20,
+          "detail": "extern \"C\" { 3 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/sys/stat.rs",
+          "line": 33,
+          "detail": "extern \"C\" { 2 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/stdlib.rs",
+          "line": 13,
+          "detail": "extern \"C\" { 29 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/time.rs",
+          "line": 12,
+          "detail": "extern \"C\" { 20 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/unistd.rs",
+          "line": 226,
+          "detail": "extern \"C\" { 26 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mqueue.rs",
+          "line": 24,
+          "detail": "extern \"C\" { 11 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/signal.rs",
+          "line": 100,
+          "detail": "extern \"C\" { 11 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/stdio.rs",
+          "line": 13,
+          "detail": "extern \"C\" { 41 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/fcntl.rs",
+          "line": 48,
+          "detail": "extern \"C\" { 2 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mod.rs",
+          "line": 240,
+          "detail": "extern \"C\" { 4 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mod.rs",
+          "line": 248,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mod.rs",
+          "line": 253,
+          "detail": "extern \"C\" { 3 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mod.rs",
+          "line": 260,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mod.rs",
+          "line": 265,
+          "detail": "extern \"C\" { 22 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/qurt/mod.rs",
+          "line": 291,
+          "detail": "extern \"C\" { 13 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/netbsd/sys/timex.rs",
+          "line": 91,
+          "detail": "extern \"C\" { 2 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/netbsd/utmpx_.rs",
+          "line": 65,
+          "detail": "extern \"C\" { 12 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/netbsd/utmp_.rs",
+          "line": 26,
+          "detail": "extern \"C\" { 4 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/musl/sys/socket.rs",
+          "line": 43,
+          "detail": "extern \"C\" { 2 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 106,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 111,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 116,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 121,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 126,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 131,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 136,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 141,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 146,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 151,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 156,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 161,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 166,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 171,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 176,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 181,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 188,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 193,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 198,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/new/musl/signal.rs",
+          "line": 203,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/common/posix/pthread.rs",
+          "line": 7,
+          "detail": "extern \"C\" { 47 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/common/linux_like/pthread.rs",
+          "line": 3,
+          "detail": "extern \"C\" { 6 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/helenos/fibril_synch.rs",
+          "line": 40,
+          "detail": "extern \"C\" { 17 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/helenos/vfs/vfs.rs",
+          "line": 32,
+          "detail": "extern \"C\" { 6 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/helenos/errno.rs",
+          "line": 5,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/helenos/dirent_mod.rs",
+          "line": 20,
+          "detail": "extern \"C\" { 4 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/helenos/stdlib.rs",
+          "line": 3,
+          "detail": "extern \"C\" { 10 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/helenos/time.rs",
+          "line": 18,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/helenos/fibril.rs",
+          "line": 21,
+          "detail": "extern \"C\" { 7 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/helenos/stdio.rs",
+          "line": 15,
+          "detail": "extern \"C\" { 13 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/helenos/inet/dnsr.rs",
+          "line": 16,
+          "detail": "extern \"C\" { 2 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/helenos/inet/tcp.rs",
+          "line": 29,
+          "detail": "extern \"C\" { 15 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/new/helenos/inet/endpoint.rs",
+          "line": 20,
+          "detail": "extern \"C\" { 2 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/trusty.rs",
+          "line": 50,
+          "detail": "extern \"C\" { 15 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/types.rs",
+          "line": 123,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -12122,52 +12983,38 @@
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeImpl",
-          "file": "src/fuchsia/mod.rs",
-          "line": 88,
-          "detail": "DIR",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/fuchsia/mod.rs",
-          "line": 89,
-          "detail": "DIR",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/fuchsia/mod.rs",
-          "line": 3124,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/fuchsia/mod.rs",
-          "line": 3129,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/fuchsia/mod.rs",
-          "line": 3133,
-          "detail": "unsafe { .. }",
+          "kind": "Ffi",
+          "file": "src/windows/gnu/mod.rs",
+          "line": 28,
+          "detail": "extern \"C\" { 3 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/fuchsia/mod.rs",
-          "line": 3138,
+          "file": "src/windows/msvc/mod.rs",
+          "line": 7,
+          "detail": "extern \"C\" { 3 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/windows/mod.rs",
+          "line": 259,
           "detail": "extern \"C\" { 0 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/fuchsia/mod.rs",
-          "line": 3147,
-          "detail": "extern \"C\" { 502 item(s) }",
+          "file": "src/windows/mod.rs",
+          "line": 294,
+          "detail": "extern \"C\" { 162 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/windows/mod.rs",
+          "line": 595,
+          "detail": "extern \"system\" { 11 item(s) }",
           "scope": "shipped"
         },
         {
@@ -12200,76 +13047,6 @@
         },
         {
           "kind": "Ffi",
-          "file": "src/solid/mod.rs",
-          "line": 407,
-          "detail": "extern \"C\" { 298 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/nto/io_pkt/mod.rs",
-          "line": 145,
-          "detail": "extern \"C\" { 2 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/nto/mod.rs",
-          "line": 2401,
-          "detail": "extern \"C\" { 204 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/nto/mod.rs",
-          "line": 2944,
-          "detail": "atexit",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/nto/mod.rs",
-          "line": 2945,
-          "detail": "extern \"C\" { 2 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/nto/neutrino.rs",
-          "line": 516,
-          "detail": "extern \"C\" { 193 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/nto/io_sock/mod.rs",
-          "line": 93,
-          "detail": "extern \"C\" { 2 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/redox/mod.rs",
-          "line": 1209,
-          "detail": "extern \"C\" { 82 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/newlib/vita/mod.rs",
-          "line": 171,
-          "detail": "extern \"C\" { 17 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/newlib/rtems/mod.rs",
-          "line": 126,
-          "detail": "extern \"C\" { 8 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
           "file": "src/unix/newlib/horizon/mod.rs",
           "line": 229,
           "detail": "extern \"C\" { 12 item(s) }",
@@ -12277,9 +13054,9 @@
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/newlib/mod.rs",
-          "line": 844,
-          "detail": "extern \"C\" { 38 item(s) }",
+          "file": "src/unix/newlib/rtems/mod.rs",
+          "line": 181,
+          "detail": "extern \"C\" { 8 item(s) }",
           "scope": "shipped"
         },
         {
@@ -12291,72 +13068,114 @@
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/bsd/apple/b32/mod.rs",
-          "line": 68,
-          "detail": "extern \"C\" { 1 item(s) }",
+          "file": "src/unix/newlib/mod.rs",
+          "line": 927,
+          "detail": "extern \"C\" { 39 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/bsd/apple/mod.rs",
-          "line": 4400,
-          "detail": "extern \"C\" { 257 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/bsd/apple/mod.rs",
-          "line": 5214,
-          "detail": "mach_task_self",
+          "file": "src/unix/newlib/vita/mod.rs",
+          "line": 171,
+          "detail": "extern \"C\" { 17 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/bsd/apple/mod.rs",
-          "line": 5254,
-          "detail": "extern \"C\" { 3 item(s) }",
+          "file": "src/unix/nuttx/mod.rs",
+          "line": 655,
+          "detail": "extern \"C\" { 20 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/bsd/apple/b64/mod.rs",
-          "line": 61,
-          "detail": "extern \"C\" { 1 item(s) }",
+          "file": "src/unix/hurd/mod.rs",
+          "line": 3726,
+          "detail": "extern \"C\" { 338 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/dragonfly/mod.rs",
-          "line": 1307,
-          "detail": "extern \"C\" { 51 item(s) }",
+          "file": "src/unix/bsd/netbsdlike/openbsd/mod.rs",
+          "line": 1928,
+          "detail": "extern \"C\" { 58 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/dragonfly/mod.rs",
-          "line": 1445,
+          "file": "src/unix/bsd/netbsdlike/openbsd/mod.rs",
+          "line": 2085,
+          "detail": "extern \"C\" { 4 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
+          "line": 1912,
+          "detail": "extern \"C\" { 106 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
+          "line": 2290,
+          "detail": "extern \"C\" { 8 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
+          "line": 2312,
+          "detail": "extern \"C\" { 47 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
+          "line": 2457,
+          "detail": "extern \"C\" { 5 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/mod.rs",
+          "line": 703,
+          "detail": "extern \"C\" { 70 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/netbsdlike/mod.rs",
+          "line": 889,
           "detail": "extern \"C\" { 10 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/dragonfly/mod.rs",
-          "line": 1469,
+          "line": 1309,
+          "detail": "extern \"C\" { 51 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/dragonfly/mod.rs",
+          "line": 1447,
+          "detail": "extern \"C\" { 10 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/dragonfly/mod.rs",
+          "line": 1471,
           "detail": "extern \"C\" { 2 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd15/mod.rs",
-          "line": 367,
-          "detail": "extern \"C\" { 9 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd15/mod.rs",
-          "line": 408,
-          "detail": "extern \"C\" { 1 item(s) }",
+          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd11/mod.rs",
+          "line": 290,
+          "detail": "extern \"C\" { 7 item(s) }",
           "scope": "shipped"
         },
         {
@@ -12382,6 +13201,20 @@
         },
         {
           "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd15/mod.rs",
+          "line": 367,
+          "detail": "extern \"C\" { 9 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd15/mod.rs",
+          "line": 408,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/freebsd14/mod.rs",
           "line": 365,
           "detail": "extern \"C\" { 9 item(s) }",
@@ -12397,561 +13230,246 @@
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 4627,
-          "detail": "extern \"C\" { 167 item(s) }",
+          "line": 4587,
+          "detail": "extern \"C\" { 169 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5093,
+          "line": 5062,
           "detail": "extern \"C\" { 8 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5109,
+          "line": 5078,
           "detail": "extern \"C\" { 15 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5152,
+          "line": 5121,
           "detail": "extern \"C\" { 17 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5196,
+          "line": 5165,
           "detail": "extern \"C\" { 25 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5288,
+          "line": 5257,
           "detail": "extern \"C\" { 5 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5302,
+          "line": 5271,
           "detail": "extern \"C\" { 6 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/bsd/freebsdlike/freebsd/freebsd11/mod.rs",
-          "line": 290,
-          "detail": "extern \"C\" { 7 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/mod.rs",
-          "line": 1464,
+          "line": 1461,
           "detail": "extern \"C\" { 144 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/mod.rs",
-          "line": 1842,
+          "line": 1839,
           "detail": "extern \"C\" { 12 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/mod.rs",
-          "line": 1885,
+          "line": 1882,
           "detail": "extern \"C\" { 4 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/mod.rs",
-          "line": 1910,
+          "line": 1907,
           "detail": "extern \"C\" { 3 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/mod.rs",
-          "line": 1917,
+          "line": 1914,
           "detail": "extern \"C\" { 7 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/bsd/mod.rs",
-          "line": 527,
-          "detail": "extern \"C\" { 91 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
-          "line": 1903,
-          "detail": "extern \"C\" { 105 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
-          "line": 2280,
-          "detail": "extern \"C\" { 8 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
-          "line": 2302,
-          "detail": "extern \"C\" { 47 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/netbsd/mod.rs",
-          "line": 2447,
-          "detail": "extern \"C\" { 5 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/mod.rs",
-          "line": 703,
-          "detail": "extern \"C\" { 70 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/mod.rs",
-          "line": 885,
-          "detail": "extern \"C\" { 10 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/openbsd/mod.rs",
-          "line": 1917,
-          "detail": "extern \"C\" { 57 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/bsd/netbsdlike/openbsd/mod.rs",
-          "line": 2073,
-          "detail": "extern \"C\" { 4 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/haiku/native.rs",
-          "line": 910,
-          "detail": "extern \"C\" { 126 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1289,
-          "detail": "get_cpu_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1294,
-          "detail": "get_area_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1299,
-          "detail": "get_next_area_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1308,
-          "detail": "get_port_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1313,
-          "detail": "get_next_port_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1322,
-          "detail": "get_port_message_info_etc",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1338,
-          "detail": "get_sem_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1343,
-          "detail": "get_next_sem_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1348,
-          "detail": "get_team_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1353,
-          "detail": "get_next_team_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1358,
-          "detail": "get_team_usage_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1363,
-          "detail": "get_thread_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1368,
-          "detail": "get_next_thread_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1378,
-          "detail": "get_image_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/haiku/native.rs",
-          "line": 1383,
-          "detail": "get_next_image_info",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/haiku/mod.rs",
-          "line": 1484,
-          "detail": "extern \"C\" { 173 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/haiku/mod.rs",
-          "line": 1915,
-          "detail": "extern \"C\" { 4 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/haiku/bsd.rs",
-          "line": 64,
-          "detail": "extern \"C\" { 24 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/unix/mod.rs",
-          "line": 46,
-          "detail": "DIR",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/unix/mod.rs",
-          "line": 47,
-          "detail": "DIR",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/mod.rs",
-          "line": 421,
-          "detail": "extern \"C\" { 2 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/mod.rs",
-          "line": 625,
-          "detail": "extern \"C\" { 97 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/mod.rs",
-          "line": 776,
-          "detail": "extern \"C\" { 249 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/mod.rs",
-          "line": 2464,
+          "file": "src/unix/bsd/apple/b32/mod.rs",
+          "line": 71,
           "detail": "extern \"C\" { 1 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/linux_like/linux_l4re_shared.rs",
-          "line": 1690,
-          "detail": "extern \"C\" { 83 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/mod.rs",
-          "line": 1886,
-          "detail": "extern \"C\" { 62 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 6,
-          "detail": "creat64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 11,
-          "detail": "fgetpos64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 16,
-          "detail": "fopen64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 21,
-          "detail": "freopen64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 30,
-          "detail": "fseeko64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 39,
-          "detail": "fsetpos64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 44,
-          "detail": "fstat64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 49,
-          "detail": "fstatat64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 59,
-          "detail": "fstatfs64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "file": "src/unix/bsd/apple/b64/mod.rs",
           "line": 64,
-          "detail": "fstatvfs64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 69,
-          "detail": "ftello64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 74,
-          "detail": "ftruncate64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 79,
-          "detail": "getrlimit64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 84,
-          "detail": "lseek64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 89,
-          "detail": "lstat64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 94,
-          "detail": "mmap64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 117,
-          "detail": "posix_fadvise64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 127,
-          "detail": "posix_fallocate64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 132,
-          "detail": "pread64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 142,
-          "detail": "preadv64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 152,
-          "detail": "pwrite64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 162,
-          "detail": "pwritev64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 172,
-          "detail": "readdir64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 177,
-          "detail": "readdir64_r",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 186,
-          "detail": "setrlimit64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 191,
-          "detail": "stat64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 196,
-          "detail": "statfs64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 201,
-          "detail": "statvfs64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 206,
-          "detail": "tmpfile64",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/linux_like/emscripten/lfs64.rs",
-          "line": 211,
-          "detail": "truncate64",
+          "detail": "extern \"C\" { 1 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/linux_like/emscripten/mod.rs",
-          "line": 1341,
-          "detail": "extern \"C\" { 50 item(s) }",
+          "file": "src/unix/bsd/apple/mod.rs",
+          "line": 4647,
+          "detail": "extern \"C\" { 243 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/bsd/apple/mod.rs",
+          "line": 5453,
+          "detail": "mach_task_self",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/apple/mod.rs",
+          "line": 5549,
+          "detail": "extern \"C\" { 3 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/bsd/mod.rs",
+          "line": 581,
+          "detail": "extern \"C\" { 91 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/l4re/uclibc/mod.rs",
+          "line": 520,
+          "detail": "extern \"C\" { 12 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/android/b32/mod.rs",
+          "line": 208,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/android/b64/mod.rs",
+          "line": 202,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/android/mod.rs",
+          "line": 3532,
+          "detail": "extern \"C\" { 160 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux_l4re_shared.rs",
+          "line": 1683,
+          "detail": "extern \"C\" { 84 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/uclibc/mips/mips32/mod.rs",
+          "line": 654,
+          "detail": "extern \"C\" { 5 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/uclibc/mod.rs",
+          "line": 269,
+          "detail": "extern \"C\" { 20 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b32/x86/mod.rs",
+          "line": 956,
+          "detail": "extern \"C\" { 4 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b32/mod.rs",
+          "line": 378,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/x86_64/not_x32.rs",
+          "line": 373,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/x86_64/mod.rs",
+          "line": 647,
+          "detail": "extern \"C\" { 4 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/aarch64/mod.rs",
+          "line": 858,
+          "detail": "extern \"C\" { 5 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/powerpc64/mod.rs",
+          "line": 905,
+          "detail": "extern \"C\" { 5 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/sparc64/mod.rs",
+          "line": 807,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/s390x.rs",
+          "line": 841,
+          "detail": "extern \"C\" { 5 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/b64/mips64/mod.rs",
+          "line": 793,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/linux_like/linux/gnu/mod.rs",
+          "line": 895,
+          "detail": "extern \"C\" { 97 item(s) }",
           "scope": "shipped"
         },
         {
@@ -13187,13 +13705,6 @@
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/musl/mod.rs",
-          "line": 757,
-          "detail": "extern \"C\" { 37 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
           "file": "src/unix/linux_like/linux/musl/b64/wasm32/wali.rs",
           "line": 6,
           "detail": "extern \"C\" { 142 item(s) }",
@@ -13201,135 +13712,247 @@
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/uclibc/mips/mips32/mod.rs",
-          "line": 664,
-          "detail": "extern \"C\" { 5 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/uclibc/mod.rs",
-          "line": 340,
-          "detail": "extern \"C\" { 20 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b32/mod.rs",
-          "line": 412,
-          "detail": "extern \"C\" { 1 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b32/x86/mod.rs",
-          "line": 1030,
-          "detail": "extern \"C\" { 4 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/mod.rs",
-          "line": 987,
-          "detail": "extern \"C\" { 96 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/s390x.rs",
-          "line": 922,
-          "detail": "extern \"C\" { 5 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/mips64/mod.rs",
-          "line": 879,
-          "detail": "extern \"C\" { 1 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/sparc64/mod.rs",
-          "line": 902,
-          "detail": "extern \"C\" { 1 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/powerpc64/mod.rs",
-          "line": 1002,
-          "detail": "extern \"C\" { 5 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/aarch64/mod.rs",
-          "line": 952,
-          "detail": "extern \"C\" { 5 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/x86_64/mod.rs",
-          "line": 726,
-          "detail": "extern \"C\" { 4 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/linux/gnu/b64/x86_64/not_x32.rs",
-          "line": 393,
-          "detail": "extern \"C\" { 1 item(s) }",
+          "file": "src/unix/linux_like/linux/musl/mod.rs",
+          "line": 693,
+          "detail": "extern \"C\" { 37 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/linux_like/linux/mod.rs",
-          "line": 3497,
-          "detail": "extern \"C\" { 117 item(s) }",
+          "line": 3471,
+          "detail": "extern \"C\" { 119 item(s) }",
           "scope": "shipped"
         },
         {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/android/b32/mod.rs",
-          "line": 223,
-          "detail": "extern \"C\" { 1 item(s) }",
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 6,
+          "detail": "creat64",
           "scope": "shipped"
         },
         {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/android/mod.rs",
-          "line": 3550,
-          "detail": "extern \"C\" { 160 item(s) }",
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 11,
+          "detail": "fgetpos64",
           "scope": "shipped"
         },
         {
-          "kind": "Ffi",
-          "file": "src/unix/linux_like/android/b64/mod.rs",
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 16,
+          "detail": "fopen64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 21,
+          "detail": "freopen64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 30,
+          "detail": "fseeko64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 39,
+          "detail": "fsetpos64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 44,
+          "detail": "fstat64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 49,
+          "detail": "fstatat64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 59,
+          "detail": "fstatfs64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 64,
+          "detail": "fstatvfs64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 69,
+          "detail": "ftello64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 74,
+          "detail": "ftruncate64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 79,
+          "detail": "getrlimit64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 84,
+          "detail": "lseek64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 89,
+          "detail": "lstat64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 94,
+          "detail": "mmap64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 117,
+          "detail": "posix_fadvise64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 127,
+          "detail": "posix_fallocate64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 132,
+          "detail": "pread64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 142,
+          "detail": "preadv64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 152,
+          "detail": "pwrite64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 162,
+          "detail": "pwritev64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 172,
+          "detail": "readdir64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 177,
+          "detail": "readdir64_r",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 186,
+          "detail": "setrlimit64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 191,
+          "detail": "stat64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
           "line": 196,
-          "detail": "extern \"C\" { 1 item(s) }",
+          "detail": "statfs64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 201,
+          "detail": "statvfs64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 206,
+          "detail": "tmpfile64",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/linux_like/emscripten/lfs64.rs",
+          "line": 211,
+          "detail": "truncate64",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/linux_like/l4re/uclibc/mod.rs",
-          "line": 510,
-          "detail": "extern \"C\" { 12 item(s) }",
+          "file": "src/unix/linux_like/emscripten/mod.rs",
+          "line": 1376,
+          "detail": "extern \"C\" { 55 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/hurd/mod.rs",
-          "line": 3495,
-          "detail": "extern \"C\" { 350 item(s) }",
+          "file": "src/unix/linux_like/mod.rs",
+          "line": 1899,
+          "detail": "extern \"C\" { 62 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/cygwin/mod.rs",
-          "line": 1840,
-          "detail": "extern \"C\" { 239 item(s) }",
+          "file": "src/unix/solarish/solaris.rs",
+          "line": 161,
+          "detail": "extern \"C\" { 10 item(s) }",
           "scope": "shipped"
         },
         {
@@ -13383,48 +14006,6 @@
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/solarish/mod.rs",
-          "line": 2326,
-          "detail": "extern \"C\" { 251 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/solarish/mod.rs",
-          "line": 2966,
-          "detail": "extern \"C\" { 2 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/unix/solarish/mod.rs",
-          "line": 2977,
-          "detail": "extern \"C\" { 12 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/solarish/mod.rs",
-          "line": 3019,
-          "detail": "major",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/solarish/mod.rs",
-          "line": 3023,
-          "detail": "minor",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/unix/solarish/mod.rs",
-          "line": 3027,
-          "detail": "makedev",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
           "file": "src/unix/solarish/illumos.rs",
           "line": 229,
           "detail": "extern \"C\" { 25 item(s) }",
@@ -13432,387 +14013,317 @@
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/solarish/solaris.rs",
-          "line": 161,
-          "detail": "extern \"C\" { 10 item(s) }",
+          "file": "src/unix/solarish/mod.rs",
+          "line": 2331,
+          "detail": "extern \"C\" { 251 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/unix/nuttx/mod.rs",
-          "line": 655,
-          "detail": "extern \"C\" { 20 item(s) }",
+          "file": "src/unix/solarish/mod.rs",
+          "line": 2971,
+          "detail": "extern \"C\" { 2 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/solarish/mod.rs",
+          "line": 2982,
+          "detail": "extern \"C\" { 12 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/solarish/mod.rs",
+          "line": 3024,
+          "detail": "major",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/solarish/mod.rs",
+          "line": 3028,
+          "detail": "minor",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/solarish/mod.rs",
+          "line": 3032,
+          "detail": "makedev",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/redox/mod.rs",
+          "line": 1335,
+          "detail": "extern \"C\" { 85 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/cygwin/mod.rs",
+          "line": 1852,
+          "detail": "extern \"C\" { 239 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/aix/powerpc64.rs",
-          "line": 425,
+          "line": 437,
           "detail": "extern \"C\" { 1 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/aix/mod.rs",
-          "line": 2587,
+          "line": 2598,
           "detail": "extern \"C\" { 2 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/aix/mod.rs",
-          "line": 2593,
+          "line": 2604,
           "detail": "extern \"C\" { 65 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/aix/mod.rs",
-          "line": 2845,
+          "line": 2829,
           "detail": "extern \"C\" { 3 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/aix/mod.rs",
-          "line": 2858,
+          "line": 2842,
           "detail": "extern \"C\" { 268 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/apple/libpthread/pthread_/qos.rs",
-          "line": 8,
-          "detail": "extern \"C\" { 4 item(s) }",
+          "file": "src/unix/nto/neutrino.rs",
+          "line": 636,
+          "detail": "extern \"C\" { 193 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/apple/libpthread/pthread_/pthread_spis.rs",
-          "line": 7,
-          "detail": "extern \"C\" { 1 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/apple/libpthread/pthread_/spawn.rs",
-          "line": 7,
+          "file": "src/unix/nto/io_pkt/mod.rs",
+          "line": 145,
           "detail": "extern \"C\" { 2 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/apple/libpthread/pthread_/stack_np.rs",
-          "line": 7,
-          "detail": "extern \"C\" { 1 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/apple/libpthread/pthread_/introspection.rs",
-          "line": 21,
-          "detail": "extern \"C\" { 3 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/musl/sys/socket.rs",
-          "line": 37,
+          "file": "src/unix/nto/io_sock/mod.rs",
+          "line": 111,
           "detail": "extern \"C\" { 2 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/qurt/semaphore.rs",
-          "line": 6,
-          "detail": "extern \"C\" { 6 item(s) }",
+          "file": "src/unix/nto/mod.rs",
+          "line": 2476,
+          "detail": "extern \"C\" { 204 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/nto/mod.rs",
+          "line": 3021,
+          "detail": "atexit",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/qurt/pthread.rs",
-          "line": 48,
+          "file": "src/unix/nto/mod.rs",
+          "line": 3022,
+          "detail": "extern \"C\" { 2 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/unix/mod.rs",
+          "line": 46,
+          "detail": "DIR",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/unix/mod.rs",
+          "line": 47,
+          "detail": "DIR",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/mod.rs",
+          "line": 479,
+          "detail": "extern \"C\" { 2 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/mod.rs",
+          "line": 682,
           "detail": "extern \"C\" { 97 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/qurt/signal.rs",
-          "line": 100,
-          "detail": "extern \"C\" { 11 item(s) }",
+          "file": "src/unix/mod.rs",
+          "line": 840,
+          "detail": "extern \"C\" { 250 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/qurt/errno.rs",
-          "line": 142,
+          "file": "src/unix/mod.rs",
+          "line": 2513,
           "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/unix/haiku/native.rs",
+          "line": 910,
+          "detail": "extern \"C\" { 126 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
-          "file": "src/new/qurt/errno.rs",
-          "line": 148,
-          "detail": "errno",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1289,
+          "detail": "get_cpu_info",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
-          "file": "src/new/qurt/errno.rs",
-          "line": 152,
-          "detail": "set_errno",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1294,
+          "detail": "get_area_info",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1299,
+          "detail": "get_next_area_info",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1308,
+          "detail": "get_port_info",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1313,
+          "detail": "get_next_port_info",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1322,
+          "detail": "get_port_message_info_etc",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1338,
+          "detail": "get_sem_info",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1343,
+          "detail": "get_next_sem_info",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1348,
+          "detail": "get_team_info",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1353,
+          "detail": "get_next_team_info",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1358,
+          "detail": "get_team_usage_info",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1363,
+          "detail": "get_thread_info",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1368,
+          "detail": "get_next_thread_info",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1378,
+          "detail": "get_image_info",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/unix/haiku/native.rs",
+          "line": 1383,
+          "detail": "get_next_image_info",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/qurt/time.rs",
-          "line": 12,
-          "detail": "extern \"C\" { 20 item(s) }",
+          "file": "src/unix/haiku/bsd.rs",
+          "line": 64,
+          "detail": "extern \"C\" { 24 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/qurt/mqueue.rs",
-          "line": 24,
-          "detail": "extern \"C\" { 11 item(s) }",
+          "file": "src/unix/haiku/mod.rs",
+          "line": 1501,
+          "detail": "extern \"C\" { 173 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/qurt/dlfcn.rs",
-          "line": 21,
+          "file": "src/unix/haiku/mod.rs",
+          "line": 1932,
           "detail": "extern \"C\" { 4 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
-          "file": "src/new/qurt/mod.rs",
-          "line": 240,
-          "detail": "extern \"C\" { 4 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/mod.rs",
-          "line": 248,
-          "detail": "extern \"C\" { 1 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/mod.rs",
-          "line": 253,
-          "detail": "extern \"C\" { 3 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/mod.rs",
-          "line": 260,
-          "detail": "extern \"C\" { 1 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/mod.rs",
-          "line": 265,
-          "detail": "extern \"C\" { 22 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/mod.rs",
-          "line": 291,
-          "detail": "extern \"C\" { 13 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/sys/mman.rs",
-          "line": 39,
-          "detail": "extern \"C\" { 8 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/sys/sched.rs",
-          "line": 20,
-          "detail": "extern \"C\" { 3 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/sys/stat.rs",
-          "line": 33,
-          "detail": "extern \"C\" { 2 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/stdlib.rs",
-          "line": 13,
-          "detail": "extern \"C\" { 29 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/stdio.rs",
-          "line": 13,
-          "detail": "extern \"C\" { 41 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/fcntl.rs",
-          "line": 48,
-          "detail": "extern \"C\" { 2 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/qurt/unistd.rs",
-          "line": 226,
-          "detail": "extern \"C\" { 26 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/bionic_libc/sys/socket.rs",
-          "line": 29,
-          "detail": "extern \"C\" { 3 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/netbsd/utmp_.rs",
-          "line": 26,
-          "detail": "extern \"C\" { 4 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/netbsd/utmpx_.rs",
-          "line": 65,
-          "detail": "extern \"C\" { 12 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/netbsd/sys/timex.rs",
-          "line": 91,
-          "detail": "extern \"C\" { 2 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/common/posix/pthread.rs",
-          "line": 7,
-          "detail": "extern \"C\" { 47 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/new/common/linux_like/pthread.rs",
-          "line": 3,
-          "detail": "extern \"C\" { 5 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/trusty.rs",
-          "line": 50,
-          "detail": "extern \"C\" { 15 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/wasi/mod.rs",
-          "line": 55,
-          "detail": "DIR",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/wasi/mod.rs",
-          "line": 56,
-          "detail": "DIR",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/wasi/mod.rs",
-          "line": 66,
-          "detail": "clockid_t",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/wasi/mod.rs",
-          "line": 67,
-          "detail": "clockid_t",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/wasi/mod.rs",
-          "line": 549,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/wasi/mod.rs",
-          "line": 551,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/wasi/mod.rs",
-          "line": 643,
-          "detail": "extern \"C\" { 291 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/wasi/p2.rs",
-          "line": 132,
-          "detail": "extern \"C\" { 15 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/windows/msvc/mod.rs",
-          "line": 7,
-          "detail": "extern \"C\" { 3 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/windows/gnu/mod.rs",
-          "line": 28,
-          "detail": "extern \"C\" { 3 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/windows/mod.rs",
-          "line": 257,
-          "detail": "extern \"C\" { 0 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/windows/mod.rs",
-          "line": 292,
-          "detail": "extern \"C\" { 162 item(s) }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/windows/mod.rs",
-          "line": 593,
-          "detail": "extern \"system\" { 11 item(s) }",
+          "file": "src/hermit.rs",
+          "line": 388,
+          "detail": "extern \"C\" { 46 item(s) }",
           "scope": "shipped"
         },
         {
@@ -13824,7 +14335,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-31T15:02:45.852696+00:00"
+    "last_checked": "2026-10-03T11:16:40.268003289+00:00"
   },
   "linux-raw-sys": {
     "version": "0.12.1",
