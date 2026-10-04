@@ -4,7 +4,21 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-10-03T11:17:11.205032260+00:00</updated>
+  <updated>2026-10-04T11:57:04.767860091+00:00</updated>
+  <entry>
+    <title>tokio: 1.53.1 -&gt; 1.53.2 (none severity)</title>
+    <link href="https://crates.io/crates/tokio"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#tokio-1.53.2-2026-10-04T11:56:49.084443108+00:00</id>
+    <updated>2026-10-04T11:56:49.084443108+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>mio: 1.2.3 -&gt; 1.2.4 (none severity)</title>
+    <link href="https://crates.io/crates/mio"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#mio-1.2.4-2026-10-04T11:56:43.358708080+00:00</id>
+    <updated>2026-10-04T11:56:43.358708080+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>cc: 1.5.1 -&gt; 1.6.0 (none severity)</title>
     <link href="https://crates.io/crates/cc"/>
@@ -339,20 +353,6 @@
     <link href="https://crates.io/crates/futures-sink"/>
     <id>https://poglesbyg.github.io/capscan-leaderboard/#futures-sink-0.3.34-2026-08-12T07:28:26.746257194+00:00</id>
     <updated>2026-08-12T07:28:26.746257194+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>futures-task: 0.3.33 -&gt; 0.3.34 (none severity)</title>
-    <link href="https://crates.io/crates/futures-task"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#futures-task-0.3.34-2026-08-12T07:28:24.143668008+00:00</id>
-    <updated>2026-08-12T07:28:24.143668008+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>futures-util: 0.3.33 -&gt; 0.3.34 (none severity)</title>
-    <link href="https://crates.io/crates/futures-util"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#futures-util-0.3.34-2026-08-12T07:28:23.878540377+00:00</id>
-    <updated>2026-08-12T07:28:23.878540377+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>

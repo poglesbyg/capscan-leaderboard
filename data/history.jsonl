@@ -69,3 +69,5 @@
 {"name":"lazy_static","old_version":"1.5.0","new_version":"1.5.1","checked_at":"2026-10-01T12:41:04.500939684+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"libc","old_version":"0.2.189","new_version":"0.2.190","checked_at":"2026-10-03T11:16:40.267992994+00:00","worst_severity":"high","added_signals":11,"removed_signals":14,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"cc","old_version":"1.5.1","new_version":"1.6.0","checked_at":"2026-10-03T11:16:48.498695838+00:00","worst_severity":null,"added_signals":0,"removed_signals":1,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"mio","old_version":"1.2.3","new_version":"1.2.4","checked_at":"2026-10-04T11:56:43.358708080+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"tokio","old_version":"1.53.1","new_version":"1.53.2","checked_at":"2026-10-04T11:56:49.084443108+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
