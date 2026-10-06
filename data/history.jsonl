@@ -71,3 +71,4 @@
 {"name":"cc","old_version":"1.5.1","new_version":"1.6.0","checked_at":"2026-10-03T11:16:48.498695838+00:00","worst_severity":null,"added_signals":0,"removed_signals":1,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"mio","old_version":"1.2.3","new_version":"1.2.4","checked_at":"2026-10-04T11:56:43.358708080+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"tokio","old_version":"1.53.1","new_version":"1.53.2","checked_at":"2026-10-04T11:56:49.084443108+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"zerocopy","old_version":"0.8.59","new_version":"0.8.60","checked_at":"2026-10-06T12:58:37.689315493+00:00","worst_severity":"high","added_signals":1,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
