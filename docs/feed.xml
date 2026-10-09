@@ -4,7 +4,14 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-10-08T13:01:16.967713409+00:00</updated>
+  <updated>2026-10-09T12:48:03.382880978+00:00</updated>
+  <entry>
+    <title>toml: 1.1.7+spec-1.1.0 -&gt; 1.1.8+spec-1.1.0 (none severity)</title>
+    <link href="https://crates.io/crates/toml"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#toml-1.1.8+spec-1.1.0-2026-10-09T12:47:55.682670809+00:00</id>
+    <updated>2026-10-09T12:47:55.682670809+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>zerocopy: 0.8.61 -&gt; 0.8.62 (none severity)</title>
     <link href="https://crates.io/crates/zerocopy"/>
@@ -346,13 +353,6 @@
     <link href="https://crates.io/crates/h2"/>
     <id>https://poglesbyg.github.io/capscan-leaderboard/#h2-0.4.18-2026-08-21T06:51:44.849553300+00:00</id>
     <updated>2026-08-21T06:51:44.849553300+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>either: 1.17.0 -&gt; 1.18.0 (none severity)</title>
-    <link href="https://crates.io/crates/either"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#either-1.18.0-2026-08-21T06:51:35.521189276+00:00</id>
-    <updated>2026-08-21T06:51:35.521189276+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>

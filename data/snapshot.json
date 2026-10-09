@@ -106897,12 +106897,12 @@
     "last_checked": "2026-10-04T11:56:49.084472243+00:00"
   },
   "toml": {
-    "version": "1.1.7+spec-1.1.0",
+    "version": "1.1.8+spec-1.1.0",
     "report": {
       "name": "toml",
-      "version": "1.1.7+spec-1.1.0",
+      "version": "1.1.8+spec-1.1.0",
       "files_scanned": 36,
-      "lines_scanned": 9124,
+      "lines_scanned": 9139,
       "dependencies": [
         "anstream",
         "anstyle",
@@ -106925,7 +106925,7 @@
         }
       ]
     },
-    "last_checked": "2026-10-08T13:01:11.009724462+00:00"
+    "last_checked": "2026-10-09T12:47:55.682675315+00:00"
   },
   "tracing": {
     "version": "0.1.44",
