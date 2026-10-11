@@ -96055,12 +96055,12 @@
     "last_checked": "2026-07-31T15:02:54.942948+00:00"
   },
   "serde_json": {
-    "version": "1.0.151",
+    "version": "1.0.152",
     "report": {
       "name": "serde_json",
-      "version": "1.0.151",
+      "version": "1.0.152",
       "files_scanned": 38,
-      "lines_scanned": 18359,
+      "lines_scanned": 18358,
       "dependencies": [
         "indexmap",
         "itoa",
@@ -96085,6 +96085,27 @@
         },
         {
           "kind": "UnsafeBlock",
+          "file": "src/read.rs",
+          "line": 473,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/read.rs",
+          "line": 714,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/read.rs",
+          "line": 991,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
           "file": "src/raw.rs",
           "line": 123,
           "detail": "unsafe { .. }",
@@ -96123,13 +96144,6 @@
           "file": "src/raw.rs",
           "line": 131,
           "detail": "mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/value/mod.rs",
-          "line": 231,
-          "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
@@ -96169,22 +96183,8 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/read.rs",
-          "line": 473,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/read.rs",
-          "line": 714,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/read.rs",
-          "line": 991,
+          "file": "src/value/mod.rs",
+          "line": 231,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -96197,7 +96197,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-31T15:02:56.509902+00:00"
+    "last_checked": "2026-10-11T12:18:59.979944589+00:00"
   },
   "sha2": {
     "version": "0.11.0",

@@ -82,3 +82,4 @@
 {"name":"syn","old_version":"3.0.6","new_version":"3.0.7","checked_at":"2026-10-10T12:05:35.397941046+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"cc","old_version":"1.6.0","new_version":"1.7.0","checked_at":"2026-10-10T12:05:43.264115342+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"smallvec","old_version":"1.16.2","new_version":"1.16.3","checked_at":"2026-10-10T12:05:44.141253598+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"serde_json","old_version":"1.0.151","new_version":"1.0.152","checked_at":"2026-10-11T12:18:59.979941264+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
