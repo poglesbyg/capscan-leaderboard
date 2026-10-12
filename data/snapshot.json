@@ -2902,12 +2902,12 @@
     "last_checked": "2026-07-31T15:03:17.593284+00:00"
   },
   "cc": {
-    "version": "1.7.0",
+    "version": "1.8.0",
     "report": {
       "name": "cc",
-      "version": "1.7.0",
-      "files_scanned": 14,
-      "lines_scanned": 9334,
+      "version": "1.8.0",
+      "files_scanned": 17,
+      "lines_scanned": 9690,
       "dependencies": [
         "find-msvc-tools",
         "jobserver",
@@ -2917,56 +2917,56 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/utilities.rs",
-          "line": 83,
+          "line": 86,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/utilities.rs",
-          "line": 92,
+          "line": 95,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/utilities.rs",
-          "line": 94,
+          "line": 97,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/utilities.rs",
-          "line": 100,
+          "line": 103,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
           "file": "src/utilities.rs",
-          "line": 134,
+          "line": 137,
           "detail": "OnceLock < T >",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
           "file": "src/utilities.rs",
-          "line": 135,
+          "line": 138,
           "detail": "OnceLock < T >",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/utilities.rs",
-          "line": 146,
+          "line": 149,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "src/utilities.rs",
-          "line": 159,
+          "line": 162,
           "detail": "std::env::var_os",
           "scope": "shipped"
         },
@@ -3007,8 +3007,50 @@
         },
         {
           "kind": "UnsafeBlock",
+          "file": "src/parallel/reactor/unix.rs",
+          "line": 55,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/reactor/unix.rs",
+          "line": 64,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/reactor/unix.rs",
+          "line": 89,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
           "file": "src/parallel/job_token.rs",
           "line": 41,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/parallel/job_token.rs",
+          "line": 127,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/parallel/job_token.rs",
+          "line": 136,
+          "detail": "OpenOptions::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/job_token.rs",
+          "line": 143,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -3050,49 +3092,49 @@
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 1683,
+          "line": 1758,
           "detail": "fs::File::create",
           "scope": "shipped"
         },
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 3447,
+          "line": 3530,
           "detail": "fs::remove_file",
           "scope": "shipped"
         },
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 3494,
+          "line": 3577,
           "detail": "fs::remove_file",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 3698,
+          "line": 3781,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4330,
+          "line": 4424,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4401,
+          "line": 4495,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 5401,
+          "line": 5514,
           "detail": "Command::new",
           "scope": "shipped"
         },
@@ -3175,7 +3217,7 @@
         }
       ]
     },
-    "last_checked": "2026-10-10T12:05:43.264120622+00:00"
+    "last_checked": "2026-10-12T14:45:13.484279429+00:00"
   },
   "cfg-if": {
     "version": "1.0.5",
@@ -96055,13 +96097,14 @@
     "last_checked": "2026-07-31T15:02:54.942948+00:00"
   },
   "serde_json": {
-    "version": "1.0.152",
+    "version": "1.0.154",
     "report": {
       "name": "serde_json",
-      "version": "1.0.152",
+      "version": "1.0.154",
       "files_scanned": 38,
-      "lines_scanned": 18358,
+      "lines_scanned": 18417,
       "dependencies": [
+        "foldhash",
         "indexmap",
         "itoa",
         "memchr",
@@ -96086,21 +96129,21 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/read.rs",
-          "line": 473,
+          "line": 500,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/read.rs",
-          "line": 714,
+          "line": 749,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/read.rs",
-          "line": 991,
+          "line": 1042,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -96197,7 +96240,7 @@
         }
       ]
     },
-    "last_checked": "2026-10-11T12:18:59.979944589+00:00"
+    "last_checked": "2026-10-12T14:45:12.192350221+00:00"
   },
   "sha2": {
     "version": "0.11.0",
@@ -98557,12 +98600,12 @@
     "last_checked": "2026-07-31T15:03:13.384272+00:00"
   },
   "syn": {
-    "version": "3.0.7",
+    "version": "3.0.8",
     "report": {
       "name": "syn",
-      "version": "3.0.7",
+      "version": "3.0.8",
       "files_scanned": 55,
-      "lines_scanned": 51763,
+      "lines_scanned": 51767,
       "dependencies": [
         "proc-macro2",
         "quote",
@@ -98823,7 +98866,7 @@
         }
       ]
     },
-    "last_checked": "2026-10-10T12:05:35.397945594+00:00"
+    "last_checked": "2026-10-12T14:45:05.140139832+00:00"
   },
   "tempfile": {
     "version": "3.27.0",
@@ -107213,31 +107256,31 @@
     "last_checked": "2026-07-31T15:03:34.678454+00:00"
   },
   "unicode-ident": {
-    "version": "1.0.26",
+    "version": "1.0.27",
     "report": {
       "name": "unicode-ident",
-      "version": "1.0.26",
+      "version": "1.0.27",
       "files_scanned": 2,
-      "lines_scanned": 957,
+      "lines_scanned": 976,
       "dependencies": [],
       "signals": [
         {
           "kind": "UnsafeBlock",
           "file": "src/lib.rs",
-          "line": 270,
+          "line": 278,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/lib.rs",
-          "line": 283,
+          "line": 291,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-09-17T11:13:06.973388371+00:00"
+    "last_checked": "2026-10-12T14:45:10.542076449+00:00"
   },
   "unicode-width": {
     "version": "0.2.2",

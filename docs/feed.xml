@@ -4,7 +4,35 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-10-11T12:19:20.374582506+00:00</updated>
+  <updated>2026-10-12T14:45:29.422227096+00:00</updated>
+  <entry>
+    <title>cc: 1.7.0 -&gt; 1.8.0 (none severity)</title>
+    <link href="https://crates.io/crates/cc"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#cc-1.8.0-2026-10-12T14:45:13.484273997+00:00</id>
+    <updated>2026-10-12T14:45:13.484273997+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>serde_json: 1.0.152 -&gt; 1.0.154 (medium severity)</title>
+    <link href="https://crates.io/crates/serde_json"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#serde_json-1.0.154-2026-10-12T14:45:12.192343914+00:00</id>
+    <updated>2026-10-12T14:45:12.192343914+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: medium. New dependencies: foldhash.</summary>
+  </entry>
+  <entry>
+    <title>unicode-ident: 1.0.26 -&gt; 1.0.27 (none severity)</title>
+    <link href="https://crates.io/crates/unicode-ident"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#unicode-ident-1.0.27-2026-10-12T14:45:10.542071873+00:00</id>
+    <updated>2026-10-12T14:45:10.542071873+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>syn: 3.0.7 -&gt; 3.0.8 (none severity)</title>
+    <link href="https://crates.io/crates/syn"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#syn-3.0.8-2026-10-12T14:45:05.140135008+00:00</id>
+    <updated>2026-10-12T14:45:05.140135008+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>serde_json: 1.0.151 -&gt; 1.0.152 (none severity)</title>
     <link href="https://crates.io/crates/serde_json"/>
@@ -325,34 +353,6 @@
     <link href="https://crates.io/crates/smallvec"/>
     <id>https://poglesbyg.github.io/capscan-leaderboard/#smallvec-1.16.0-2026-09-02T10:52:31.319308761+00:00</id>
     <updated>2026-09-02T10:52:31.319308761+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>indexmap: 2.14.0 -&gt; 2.14.1 (none severity)</title>
-    <link href="https://crates.io/crates/indexmap"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#indexmap-2.14.1-2026-08-29T12:27:55.616792903+00:00</id>
-    <updated>2026-08-29T12:27:55.616792903+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>cpufeatures: 0.3.0 -&gt; 0.3.1 (none severity)</title>
-    <link href="https://crates.io/crates/cpufeatures"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#cpufeatures-0.3.1-2026-08-28T18:20:03.335346188+00:00</id>
-    <updated>2026-08-28T18:20:03.335346188+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>hyper: 1.11.0 -&gt; 1.11.1 (none severity)</title>
-    <link href="https://crates.io/crates/hyper"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#hyper-1.11.1-2026-08-28T18:19:58.160428027+00:00</id>
-    <updated>2026-08-28T18:19:58.160428027+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>h2: 0.4.18 -&gt; 0.4.19 (none severity)</title>
-    <link href="https://crates.io/crates/h2"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#h2-0.4.19-2026-08-25T06:52:20.036328918+00:00</id>
-    <updated>2026-08-25T06:52:20.036328918+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>
