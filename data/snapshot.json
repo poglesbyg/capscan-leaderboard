@@ -96243,57 +96243,99 @@
     "last_checked": "2026-10-12T14:45:12.192350221+00:00"
   },
   "sha2": {
-    "version": "0.11.0",
+    "version": "0.11.1",
     "report": {
       "name": "sha2",
-      "version": "0.11.0",
-      "files_scanned": 27,
-      "lines_scanned": 3151,
+      "version": "0.11.1",
+      "files_scanned": 25,
+      "lines_scanned": 2971,
       "dependencies": [
         "cfg-if",
         "digest"
       ],
       "signals": [
         {
-          "kind": "UnsafeFn",
-          "file": "src/sha512/x86_avx2.rs",
-          "line": 17,
-          "detail": "compress",
+          "kind": "UnsafeBlock",
+          "file": "src/sha256/x86_sha.rs",
+          "line": 52,
+          "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeFn",
-          "file": "src/sha512/x86_avx2.rs",
-          "line": 46,
-          "detail": "sha512_compress_x86_64_avx",
+          "kind": "UnsafeBlock",
+          "file": "src/sha256/x86_sha.rs",
+          "line": 61,
+          "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeFn",
-          "file": "src/sha512/x86_avx2.rs",
-          "line": 59,
-          "detail": "load_data_avx",
+          "kind": "UnsafeBlock",
+          "file": "src/sha256/x86_sha.rs",
+          "line": 68,
+          "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeFn",
-          "file": "src/sha512/x86_avx2.rs",
-          "line": 81,
-          "detail": "load_data_avx2",
+          "kind": "UnsafeBlock",
+          "file": "src/sha256/riscv_zknh/unroll.rs",
+          "line": 97,
+          "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeFn",
-          "file": "src/sha512/x86_avx2.rs",
-          "line": 114,
-          "detail": "rounds_0_63_avx",
+          "kind": "UnsafeBlock",
+          "file": "src/sha256/riscv_zknh/unroll.rs",
+          "line": 108,
+          "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeFn",
-          "file": "src/sha512/x86_avx2.rs",
-          "line": 135,
-          "detail": "rounds_0_63_avx2",
+          "kind": "UnsafeBlock",
+          "file": "src/sha256/loongarch64_asm.rs",
+          "line": 89,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sha256/wasm32_simd128.rs",
+          "line": 186,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sha256/soft/unroll.rs",
+          "line": 39,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sha256/aarch64_sha2.rs",
+          "line": 90,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sha256/aarch64_sha2.rs",
+          "line": 98,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sha256/aarch64_sha2.rs",
+          "line": 108,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sha256/aarch64_sha2.rs",
+          "line": 115,
+          "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
@@ -96312,6 +96354,55 @@
         },
         {
           "kind": "UnsafeBlock",
+          "file": "src/sha512/x86_avx2.rs",
+          "line": 341,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sha512/aarch64_sha3.rs",
+          "line": 169,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sha512/aarch64_sha3.rs",
+          "line": 177,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sha512/aarch64_sha3.rs",
+          "line": 187,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sha512/aarch64_sha3.rs",
+          "line": 196,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sha512/riscv_zknh/unroll.rs",
+          "line": 95,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sha512/riscv_zknh/unroll.rs",
+          "line": 107,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
           "file": "src/sha512/loongarch64_asm.rs",
           "line": 88,
           "detail": "unsafe { .. }",
@@ -96320,29 +96411,8 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/sha512/wasm32_simd128.rs",
-          "line": 18,
+          "line": 170,
           "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sha512/wasm32_simd128.rs",
-          "line": 28,
-          "detail": "load_data",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sha512/wasm32_simd128.rs",
-          "line": 47,
-          "detail": "rounds_0_63",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sha512/wasm32_simd128.rs",
-          "line": 134,
-          "detail": "sha512_update_x",
           "scope": "shipped"
         },
         {
@@ -96353,190 +96423,15 @@
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeFn",
-          "file": "src/sha512/aarch64_sha3.rs",
-          "line": 10,
-          "detail": "compress",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha512/riscv_zknh/utils.rs",
-          "line": 16,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha512/riscv_zknh/utils.rs",
-          "line": 32,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha512/riscv_zknh/utils.rs",
-          "line": 49,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha512/riscv_zknh/utils.rs",
-          "line": 61,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha512/riscv_zknh/utils.rs",
-          "line": 67,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha512/riscv_zknh/utils.rs",
-          "line": 99,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha512/riscv_zknh/utils.rs",
-          "line": 110,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha512/riscv_zknh/utils.rs",
-          "line": 116,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha512/riscv_zknh/utils.rs",
-          "line": 137,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha512/riscv_zknh/utils.rs",
-          "line": 149,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
           "kind": "BuildTimeMacro",
           "file": "src/lib.rs",
           "line": 2,
           "detail": "include_str",
           "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha256/loongarch64_asm.rs",
-          "line": 89,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sha256/x86_sha.rs",
-          "line": 13,
-          "detail": "schedule",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sha256/x86_sha.rs",
-          "line": 44,
-          "detail": "compress",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha256/wasm32_simd128.rs",
-          "line": 20,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sha256/wasm32_simd128.rs",
-          "line": 30,
-          "detail": "load_data",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sha256/wasm32_simd128.rs",
-          "line": 49,
-          "detail": "rounds_0_47",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sha256/wasm32_simd128.rs",
-          "line": 140,
-          "detail": "sha256_update_x",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sha256/aarch64_sha2.rs",
-          "line": 12,
-          "detail": "compress",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha256/soft/unroll.rs",
-          "line": 39,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha256/riscv_zknh/utils.rs",
-          "line": 18,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha256/riscv_zknh/utils.rs",
-          "line": 49,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha256/riscv_zknh/utils.rs",
-          "line": 61,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha256/riscv_zknh/utils.rs",
-          "line": 67,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sha256/riscv_zknh/utils.rs",
-          "line": 87,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:28.273928+00:00"
+    "last_checked": "2026-10-13T13:47:36.565914073+00:00"
   },
   "slab": {
     "version": "0.4.12",
@@ -98600,12 +98495,12 @@
     "last_checked": "2026-07-31T15:03:13.384272+00:00"
   },
   "syn": {
-    "version": "3.0.8",
+    "version": "3.0.9",
     "report": {
       "name": "syn",
-      "version": "3.0.8",
+      "version": "3.0.9",
       "files_scanned": 55,
-      "lines_scanned": 51767,
+      "lines_scanned": 51787,
       "dependencies": [
         "proc-macro2",
         "quote",
@@ -98866,7 +98761,7 @@
         }
       ]
     },
-    "last_checked": "2026-10-12T14:45:05.140139832+00:00"
+    "last_checked": "2026-10-13T13:47:14.216104366+00:00"
   },
   "tempfile": {
     "version": "3.27.0",

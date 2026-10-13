@@ -4,7 +4,21 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-10-12T14:45:29.422227096+00:00</updated>
+  <updated>2026-10-13T13:47:45.396873367+00:00</updated>
+  <entry>
+    <title>sha2: 0.11.0 -&gt; 0.11.1 (none severity)</title>
+    <link href="https://crates.io/crates/sha2"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#sha2-0.11.1-2026-10-13T13:47:36.565908114+00:00</id>
+    <updated>2026-10-13T13:47:36.565908114+00:00</updated>
+    <summary>+0 / -12 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>syn: 3.0.8 -&gt; 3.0.9 (none severity)</title>
+    <link href="https://crates.io/crates/syn"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#syn-3.0.9-2026-10-13T13:47:14.216099198+00:00</id>
+    <updated>2026-10-13T13:47:14.216099198+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>cc: 1.7.0 -&gt; 1.8.0 (none severity)</title>
     <link href="https://crates.io/crates/cc"/>
@@ -339,20 +353,6 @@
     <link href="https://crates.io/crates/toml"/>
     <id>https://poglesbyg.github.io/capscan-leaderboard/#toml-1.1.5+spec-1.1.0-2026-09-03T10:52:08.203946265+00:00</id>
     <updated>2026-09-03T10:52:08.203946265+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>mio: 1.2.2 -&gt; 1.2.3 (none severity)</title>
-    <link href="https://crates.io/crates/mio"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#mio-1.2.3-2026-09-03T10:52:00.538745391+00:00</id>
-    <updated>2026-09-03T10:52:00.538745391+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>smallvec: 1.15.2 -&gt; 1.16.0 (none severity)</title>
-    <link href="https://crates.io/crates/smallvec"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#smallvec-1.16.0-2026-09-02T10:52:31.319308761+00:00</id>
-    <updated>2026-09-02T10:52:31.319308761+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>
