@@ -4,7 +4,28 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-10-13T13:47:45.396873367+00:00</updated>
+  <updated>2026-10-14T11:25:00.518778881+00:00</updated>
+  <entry>
+    <title>zerocopy: 0.8.62 -&gt; 0.8.63 (none severity)</title>
+    <link href="https://crates.io/crates/zerocopy"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#zerocopy-0.8.63-2026-10-14T11:24:56.582988033+00:00</id>
+    <updated>2026-10-14T11:24:56.582988033+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>rustls: 0.23.45 -&gt; 0.23.46 (none severity)</title>
+    <link href="https://crates.io/crates/rustls"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#rustls-0.23.46-2026-10-14T11:24:51.569994513+00:00</id>
+    <updated>2026-10-14T11:24:51.569994513+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>tokio: 1.53.2 -&gt; 1.53.3 (none severity)</title>
+    <link href="https://crates.io/crates/tokio"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#tokio-1.53.3-2026-10-14T11:24:49.088169891+00:00</id>
+    <updated>2026-10-14T11:24:49.088169891+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>sha2: 0.11.0 -&gt; 0.11.1 (none severity)</title>
     <link href="https://crates.io/crates/sha2"/>
@@ -332,27 +353,6 @@
     <link href="https://crates.io/crates/indexmap"/>
     <id>https://poglesbyg.github.io/capscan-leaderboard/#indexmap-2.14.2-2026-09-05T10:09:49.167296635+00:00</id>
     <updated>2026-09-05T10:09:49.167296635+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>syn: 3.0.4 -&gt; 3.0.5 (none severity)</title>
-    <link href="https://crates.io/crates/syn"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#syn-3.0.5-2026-09-05T10:09:46.339481582+00:00</id>
-    <updated>2026-09-05T10:09:46.339481582+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>cc: 1.4.4 -&gt; 1.4.5 (none severity)</title>
-    <link href="https://crates.io/crates/cc"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#cc-1.4.5-2026-09-04T10:51:49.632076075+00:00</id>
-    <updated>2026-09-04T10:51:49.632076075+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>toml: 1.1.4+spec-1.1.0 -&gt; 1.1.5+spec-1.1.0 (none severity)</title>
-    <link href="https://crates.io/crates/toml"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#toml-1.1.5+spec-1.1.0-2026-09-03T10:52:08.203946265+00:00</id>
-    <updated>2026-09-03T10:52:08.203946265+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>

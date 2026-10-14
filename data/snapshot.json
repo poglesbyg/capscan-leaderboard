@@ -94678,12 +94678,12 @@
     "last_checked": "2026-09-17T11:13:12.001519881+00:00"
   },
   "rustls": {
-    "version": "0.23.45",
+    "version": "0.23.46",
     "report": {
       "name": "rustls",
-      "version": "0.23.45",
+      "version": "0.23.46",
       "files_scanned": 108,
-      "lines_scanned": 48228,
+      "lines_scanned": 49221,
       "dependencies": [
         "aws-lc-rs",
         "brotli",
@@ -94700,398 +94700,6 @@
         "zlib-rs"
       ],
       "signals": [
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/client/test.rs",
-          "line": 478,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/client/test.rs",
-          "line": 708,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 548,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 558,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 567,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 601,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 611,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 620,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 654,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 664,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 673,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 710,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 719,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 744,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 754,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 763,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 829,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 848,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 867,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 886,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 905,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 924,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 943,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 954,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 965,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 976,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 987,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/aws_lc_rs/sign.rs",
-          "line": 997,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 445,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 455,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 464,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 498,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 508,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 517,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 550,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 559,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 584,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 594,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 603,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 669,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 688,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 707,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 726,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 745,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 764,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 775,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 786,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 797,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/ring/sign.rs",
-          "line": 807,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/tls12.rs",
-          "line": 102,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/tls12.rs",
-          "line": 120,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/crypto/tls12.rs",
-          "line": 138,
-          "detail": "include_bytes",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/key_log_file.rs",
-          "line": 30,
-          "detail": "OpenOptions::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "EnvRead",
-          "file": "src/key_log_file.rs",
-          "line": 94,
-          "detail": "var_os",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/key_log_file.rs",
-          "line": 183,
-          "detail": "fs::remove_file",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/key_log_file.rs",
-          "line": 193,
-          "detail": "fs::remove_file",
-          "scope": "shipped"
-        },
         {
           "kind": "BuildTimeMacro",
           "file": "src/webpki/server_verifier.rs",
@@ -95159,6 +94767,13 @@
           "kind": "BuildTimeMacro",
           "file": "src/webpki/client_verifier.rs",
           "line": 555,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/server/test.rs",
+          "line": 520,
           "detail": "include_bytes",
           "scope": "shipped"
         },
@@ -95367,22 +94982,400 @@
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/server/test.rs",
-          "line": 398,
+          "file": "src/crypto/ring/sign.rs",
+          "line": 445,
           "detail": "include_bytes",
           "scope": "shipped"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/msgs/handshake_test.rs",
-          "line": 738,
+          "file": "src/crypto/ring/sign.rs",
+          "line": 455,
           "detail": "include_bytes",
           "scope": "shipped"
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/msgs/mod.rs",
-          "line": 62,
+          "file": "src/crypto/ring/sign.rs",
+          "line": 464,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 498,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 508,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 517,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 550,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 559,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 584,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 594,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 603,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 669,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 688,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 707,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 726,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 745,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 764,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 775,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 786,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 797,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/ring/sign.rs",
+          "line": 807,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 548,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 558,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 567,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 601,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 611,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 620,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 654,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 664,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 673,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 710,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 719,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 744,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 754,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 763,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 829,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 848,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 867,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 886,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 905,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 924,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 943,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 954,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 965,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 976,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 987,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/aws_lc_rs/sign.rs",
+          "line": 997,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/tls12.rs",
+          "line": 102,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/tls12.rs",
+          "line": 120,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/crypto/tls12.rs",
+          "line": 138,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/client/test.rs",
+          "line": 536,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/client/test.rs",
+          "line": 766,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/key_log_file.rs",
+          "line": 30,
+          "detail": "OpenOptions::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "EnvRead",
+          "file": "src/key_log_file.rs",
+          "line": 94,
+          "detail": "var_os",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/key_log_file.rs",
+          "line": 183,
+          "detail": "fs::remove_file",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/key_log_file.rs",
+          "line": 193,
+          "detail": "fs::remove_file",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/msgs/deframer/handshake.rs",
+          "line": 482,
           "detail": "include_bytes",
           "scope": "shipped"
         },
@@ -95423,8 +95416,15 @@
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/msgs/deframer/handshake.rs",
-          "line": 482,
+          "file": "src/msgs/handshake_test.rs",
+          "line": 738,
+          "detail": "include_bytes",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/msgs/mod.rs",
+          "line": 62,
           "detail": "include_bytes",
           "scope": "shipped"
         },
@@ -95437,7 +95437,7 @@
         }
       ]
     },
-    "last_checked": "2026-09-15T11:20:17.242382954+00:00"
+    "last_checked": "2026-10-14T11:24:51.570003881+00:00"
   },
   "ryu": {
     "version": "1.0.23",
@@ -100817,12 +100817,12 @@
     "last_checked": "2026-08-01T08:24:22.290875548+00:00"
   },
   "tokio": {
-    "version": "1.53.2",
+    "version": "1.53.3",
     "report": {
       "name": "tokio",
-      "version": "1.53.2",
-      "files_scanned": 377,
-      "lines_scanned": 105361,
+      "version": "1.53.3",
+      "files_scanned": 378,
+      "lines_scanned": 105733,
       "dependencies": [
         "bytes",
         "mio",
@@ -101156,7 +101156,42 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/io/async_fd.rs",
-          "line": 935,
+          "line": 241,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/io/async_fd.rs",
+          "line": 912,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/io/async_fd.rs",
+          "line": 924,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/io/async_fd.rs",
+          "line": 936,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/io/async_fd.rs",
+          "line": 951,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/io/async_fd.rs",
+          "line": 966,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -101170,7 +101205,7 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/io/uring/write.rs",
-          "line": 52,
+          "line": 58,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -101191,14 +101226,14 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/io/uring/read.rs",
-          "line": 71,
+          "line": 73,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/io/uring/read.rs",
-          "line": 113,
+          "line": 119,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -101212,21 +101247,21 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/io/uring/statx.rs",
-          "line": 96,
+          "line": 100,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/io/uring/statx.rs",
-          "line": 136,
+          "line": 140,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/io/uring/rename.rs",
-          "line": 50,
+          "line": 54,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -101240,7 +101275,7 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/io/uring/open.rs",
-          "line": 56,
+          "line": 60,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -101520,7 +101555,7 @@
         {
           "kind": "FilesystemWrite",
           "file": "src/fs/write.rs",
-          "line": 98,
+          "line": 104,
           "detail": "std::fs::write",
           "scope": "shipped"
         },
@@ -101590,7 +101625,7 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/fs/file.rs",
-          "line": 1095,
+          "line": 1102,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -101688,14 +101723,14 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/loom/std/atomic_usize.rs",
-          "line": 44,
+          "line": 58,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/loom/std/atomic_usize.rs",
-          "line": 51,
+          "line": 65,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -101744,7 +101779,7 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/runtime/driver/op.rs",
-          "line": 178,
+          "line": 182,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -101786,28 +101821,56 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/runtime/io/driver/uring.rs",
-          "line": 92,
+          "line": 105,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/runtime/io/driver/uring.rs",
-          "line": 167,
+          "line": 183,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/runtime/io/driver/uring.rs",
-          "line": 284,
+          "line": 301,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/runtime/io/driver/uring.rs",
-          "line": 322,
+          "line": 347,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/runtime/io/driver/uring/tests.rs",
+          "line": 37,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/runtime/io/driver/uring/tests.rs",
+          "line": 39,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/runtime/io/driver/uring/tests.rs",
+          "line": 48,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/runtime/io/driver/uring/tests.rs",
+          "line": 69,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -101926,14 +101989,14 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/runtime/io/driver.rs",
-          "line": 216,
+          "line": 217,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/runtime/io/driver.rs",
-          "line": 290,
+          "line": 291,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -105153,70 +105216,70 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/sync/batch_semaphore.rs",
-          "line": 261,
+          "line": 271,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/sync/batch_semaphore.rs",
-          "line": 340,
+          "line": 361,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/sync/batch_semaphore.rs",
-          "line": 346,
+          "line": 367,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/sync/batch_semaphore.rs",
-          "line": 535,
+          "line": 556,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/sync/batch_semaphore.rs",
-          "line": 547,
+          "line": 568,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/sync/batch_semaphore.rs",
-          "line": 719,
+          "line": 740,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/sync/batch_semaphore.rs",
-          "line": 753,
+          "line": 774,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
           "file": "src/sync/batch_semaphore.rs",
-          "line": 767,
+          "line": 788,
           "detail": "Acquire < '_ >",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeImpl",
           "file": "src/sync/batch_semaphore.rs",
-          "line": 813,
+          "line": 834,
           "detail": "Waiter",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/sync/batch_semaphore.rs",
-          "line": 829,
+          "line": 850,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -106846,7 +106909,7 @@
         }
       ]
     },
-    "last_checked": "2026-10-04T11:56:49.084472243+00:00"
+    "last_checked": "2026-10-14T11:24:49.088250703+00:00"
   },
   "toml": {
     "version": "1.1.8+spec-1.1.0",
@@ -170293,12 +170356,12 @@
     "last_checked": "2026-07-31T15:03:37.492069+00:00"
   },
   "zerocopy": {
-    "version": "0.8.62",
+    "version": "0.8.63",
     "report": {
       "name": "zerocopy",
-      "version": "0.8.62",
+      "version": "0.8.63",
       "files_scanned": 21,
-      "lines_scanned": 33459,
+      "lines_scanned": 33461,
       "dependencies": [
         "zerocopy-derive"
       ],
@@ -170306,14 +170369,14 @@
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 234,
+          "line": 236,
           "detail": "env::var_os",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "build.rs",
-          "line": 236,
+          "line": 238,
           "detail": "Command::new",
           "scope": "shipped"
         },
@@ -172825,6 +172888,6 @@
         }
       ]
     },
-    "last_checked": "2026-10-08T13:01:13.387076608+00:00"
+    "last_checked": "2026-10-14T11:24:56.583006297+00:00"
   }
 }
