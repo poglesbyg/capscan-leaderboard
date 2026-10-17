@@ -11936,12 +11936,12 @@
     "last_checked": "2026-10-01T12:41:04.500942298+00:00"
   },
   "libc": {
-    "version": "0.2.190",
+    "version": "0.2.191",
     "report": {
       "name": "libc",
-      "version": "0.2.190",
-      "files_scanned": 442,
-      "lines_scanned": 133620,
+      "version": "0.2.191",
+      "files_scanned": 443,
+      "lines_scanned": 133736,
       "dependencies": [
         "rustc-std-workspace-core"
       ],
@@ -11949,42 +11949,35 @@
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 157,
+          "line": 166,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 158,
+          "line": 167,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 159,
+          "line": 168,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 160,
+          "line": 169,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 161,
-          "detail": "env::var",
-          "scope": "shipped"
-        },
-        {
-          "kind": "EnvRead",
-          "file": "build.rs",
-          "line": 175,
+          "line": 170,
           "detail": "env::var",
           "scope": "shipped"
         },
@@ -11998,112 +11991,119 @@
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 194,
+          "line": 193,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 233,
+          "line": 203,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 242,
+          "line": 255,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 279,
+          "line": 264,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 282,
+          "line": 301,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 289,
+          "line": 304,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 290,
+          "line": 311,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 370,
+          "line": 312,
+          "detail": "env::var",
+          "scope": "shipped"
+        },
+        {
+          "kind": "EnvRead",
+          "file": "build.rs",
+          "line": 392,
           "detail": "env::var_os",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 372,
+          "line": 394,
           "detail": "env::var_os",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "build.rs",
-          "line": 373,
+          "line": 395,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "build.rs",
-          "line": 375,
+          "line": 397,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "build.rs",
-          "line": 383,
+          "line": 405,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "build.rs",
-          "line": 533,
+          "line": 558,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "build.rs",
-          "line": 560,
+          "line": 585,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 582,
+          "line": 607,
           "detail": "env::var",
           "scope": "shipped"
         },
         {
           "kind": "EnvRead",
           "file": "build.rs",
-          "line": 599,
+          "line": 624,
           "detail": "env::var",
           "scope": "shipped"
         },
@@ -12265,7 +12265,7 @@
           "kind": "Ffi",
           "file": "src/wasi/mod.rs",
           "line": 703,
-          "detail": "extern \"C\" { 329 item(s) }",
+          "detail": "extern \"C\" { 331 item(s) }",
           "scope": "shipped"
         },
         {
@@ -12678,7 +12678,7 @@
           "kind": "Ffi",
           "file": "src/new/qurt/unistd.rs",
           "line": 226,
-          "detail": "extern \"C\" { 26 item(s) }",
+          "detail": "extern \"C\" { 27 item(s) }",
           "scope": "shipped"
         },
         {
@@ -13139,14 +13139,14 @@
         {
           "kind": "Ffi",
           "file": "src/unix/nuttx/mod.rs",
-          "line": 655,
+          "line": 656,
           "detail": "extern \"C\" { 20 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/hurd/mod.rs",
-          "line": 3726,
+          "line": 3732,
           "detail": "extern \"C\" { 338 item(s) }",
           "scope": "shipped"
         },
@@ -13286,49 +13286,49 @@
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 4587,
+          "line": 4590,
           "detail": "extern \"C\" { 169 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5062,
+          "line": 5065,
           "detail": "extern \"C\" { 8 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5078,
+          "line": 5081,
           "detail": "extern \"C\" { 15 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5121,
+          "line": 5124,
           "detail": "extern \"C\" { 17 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5165,
+          "line": 5168,
           "detail": "extern \"C\" { 25 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5257,
+          "line": 5260,
           "detail": "extern \"C\" { 5 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/freebsdlike/freebsd/mod.rs",
-          "line": 5271,
+          "line": 5274,
           "detail": "extern \"C\" { 6 item(s) }",
           "scope": "shipped"
         },
@@ -13384,21 +13384,21 @@
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/apple/mod.rs",
-          "line": 4647,
+          "line": 4652,
           "detail": "extern \"C\" { 243 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
           "file": "src/unix/bsd/apple/mod.rs",
-          "line": 5453,
+          "line": 5450,
           "detail": "mach_task_self",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/bsd/apple/mod.rs",
-          "line": 5549,
+          "line": 5545,
           "detail": "extern \"C\" { 3 item(s) }",
           "scope": "shipped"
         },
@@ -13433,7 +13433,7 @@
         {
           "kind": "Ffi",
           "file": "src/unix/linux_like/android/mod.rs",
-          "line": 3532,
+          "line": 3530,
           "detail": "extern \"C\" { 160 item(s) }",
           "scope": "shipped"
         },
@@ -13993,7 +13993,7 @@
         {
           "kind": "Ffi",
           "file": "src/unix/linux_like/emscripten/mod.rs",
-          "line": 1376,
+          "line": 1395,
           "detail": "extern \"C\" { 55 item(s) }",
           "scope": "shipped"
         },
@@ -14364,14 +14364,14 @@
         {
           "kind": "Ffi",
           "file": "src/unix/haiku/mod.rs",
-          "line": 1501,
+          "line": 1517,
           "detail": "extern \"C\" { 173 item(s) }",
           "scope": "shipped"
         },
         {
           "kind": "Ffi",
           "file": "src/unix/haiku/mod.rs",
-          "line": 1932,
+          "line": 1948,
           "detail": "extern \"C\" { 4 item(s) }",
           "scope": "shipped"
         },
@@ -14391,7 +14391,7 @@
         }
       ]
     },
-    "last_checked": "2026-10-03T11:16:40.268003289+00:00"
+    "last_checked": "2026-10-17T10:18:44.756127519+00:00"
   },
   "linux-raw-sys": {
     "version": "0.12.1",

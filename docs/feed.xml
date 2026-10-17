@@ -4,7 +4,14 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-10-14T11:25:00.518778881+00:00</updated>
+  <updated>2026-10-17T10:19:09.132854232+00:00</updated>
+  <entry>
+    <title>libc: 0.2.190 -&gt; 0.2.191 (high severity)</title>
+    <link href="https://crates.io/crates/libc"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#libc-0.2.191-2026-10-17T10:18:44.756116593+00:00</id>
+    <updated>2026-10-17T10:18:44.756116593+00:00</updated>
+    <summary>+2 / -2 signal(s). Worst new severity: high.</summary>
+  </entry>
   <entry>
     <title>zerocopy: 0.8.62 -&gt; 0.8.63 (none severity)</title>
     <link href="https://crates.io/crates/zerocopy"/>
@@ -346,13 +353,6 @@
     <link href="https://crates.io/crates/crossbeam-utils"/>
     <id>https://poglesbyg.github.io/capscan-leaderboard/#crossbeam-utils-0.8.23-2026-09-06T10:30:41.942521164+00:00</id>
     <updated>2026-09-06T10:30:41.942521164+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>indexmap: 2.14.1 -&gt; 2.14.2 (none severity)</title>
-    <link href="https://crates.io/crates/indexmap"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#indexmap-2.14.2-2026-09-05T10:09:49.167296635+00:00</id>
-    <updated>2026-09-05T10:09:49.167296635+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>
