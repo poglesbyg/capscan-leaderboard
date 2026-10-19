@@ -93,3 +93,4 @@
 {"name":"rustls","old_version":"0.23.45","new_version":"0.23.46","checked_at":"2026-10-14T11:24:51.569994513+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"zerocopy","old_version":"0.8.62","new_version":"0.8.63","checked_at":"2026-10-14T11:24:56.582988033+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"libc","old_version":"0.2.190","new_version":"0.2.191","checked_at":"2026-10-17T10:18:44.756116593+00:00","worst_severity":"high","added_signals":2,"removed_signals":2,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"cc","old_version":"1.8.0","new_version":"1.9.0","checked_at":"2026-10-19T12:30:16.237361008+00:00","worst_severity":"high","added_signals":1,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
