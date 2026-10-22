@@ -4,7 +4,14 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-10-21T11:22:36.604956849+00:00</updated>
+  <updated>2026-10-22T11:21:56.691198926+00:00</updated>
+  <entry>
+    <title>tokio: 1.54.0 -&gt; 1.54.1 (none severity)</title>
+    <link href="https://crates.io/crates/tokio"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#tokio-1.54.1-2026-10-22T11:21:52.306384583+00:00</id>
+    <updated>2026-10-22T11:21:52.306384583+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>lock_api: 0.4.14 -&gt; 0.5.0 (high severity)</title>
     <link href="https://crates.io/crates/lock_api"/>
@@ -346,13 +353,6 @@
     <link href="https://crates.io/crates/cc"/>
     <id>https://poglesbyg.github.io/capscan-leaderboard/#cc-1.4.6-2026-09-13T11:18:15.326034493+00:00</id>
     <updated>2026-09-13T11:18:15.326034493+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>smallvec: 1.16.0 -&gt; 1.16.1 (none severity)</title>
-    <link href="https://crates.io/crates/smallvec"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#smallvec-1.16.1-2026-09-12T10:18:01.163088802+00:00</id>
-    <updated>2026-09-12T10:18:01.163088802+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>

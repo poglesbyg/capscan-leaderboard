@@ -98,3 +98,4 @@
 {"name":"parking_lot_core","old_version":"0.9.12","new_version":"0.10.0","checked_at":"2026-10-21T11:22:26.892388218+00:00","worst_severity":"high","added_signals":1,"removed_signals":3,"added_dependencies":[],"removed_dependencies":["cfg-if"]}
 {"name":"parking_lot","old_version":"0.12.5","new_version":"0.13.0","checked_at":"2026-10-21T11:22:27.431789854+00:00","worst_severity":"high","added_signals":4,"removed_signals":3,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"lock_api","old_version":"0.4.14","new_version":"0.5.0","checked_at":"2026-10-21T11:22:30.303655626+00:00","worst_severity":"high","added_signals":2,"removed_signals":3,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"tokio","old_version":"1.54.0","new_version":"1.54.1","checked_at":"2026-10-22T11:21:52.306384583+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
