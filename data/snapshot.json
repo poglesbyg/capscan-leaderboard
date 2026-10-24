@@ -97981,10 +97981,10 @@
     "last_checked": "2026-07-31T15:03:27.290462+00:00"
   },
   "smallvec": {
-    "version": "1.16.3",
+    "version": "1.16.4",
     "report": {
       "name": "smallvec",
-      "version": "1.16.3",
+      "version": "1.16.4",
       "files_scanned": 4,
       "lines_scanned": 4149,
       "dependencies": [
@@ -97995,13 +97995,6 @@
         "unty"
       ],
       "signals": [
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/tests.rs",
-          "line": 1066,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
         {
           "kind": "UnsafeFn",
           "file": "src/lib.rs",
@@ -98463,10 +98456,17 @@
           "line": 2843,
           "detail": "core::mem::transmute",
           "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/tests.rs",
+          "line": 1066,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-10-10T12:05:44.141261172+00:00"
+    "last_checked": "2026-10-24T10:30:32.304942190+00:00"
   },
   "socket2": {
     "version": "0.6.5",
