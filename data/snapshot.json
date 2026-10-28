@@ -108976,19 +108976,19 @@
     "last_checked": "2026-10-12T14:45:10.542076449+00:00"
   },
   "unicode-width": {
-    "version": "0.2.2",
+    "version": "0.2.3",
     "report": {
       "name": "unicode-width",
-      "version": "0.2.2",
-      "files_scanned": 2,
-      "lines_scanned": 23128,
+      "version": "0.2.3",
+      "files_scanned": 10,
+      "lines_scanned": 23234,
       "dependencies": [
         "core",
         "std"
       ],
       "signals": []
     },
-    "last_checked": "2026-07-31T15:03:40.727745+00:00"
+    "last_checked": "2026-10-28T12:20:25.163183506+00:00"
   },
   "url": {
     "version": "2.5.8",

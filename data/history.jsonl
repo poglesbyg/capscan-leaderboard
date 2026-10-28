@@ -102,3 +102,4 @@
 {"name":"cc","old_version":"1.9.0","new_version":"1.10.0","checked_at":"2026-10-23T11:12:13.775791274+00:00","worst_severity":"medium","added_signals":1,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"smallvec","old_version":"1.16.3","new_version":"1.16.4","checked_at":"2026-10-24T10:30:32.304936301+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"rustix","old_version":"1.1.5","new_version":"1.1.6","checked_at":"2026-10-27T11:46:56.468978967+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"unicode-width","old_version":"0.2.2","new_version":"0.2.3","checked_at":"2026-10-28T12:20:25.163180170+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}

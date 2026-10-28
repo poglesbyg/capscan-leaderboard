@@ -4,7 +4,14 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-10-27T11:47:09.250234547+00:00</updated>
+  <updated>2026-10-28T12:20:25.630897025+00:00</updated>
+  <entry>
+    <title>unicode-width: 0.2.2 -&gt; 0.2.3 (none severity)</title>
+    <link href="https://crates.io/crates/unicode-width"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#unicode-width-0.2.3-2026-10-28T12:20:25.163180170+00:00</id>
+    <updated>2026-10-28T12:20:25.163180170+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>rustix: 1.1.5 -&gt; 1.1.6 (none severity)</title>
     <link href="https://crates.io/crates/rustix"/>
@@ -346,13 +353,6 @@
     <link href="https://crates.io/crates/syn"/>
     <id>https://poglesbyg.github.io/capscan-leaderboard/#syn-3.0.6-2026-09-17T11:13:01.219763580+00:00</id>
     <updated>2026-09-17T11:13:01.219763580+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>clap_lex: 1.1.0 -&gt; 1.1.1 (none severity)</title>
-    <link href="https://crates.io/crates/clap_lex"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#clap_lex-1.1.1-2026-09-15T11:20:23.140320991+00:00</id>
-    <updated>2026-09-15T11:20:23.140320991+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>
