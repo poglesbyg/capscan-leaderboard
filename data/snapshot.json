@@ -79358,12 +79358,12 @@
     "last_checked": "2026-10-21T11:22:30.303674157+00:00"
   },
   "log": {
-    "version": "0.4.34",
+    "version": "0.4.35",
     "report": {
       "name": "log",
-      "version": "0.4.34",
+      "version": "0.4.35",
       "files_scanned": 9,
-      "lines_scanned": 5754,
+      "lines_scanned": 5753,
       "dependencies": [
         "serde_core",
         "sval",
@@ -79374,55 +79374,55 @@
         {
           "kind": "UnsafeImpl",
           "file": "src/lib.rs",
-          "line": 451,
+          "line": 450,
           "detail": "AtomicUsize",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
           "file": "src/lib.rs",
-          "line": 1390,
+          "line": 1389,
           "detail": "set_max_level_racy",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/lib.rs",
-          "line": 1438,
+          "line": 1437,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "Transmute",
           "file": "src/lib.rs",
-          "line": 1438,
+          "line": 1437,
           "detail": "mem::transmute",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/lib.rs",
-          "line": 1529,
+          "line": 1528,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
           "file": "src/lib.rs",
-          "line": 1545,
+          "line": 1544,
           "detail": "set_logger_racy",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/lib.rs",
-          "line": 1629,
+          "line": 1628,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-08-23T06:43:39.907325796+00:00"
+    "last_checked": "2026-10-31T11:51:42.759878989+00:00"
   },
   "memchr": {
     "version": "2.8.3",
