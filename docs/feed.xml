@@ -4,7 +4,14 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-11-02T15:01:52.719818354+00:00</updated>
+  <updated>2026-11-04T13:56:40.363483066+00:00</updated>
+  <entry>
+    <title>toml: 1.1.8+spec-1.1.0 -&gt; 1.2.0+spec-1.1.0 (none severity)</title>
+    <link href="https://crates.io/crates/toml"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#toml-1.2.0+spec-1.1.0-2026-11-04T13:56:37.812768443+00:00</id>
+    <updated>2026-11-04T13:56:37.812768443+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>cc: 1.10.0 -&gt; 1.11.0 (none severity)</title>
     <link href="https://crates.io/crates/cc"/>
@@ -347,12 +354,5 @@
     <id>https://poglesbyg.github.io/capscan-leaderboard/#rustix-1.1.5-2026-09-17T11:13:12.001449902+00:00</id>
     <updated>2026-09-17T11:13:12.001449902+00:00</updated>
     <summary>+1 / -0 signal(s). Worst new severity: medium.</summary>
-  </entry>
-  <entry>
-    <title>unicode-ident: 1.0.24 -&gt; 1.0.26 (none severity)</title>
-    <link href="https://crates.io/crates/unicode-ident"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#unicode-ident-1.0.26-2026-09-17T11:13:06.973385365+00:00</id>
-    <updated>2026-09-17T11:13:06.973385365+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>

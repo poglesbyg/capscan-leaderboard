@@ -105,3 +105,4 @@
 {"name":"unicode-width","old_version":"0.2.2","new_version":"0.2.3","checked_at":"2026-10-28T12:20:25.163180170+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"log","old_version":"0.4.34","new_version":"0.4.35","checked_at":"2026-10-31T11:51:42.759874260+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"cc","old_version":"1.10.0","new_version":"1.11.0","checked_at":"2026-11-02T15:01:44.441890662+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"toml","old_version":"1.1.8+spec-1.1.0","new_version":"1.2.0+spec-1.1.0","checked_at":"2026-11-04T13:56:37.812768443+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
