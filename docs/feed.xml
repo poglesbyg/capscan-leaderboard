@@ -4,7 +4,14 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-11-04T13:56:40.363483066+00:00</updated>
+  <updated>2026-11-05T14:14:33.369072020+00:00</updated>
+  <entry>
+    <title>winnow: 1.0.4 -&gt; 1.0.5 (none severity)</title>
+    <link href="https://crates.io/crates/winnow"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#winnow-1.0.5-2026-11-05T14:14:31.222731134+00:00</id>
+    <updated>2026-11-05T14:14:31.222731134+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>toml: 1.1.8+spec-1.1.0 -&gt; 1.2.0+spec-1.1.0 (none severity)</title>
     <link href="https://crates.io/crates/toml"/>
@@ -347,12 +354,5 @@
     <id>https://poglesbyg.github.io/capscan-leaderboard/#cc-1.4.7-2026-09-19T10:30:31.468957320+00:00</id>
     <updated>2026-09-19T10:30:31.468957320+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>rustix: 1.1.4 -&gt; 1.1.5 (medium severity)</title>
-    <link href="https://crates.io/crates/rustix"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#rustix-1.1.5-2026-09-17T11:13:12.001449902+00:00</id>
-    <updated>2026-09-17T11:13:12.001449902+00:00</updated>
-    <summary>+1 / -0 signal(s). Worst new severity: medium.</summary>
   </entry>
 </feed>
