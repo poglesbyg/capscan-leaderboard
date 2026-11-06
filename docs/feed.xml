@@ -4,7 +4,21 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-11-05T14:14:33.369072020+00:00</updated>
+  <updated>2026-11-06T13:54:36.398119380+00:00</updated>
+  <entry>
+    <title>toml: 1.2.0+spec-1.1.0 -&gt; 1.2.1+spec-1.1.0 (none severity)</title>
+    <link href="https://crates.io/crates/toml"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#toml-1.2.1+spec-1.1.0-2026-11-06T13:54:31.935866371+00:00</id>
+    <updated>2026-11-06T13:54:31.935866371+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>cc: 1.11.0 -&gt; 1.11.1 (none severity)</title>
+    <link href="https://crates.io/crates/cc"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#cc-1.11.1-2026-11-06T13:54:20.948593082+00:00</id>
+    <updated>2026-11-06T13:54:20.948593082+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>winnow: 1.0.4 -&gt; 1.0.5 (none severity)</title>
     <link href="https://crates.io/crates/winnow"/>
@@ -339,20 +353,6 @@
     <link href="https://crates.io/crates/thiserror-impl"/>
     <id>https://poglesbyg.github.io/capscan-leaderboard/#thiserror-impl-2.0.21-2026-09-24T11:19:13.216024093+00:00</id>
     <updated>2026-09-24T11:19:13.216024093+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>rand: 0.10.2 -&gt; 0.10.3 (none severity)</title>
-    <link href="https://crates.io/crates/rand"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#rand-0.10.3-2026-09-20T10:52:30.945400562+00:00</id>
-    <updated>2026-09-20T10:52:30.945400562+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>cc: 1.4.6 -&gt; 1.4.7 (none severity)</title>
-    <link href="https://crates.io/crates/cc"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#cc-1.4.7-2026-09-19T10:30:31.468957320+00:00</id>
-    <updated>2026-09-19T10:30:31.468957320+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>
