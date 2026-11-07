@@ -4,7 +4,14 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-11-06T13:54:36.398119380+00:00</updated>
+  <updated>2026-11-07T12:38:58.887193894+00:00</updated>
+  <entry>
+    <title>smallvec: 1.16.4 -&gt; 1.16.5 (none severity)</title>
+    <link href="https://crates.io/crates/smallvec"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#smallvec-1.16.5-2026-11-07T12:38:52.070907870+00:00</id>
+    <updated>2026-11-07T12:38:52.070907870+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>toml: 1.2.0+spec-1.1.0 -&gt; 1.2.1+spec-1.1.0 (none severity)</title>
     <link href="https://crates.io/crates/toml"/>
@@ -346,13 +353,6 @@
     <link href="https://crates.io/crates/thiserror"/>
     <id>https://poglesbyg.github.io/capscan-leaderboard/#thiserror-2.0.21-2026-09-24T11:19:13.820999595+00:00</id>
     <updated>2026-09-24T11:19:13.820999595+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>thiserror-impl: 2.0.20 -&gt; 2.0.21 (none severity)</title>
-    <link href="https://crates.io/crates/thiserror-impl"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#thiserror-impl-2.0.21-2026-09-24T11:19:13.216024093+00:00</id>
-    <updated>2026-09-24T11:19:13.216024093+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>
