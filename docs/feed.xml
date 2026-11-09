@@ -4,7 +4,21 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-11-07T12:38:58.887193894+00:00</updated>
+  <updated>2026-11-09T15:32:10.724997631+00:00</updated>
+  <entry>
+    <title>itoa: 1.0.18 -&gt; 1.0.19 (none severity)</title>
+    <link href="https://crates.io/crates/itoa"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#itoa-1.0.19-2026-11-09T15:31:58.807989150+00:00</id>
+    <updated>2026-11-09T15:31:58.807989150+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>syn: 3.0.9 -&gt; 3.0.10 (none severity)</title>
+    <link href="https://crates.io/crates/syn"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#syn-3.0.10-2026-11-09T15:31:54.942678359+00:00</id>
+    <updated>2026-11-09T15:31:54.942678359+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>smallvec: 1.16.4 -&gt; 1.16.5 (none severity)</title>
     <link href="https://crates.io/crates/smallvec"/>
@@ -339,20 +353,6 @@
     <link href="https://crates.io/crates/cc"/>
     <id>https://poglesbyg.github.io/capscan-leaderboard/#cc-1.5.0-2026-09-25T11:24:34.502875768+00:00</id>
     <updated>2026-09-25T11:24:34.502875768+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>zerocopy: 0.8.57 -&gt; 0.8.58 (high severity)</title>
-    <link href="https://crates.io/crates/zerocopy"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#zerocopy-0.8.58-2026-09-24T11:19:32.217010411+00:00</id>
-    <updated>2026-09-24T11:19:32.217010411+00:00</updated>
-    <summary>+3 / -3 signal(s). Worst new severity: high.</summary>
-  </entry>
-  <entry>
-    <title>thiserror: 2.0.20 -&gt; 2.0.21 (none severity)</title>
-    <link href="https://crates.io/crates/thiserror"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#thiserror-2.0.21-2026-09-24T11:19:13.820999595+00:00</id>
-    <updated>2026-09-24T11:19:13.820999595+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>

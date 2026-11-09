@@ -11934,12 +11934,12 @@
     "last_checked": "2026-07-31T15:02:49.871411+00:00"
   },
   "itoa": {
-    "version": "1.0.18",
+    "version": "1.0.19",
     "report": {
       "name": "itoa",
-      "version": "1.0.18",
+      "version": "1.0.19",
       "files_scanned": 2,
-      "lines_scanned": 488,
+      "lines_scanned": 494,
       "dependencies": [
         "no-panic"
       ],
@@ -11989,27 +11989,34 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/lib.rs",
-          "line": 386,
+          "line": 390,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/lib.rs",
-          "line": 418,
+          "line": 405,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/lib.rs",
-          "line": 432,
+          "line": 424,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/lib.rs",
+          "line": 438,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:02:54.415572+00:00"
+    "last_checked": "2026-11-09T15:31:58.807993176+00:00"
   },
   "lazy_static": {
     "version": "1.5.1",
@@ -100132,18 +100139,46 @@
     "last_checked": "2026-07-31T15:03:13.384272+00:00"
   },
   "syn": {
-    "version": "3.0.9",
+    "version": "3.0.10",
     "report": {
       "name": "syn",
-      "version": "3.0.9",
+      "version": "3.0.10",
       "files_scanned": 55,
-      "lines_scanned": 51787,
+      "lines_scanned": 51803,
       "dependencies": [
         "proc-macro2",
         "quote",
         "unicode-ident"
       ],
       "signals": [
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/thread.rs",
+          "line": 12,
+          "detail": "ThreadBound < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/thread.rs",
+          "line": 18,
+          "detail": "ThreadBound < T >",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/discouraged.rs",
+          "line": 199,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Transmute",
+          "file": "src/discouraged.rs",
+          "line": 199,
+          "detail": "mem::transmute",
+          "scope": "shipped"
+        },
         {
           "kind": "UnsafeBlock",
           "file": "src/buffer.rs",
@@ -100341,20 +100376,6 @@
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeImpl",
-          "file": "src/thread.rs",
-          "line": 12,
-          "detail": "ThreadBound < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/thread.rs",
-          "line": 18,
-          "detail": "ThreadBound < T >",
-          "scope": "shipped"
-        },
-        {
           "kind": "UnsafeBlock",
           "file": "src/parse.rs",
           "line": 383,
@@ -100379,26 +100400,12 @@
           "kind": "Transmute",
           "file": "src/parse.rs",
           "line": 394,
-          "detail": "mem::transmute",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/discouraged.rs",
-          "line": 199,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Transmute",
-          "file": "src/discouraged.rs",
-          "line": 199,
           "detail": "mem::transmute",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-10-13T13:47:14.216104366+00:00"
+    "last_checked": "2026-11-09T15:31:54.942683697+00:00"
   },
   "tempfile": {
     "version": "3.27.0",

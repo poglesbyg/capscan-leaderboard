@@ -110,3 +110,5 @@
 {"name":"cc","old_version":"1.11.0","new_version":"1.11.1","checked_at":"2026-11-06T13:54:20.948593082+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"toml","old_version":"1.2.0+spec-1.1.0","new_version":"1.2.1+spec-1.1.0","checked_at":"2026-11-06T13:54:31.935866371+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"smallvec","old_version":"1.16.4","new_version":"1.16.5","checked_at":"2026-11-07T12:38:52.070907870+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"syn","old_version":"3.0.9","new_version":"3.0.10","checked_at":"2026-11-09T15:31:54.942678359+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"itoa","old_version":"1.0.18","new_version":"1.0.19","checked_at":"2026-11-09T15:31:58.807989150+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
