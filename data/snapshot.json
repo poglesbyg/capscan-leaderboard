@@ -4838,14 +4838,49 @@
     "last_checked": "2026-10-07T12:52:25.413407223+00:00"
   },
   "errno": {
-    "version": "0.3.14",
+    "version": "0.3.15",
     "report": {
       "name": "errno",
-      "version": "0.3.14",
+      "version": "0.3.15",
       "files_scanned": 6,
-      "lines_scanned": 472,
+      "lines_scanned": 483,
       "dependencies": [],
       "signals": [
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/wasi.rs",
+          "line": 23,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/wasi.rs",
+          "line": 32,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/wasi.rs",
+          "line": 49,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/wasi.rs",
+          "line": 53,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "Ffi",
+          "file": "src/wasi.rs",
+          "line": 58,
+          "detail": "extern \"C\" { 1 item(s) }",
+          "scope": "shipped"
+        },
         {
           "kind": "UnsafeBlock",
           "file": "src/unix.rs",
@@ -4908,45 +4943,10 @@
           "line": 80,
           "detail": "unsafe { .. }",
           "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/wasi.rs",
-          "line": 23,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/wasi.rs",
-          "line": 32,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/wasi.rs",
-          "line": 49,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/wasi.rs",
-          "line": 53,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "Ffi",
-          "file": "src/wasi.rs",
-          "line": 58,
-          "detail": "extern \"C\" { 1 item(s) }",
-          "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:39.726906+00:00"
+    "last_checked": "2026-11-12T14:49:48.089035031+00:00"
   },
   "fastrand": {
     "version": "2.5.0",
