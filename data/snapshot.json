@@ -80600,707 +80600,231 @@
     "last_checked": "2026-07-31T15:03:26.932540+00:00"
   },
   "mio": {
-    "version": "1.2.4",
+    "version": "1.2.5",
     "report": {
       "name": "mio",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "files_scanned": 61,
-      "lines_scanned": 13451,
+      "lines_scanned": 13556,
       "dependencies": [
         "log"
       ],
       "signals": [
         {
-          "kind": "UnsafeBlock",
-          "file": "src/event/event.rs",
-          "line": 188,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/handle.rs",
-          "line": 28,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/overlapped.rs",
-          "line": 18,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/windows/overlapped.rs",
-          "line": 34,
-          "detail": "Overlapped",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/windows/overlapped.rs",
-          "line": 35,
-          "detail": "Overlapped",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 97,
-          "detail": "Inner",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 101,
-          "detail": "Inner",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 168,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 323,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 375,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 393,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 433,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 695,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 727,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 767,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 836,
-          "detail": "cancel",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 853,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 861,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 879,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 900,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 931,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 955,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 982,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/named_pipe.rs",
-          "line": 1088,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/windows/afd.rs",
-          "line": 33,
-          "detail": "AfdPollHandleInfo",
+          "kind": "NetworkAccess",
+          "file": "src/net/uds/stream.rs",
+          "line": 23,
+          "detail": "UnixStream::connect_addr",
           "scope": "shipped"
         },
         {
           "kind": "NetworkAccess",
-          "file": "src/sys/windows/net.rs",
+          "file": "src/net/uds/stream.rs",
+          "line": 59,
+          "detail": "UnixStream::from_std",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/uds/stream.rs",
+          "line": 59,
+          "detail": "UnixStream::from_std",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/uds/stream.rs",
+          "line": 255,
+          "detail": "UnixStream::from_std",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/net/uds/stream.rs",
+          "line": 264,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/uds/stream.rs",
+          "line": 264,
+          "detail": "net::UnixStream::from_raw_fd",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/uds/stream.rs",
+          "line": 282,
+          "detail": "UnixStream::from_std",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/uds/listener.rs",
           "line": 19,
-          "detail": "std::net::UdpSocket::bind",
+          "detail": "UnixListener::bind_addr",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/uds/listener.rs",
+          "line": 108,
+          "detail": "UnixListener::from_std",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/sys/windows/net.rs",
-          "line": 44,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/net.rs",
-          "line": 72,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/net.rs",
-          "line": 89,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/net.rs",
-          "line": 94,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/windows/iocp.rs",
-          "line": 26,
-          "detail": "CompletionPort",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/windows/iocp.rs",
-          "line": 30,
-          "detail": "CompletionPort",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/windows/iocp.rs",
-          "line": 47,
-          "detail": "CompletionStatus",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/windows/iocp.rs",
-          "line": 48,
-          "detail": "CompletionStatus",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/iocp.rs",
-          "line": 57,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/iocp.rs",
-          "line": 78,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/iocp.rs",
-          "line": 109,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/iocp.rs",
-          "line": 133,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/iocp.rs",
-          "line": 195,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/selector.rs",
-          "line": 153,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/selector.rs",
-          "line": 190,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/selector.rs",
-          "line": 205,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/selector.rs",
-          "line": 301,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/selector.rs",
-          "line": 309,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/windows/selector.rs",
-          "line": 411,
-          "detail": "SelectorInner",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/selector.rs",
-          "line": 456,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/selector.rs",
-          "line": 463,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/selector.rs",
-          "line": 700,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/windows/io_status_block.rs",
-          "line": 21,
-          "detail": "IoStatusBlock",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/windows/udp.rs",
-          "line": 14,
+          "file": "src/net/uds/listener.rs",
+          "line": 117,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "NetworkAccess",
-          "file": "src/sys/windows/udp.rs",
-          "line": 14,
+          "file": "src/net/uds/listener.rs",
+          "line": 117,
+          "detail": "net::UnixListener::from_raw_fd",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/uds/listener.rs",
+          "line": 135,
+          "detail": "UnixListener::from_std",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/net/uds/datagram.rs",
+          "line": 249,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/udp.rs",
+          "line": 679,
+          "detail": "UdpSocket::from_std",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/udp.rs",
+          "line": 706,
+          "detail": "UdpSocket::from_std",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/udp.rs",
+          "line": 733,
+          "detail": "UdpSocket::from_std",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/udp.rs",
+          "line": 760,
+          "detail": "UdpSocket::from_std",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/net/udp.rs",
+          "line": 769,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/udp.rs",
+          "line": 772,
+          "detail": "net::UdpSocket::from_raw_fd",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/udp.rs",
+          "line": 776,
           "detail": "net::UdpSocket::from_raw_socket",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/sys/windows/udp.rs",
-          "line": 44,
+          "file": "src/net/tcp/stream.rs",
+          "line": 94,
           "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/tcp/stream.rs",
+          "line": 94,
+          "detail": "TcpStream::from_raw_fd",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/sys/wasip1/mod.rs",
-          "line": 87,
+          "file": "src/net/tcp/stream.rs",
+          "line": 96,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/wasip1/mod.rs",
-          "line": 104,
-          "detail": "unsafe { .. }",
+          "kind": "NetworkAccess",
+          "file": "src/net/tcp/stream.rs",
+          "line": 96,
+          "detail": "TcpStream::from_raw_socket",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/unix/selector/event_ports.rs",
-          "line": 48,
-          "detail": "EventBuffer",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/unix/selector/event_ports.rs",
-          "line": 49,
-          "detail": "EventBuffer",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/selector/event_ports.rs",
-          "line": 69,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/selector/event_ports.rs",
-          "line": 216,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/unix/selector/event_ports.rs",
-          "line": 602,
-          "detail": "Event",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/unix/selector/event_ports.rs",
-          "line": 603,
-          "detail": "Event",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/unix/selector/event_ports.rs",
-          "line": 645,
-          "detail": "Events",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/unix/selector/event_ports.rs",
-          "line": 646,
-          "detail": "Events",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/selector/epoll.rs",
-          "line": 29,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/selector/epoll.rs",
-          "line": 72,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/selector/kqueue.rs",
-          "line": 77,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/selector/kqueue.rs",
-          "line": 121,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/selector/kqueue.rs",
-          "line": 157,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/unix/selector/kqueue.rs",
-          "line": 336,
-          "detail": "Event",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/unix/selector/kqueue.rs",
-          "line": 337,
-          "detail": "Event",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/unix/selector/kqueue.rs",
+          "kind": "NetworkAccess",
+          "file": "src/net/tcp/stream.rs",
           "line": 380,
-          "detail": "Events",
+          "detail": "TcpStream::from_std",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeImpl",
-          "file": "src/sys/unix/selector/kqueue.rs",
-          "line": 381,
-          "detail": "Events",
+          "kind": "NetworkAccess",
+          "file": "src/net/tcp/stream.rs",
+          "line": 407,
+          "detail": "TcpStream::from_std",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/tcp/stream.rs",
+          "line": 434,
+          "detail": "TcpStream::from_std",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/net/tcp/stream.rs",
+          "line": 461,
+          "detail": "TcpStream::from_std",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/sys/unix/selector/kqueue.rs",
-          "line": 910,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/uds/datagram.rs",
-          "line": 20,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/uds/listener.rs",
-          "line": 14,
+          "file": "src/net/tcp/stream.rs",
+          "line": 470,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "NetworkAccess",
-          "file": "src/sys/unix/uds/listener.rs",
-          "line": 14,
-          "detail": "net::UnixListener::from_raw_fd",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/uds/listener.rs",
-          "line": 61,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/uds/listener.rs",
-          "line": 91,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/sys/unix/uds/listener.rs",
-          "line": 91,
-          "detail": "net::UnixStream::from_raw_fd",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/uds/listener.rs",
-          "line": 118,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/sys/unix/uds/listener.rs",
-          "line": 118,
-          "detail": "net::UnixStream::from_raw_fd",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/uds/listener.rs",
-          "line": 145,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/uds/stream.rs",
-          "line": 10,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/sys/unix/uds/stream.rs",
-          "line": 10,
-          "detail": "net::UnixStream::from_raw_fd",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/uds/mod.rs",
-          "line": 37,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/uds/mod.rs",
-          "line": 63,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/uds/mod.rs",
-          "line": 105,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeFn",
-          "file": "src/sys/unix/net.rs",
-          "line": 190,
-          "detail": "to_socket_addr",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/waker/eventfd.rs",
-          "line": 39,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/waker/pipe.rs",
-          "line": 34,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/waker/pipe.rs",
-          "line": 35,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/tcp.rs",
-          "line": 86,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/sys/unix/tcp.rs",
-          "line": 86,
+          "file": "src/net/tcp/stream.rs",
+          "line": 473,
           "detail": "net::TcpStream::from_raw_fd",
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/tcp.rs",
-          "line": 115,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
           "kind": "NetworkAccess",
-          "file": "src/sys/unix/tcp.rs",
-          "line": 115,
-          "detail": "net::TcpStream::from_raw_fd",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/tcp.rs",
-          "line": 138,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/pipe.rs",
-          "line": 12,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/pipe.rs",
-          "line": 34,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/sys/unix/udp.rs",
-          "line": 15,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/sys/unix/udp.rs",
-          "line": 15,
-          "detail": "net::UdpSocket::from_raw_fd",
+          "file": "src/net/tcp/stream.rs",
+          "line": 477,
+          "detail": "net::TcpStream::from_raw_socket",
           "scope": "shipped"
         },
         {
@@ -81389,223 +80913,6 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/net/tcp/stream.rs",
-          "line": 94,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/tcp/stream.rs",
-          "line": 94,
-          "detail": "TcpStream::from_raw_fd",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/net/tcp/stream.rs",
-          "line": 96,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/tcp/stream.rs",
-          "line": 96,
-          "detail": "TcpStream::from_raw_socket",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/tcp/stream.rs",
-          "line": 380,
-          "detail": "TcpStream::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/tcp/stream.rs",
-          "line": 407,
-          "detail": "TcpStream::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/tcp/stream.rs",
-          "line": 434,
-          "detail": "TcpStream::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/tcp/stream.rs",
-          "line": 461,
-          "detail": "TcpStream::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/net/tcp/stream.rs",
-          "line": 470,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/tcp/stream.rs",
-          "line": 473,
-          "detail": "net::TcpStream::from_raw_fd",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/tcp/stream.rs",
-          "line": 477,
-          "detail": "net::TcpStream::from_raw_socket",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/net/uds/datagram.rs",
-          "line": 249,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/uds/listener.rs",
-          "line": 19,
-          "detail": "UnixListener::bind_addr",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/uds/listener.rs",
-          "line": 108,
-          "detail": "UnixListener::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/net/uds/listener.rs",
-          "line": 117,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/uds/listener.rs",
-          "line": 117,
-          "detail": "net::UnixListener::from_raw_fd",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/uds/listener.rs",
-          "line": 135,
-          "detail": "UnixListener::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/uds/stream.rs",
-          "line": 23,
-          "detail": "UnixStream::connect_addr",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/uds/stream.rs",
-          "line": 57,
-          "detail": "UnixStream::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/uds/stream.rs",
-          "line": 57,
-          "detail": "UnixStream::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/uds/stream.rs",
-          "line": 253,
-          "detail": "UnixStream::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/net/uds/stream.rs",
-          "line": 262,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/uds/stream.rs",
-          "line": 262,
-          "detail": "net::UnixStream::from_raw_fd",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/uds/stream.rs",
-          "line": 280,
-          "detail": "UnixStream::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/udp.rs",
-          "line": 679,
-          "detail": "UdpSocket::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/udp.rs",
-          "line": 706,
-          "detail": "UdpSocket::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/udp.rs",
-          "line": 733,
-          "detail": "UdpSocket::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/udp.rs",
-          "line": 760,
-          "detail": "UdpSocket::from_std",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/net/udp.rs",
-          "line": 769,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/udp.rs",
-          "line": 772,
-          "detail": "net::UdpSocket::from_raw_fd",
-          "scope": "shipped"
-        },
-        {
-          "kind": "NetworkAccess",
-          "file": "src/net/udp.rs",
-          "line": 776,
-          "detail": "net::UdpSocket::from_raw_socket",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
           "file": "src/interest.rs",
           "line": 29,
           "detail": "unsafe { .. }",
@@ -81645,10 +80952,696 @@
           "line": 69,
           "detail": "unsafe { .. }",
           "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/wasip1/mod.rs",
+          "line": 87,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/wasip1/mod.rs",
+          "line": 104,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/uds/stream.rs",
+          "line": 10,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/sys/unix/uds/stream.rs",
+          "line": 10,
+          "detail": "net::UnixStream::from_raw_fd",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/uds/listener.rs",
+          "line": 14,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/sys/unix/uds/listener.rs",
+          "line": 14,
+          "detail": "net::UnixListener::from_raw_fd",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/uds/listener.rs",
+          "line": 61,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/uds/listener.rs",
+          "line": 92,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/sys/unix/uds/listener.rs",
+          "line": 92,
+          "detail": "net::UnixStream::from_raw_fd",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/uds/listener.rs",
+          "line": 121,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/sys/unix/uds/listener.rs",
+          "line": 121,
+          "detail": "net::UnixStream::from_raw_fd",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/uds/listener.rs",
+          "line": 149,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/uds/mod.rs",
+          "line": 41,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/uds/mod.rs",
+          "line": 67,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/uds/mod.rs",
+          "line": 110,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/uds/datagram.rs",
+          "line": 20,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/udp.rs",
+          "line": 15,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/sys/unix/udp.rs",
+          "line": 15,
+          "detail": "net::UdpSocket::from_raw_fd",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/tcp.rs",
+          "line": 86,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/sys/unix/tcp.rs",
+          "line": 86,
+          "detail": "net::TcpStream::from_raw_fd",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/tcp.rs",
+          "line": 117,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/sys/unix/tcp.rs",
+          "line": 117,
+          "detail": "net::TcpStream::from_raw_fd",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/tcp.rs",
+          "line": 146,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/sys/unix/net.rs",
+          "line": 191,
+          "detail": "to_socket_addr",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/selector/epoll.rs",
+          "line": 29,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/selector/epoll.rs",
+          "line": 72,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/selector/kqueue.rs",
+          "line": 77,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/selector/kqueue.rs",
+          "line": 121,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/selector/kqueue.rs",
+          "line": 157,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/unix/selector/kqueue.rs",
+          "line": 336,
+          "detail": "Event",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/unix/selector/kqueue.rs",
+          "line": 337,
+          "detail": "Event",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/unix/selector/kqueue.rs",
+          "line": 380,
+          "detail": "Events",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/unix/selector/kqueue.rs",
+          "line": 381,
+          "detail": "Events",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/selector/kqueue.rs",
+          "line": 916,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/unix/selector/event_ports.rs",
+          "line": 48,
+          "detail": "EventBuffer",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/unix/selector/event_ports.rs",
+          "line": 49,
+          "detail": "EventBuffer",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/selector/event_ports.rs",
+          "line": 69,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/selector/event_ports.rs",
+          "line": 216,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/unix/selector/event_ports.rs",
+          "line": 602,
+          "detail": "Event",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/unix/selector/event_ports.rs",
+          "line": 603,
+          "detail": "Event",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/unix/selector/event_ports.rs",
+          "line": 645,
+          "detail": "Events",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/unix/selector/event_ports.rs",
+          "line": 646,
+          "detail": "Events",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/pipe.rs",
+          "line": 12,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/pipe.rs",
+          "line": 35,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/waker/pipe.rs",
+          "line": 34,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/waker/pipe.rs",
+          "line": 35,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/unix/waker/eventfd.rs",
+          "line": 39,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/windows/iocp.rs",
+          "line": 26,
+          "detail": "CompletionPort",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/windows/iocp.rs",
+          "line": 30,
+          "detail": "CompletionPort",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/windows/iocp.rs",
+          "line": 47,
+          "detail": "CompletionStatus",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/windows/iocp.rs",
+          "line": 48,
+          "detail": "CompletionStatus",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/iocp.rs",
+          "line": 57,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/iocp.rs",
+          "line": 78,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/iocp.rs",
+          "line": 109,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/iocp.rs",
+          "line": 134,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/iocp.rs",
+          "line": 196,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/udp.rs",
+          "line": 14,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/sys/windows/udp.rs",
+          "line": 14,
+          "detail": "net::UdpSocket::from_raw_socket",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/udp.rs",
+          "line": 44,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 99,
+          "detail": "Inner",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 103,
+          "detail": "Inner",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 130,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 217,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 236,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 339,
+          "detail": "OpId",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 414,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 432,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 474,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 825,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 858,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 899,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 925,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 939,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 947,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 965,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 1016,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/named_pipe.rs",
+          "line": 1156,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "NetworkAccess",
+          "file": "src/sys/windows/net.rs",
+          "line": 19,
+          "detail": "std::net::UdpSocket::bind",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/net.rs",
+          "line": 44,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/net.rs",
+          "line": 72,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/net.rs",
+          "line": 89,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/net.rs",
+          "line": 94,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/handle.rs",
+          "line": 28,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/overlapped.rs",
+          "line": 18,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/windows/overlapped.rs",
+          "line": 30,
+          "detail": "Overlapped",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/windows/overlapped.rs",
+          "line": 31,
+          "detail": "Overlapped",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/selector.rs",
+          "line": 153,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/selector.rs",
+          "line": 190,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/selector.rs",
+          "line": 205,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/selector.rs",
+          "line": 301,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/selector.rs",
+          "line": 309,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/windows/selector.rs",
+          "line": 411,
+          "detail": "SelectorInner",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/selector.rs",
+          "line": 456,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/selector.rs",
+          "line": 463,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/sys/windows/selector.rs",
+          "line": 700,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/windows/io_status_block.rs",
+          "line": 21,
+          "detail": "IoStatusBlock",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeImpl",
+          "file": "src/sys/windows/afd.rs",
+          "line": 33,
+          "detail": "AfdPollHandleInfo",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/event/event.rs",
+          "line": 188,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-10-04T11:56:43.358721442+00:00"
+    "last_checked": "2026-11-14T13:09:36.208863326+00:00"
   },
   "num-traits": {
     "version": "0.2.19",
