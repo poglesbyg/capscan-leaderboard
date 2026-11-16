@@ -4,7 +4,14 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-11-14T13:09:44.873603549+00:00</updated>
+  <updated>2026-11-16T15:09:18.556105188+00:00</updated>
+  <entry>
+    <title>rand: 0.10.3 -&gt; 0.10.4 (none severity)</title>
+    <link href="https://crates.io/crates/rand"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#rand-0.10.4-2026-11-16T15:09:10.399962768+00:00</id>
+    <updated>2026-11-16T15:09:10.399962768+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>mio: 1.2.4 -&gt; 1.2.5 (high severity)</title>
     <link href="https://crates.io/crates/mio"/>
@@ -347,12 +354,5 @@
     <id>https://poglesbyg.github.io/capscan-leaderboard/#lazy_static-1.5.1-2026-10-01T12:41:04.500939684+00:00</id>
     <updated>2026-10-01T12:41:04.500939684+00:00</updated>
     <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>zerocopy: 0.8.58 -&gt; 0.8.59 (none severity)</title>
-    <link href="https://crates.io/crates/zerocopy"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#zerocopy-0.8.59-2026-09-26T11:00:52.007038296+00:00</id>
-    <updated>2026-09-26T11:00:52.007038296+00:00</updated>
-    <summary>+0 / -1 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>

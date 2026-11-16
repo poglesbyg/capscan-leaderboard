@@ -84854,12 +84854,12 @@
     "last_checked": "2026-07-31T15:02:46.781061+00:00"
   },
   "rand": {
-    "version": "0.10.3",
+    "version": "0.10.4",
     "report": {
       "name": "rand",
-      "version": "0.10.3",
+      "version": "0.10.4",
       "files_scanned": 29,
-      "lines_scanned": 10365,
+      "lines_scanned": 10502,
       "dependencies": [
         "chacha20",
         "getrandom",
@@ -84954,34 +84954,34 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/rngs/thread.rs",
-          "line": 144,
+          "line": 166,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/rngs/thread.rs",
-          "line": 219,
+          "line": 241,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/rngs/thread.rs",
-          "line": 227,
+          "line": 249,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/rngs/thread.rs",
-          "line": 235,
+          "line": 257,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-09-20T10:52:30.945404419+00:00"
+    "last_checked": "2026-11-16T15:09:10.399968885+00:00"
   },
   "rand_chacha": {
     "version": "0.10.0",
