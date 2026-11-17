@@ -4,7 +4,21 @@
   <link href="https://poglesbyg.github.io/capscan-leaderboard/"/>
   <link href="https://poglesbyg.github.io/capscan-leaderboard/feed.xml" rel="self"/>
   <id>https://poglesbyg.github.io/capscan-leaderboard/</id>
-  <updated>2026-11-16T15:09:18.556105188+00:00</updated>
+  <updated>2026-11-17T15:40:05.371035852+00:00</updated>
+  <entry>
+    <title>clap_lex: 1.1.1 -&gt; 1.1.2 (none severity)</title>
+    <link href="https://crates.io/crates/clap_lex"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#clap_lex-1.1.2-2026-11-17T15:40:03.292366204+00:00</id>
+    <updated>2026-11-17T15:40:03.292366204+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
+  <entry>
+    <title>clap: 4.6.7 -&gt; 4.6.8 (none severity)</title>
+    <link href="https://crates.io/crates/clap"/>
+    <id>https://poglesbyg.github.io/capscan-leaderboard/#clap-4.6.8-2026-11-17T15:39:57.318816261+00:00</id>
+    <updated>2026-11-17T15:39:57.318816261+00:00</updated>
+    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
+  </entry>
   <entry>
     <title>rand: 0.10.3 -&gt; 0.10.4 (none severity)</title>
     <link href="https://crates.io/crates/rand"/>
@@ -340,19 +354,5 @@
     <id>https://poglesbyg.github.io/capscan-leaderboard/#cc-1.6.0-2026-10-03T11:16:48.498695838+00:00</id>
     <updated>2026-10-03T11:16:48.498695838+00:00</updated>
     <summary>+0 / -1 signal(s). Worst new severity: none.</summary>
-  </entry>
-  <entry>
-    <title>libc: 0.2.189 -&gt; 0.2.190 (high severity)</title>
-    <link href="https://crates.io/crates/libc"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#libc-0.2.190-2026-10-03T11:16:40.267992994+00:00</id>
-    <updated>2026-10-03T11:16:40.267992994+00:00</updated>
-    <summary>+11 / -14 signal(s). Worst new severity: high.</summary>
-  </entry>
-  <entry>
-    <title>lazy_static: 1.5.0 -&gt; 1.5.1 (none severity)</title>
-    <link href="https://crates.io/crates/lazy_static"/>
-    <id>https://poglesbyg.github.io/capscan-leaderboard/#lazy_static-1.5.1-2026-10-01T12:41:04.500939684+00:00</id>
-    <updated>2026-10-01T12:41:04.500939684+00:00</updated>
-    <summary>+0 / -0 signal(s). Worst new severity: none.</summary>
   </entry>
 </feed>

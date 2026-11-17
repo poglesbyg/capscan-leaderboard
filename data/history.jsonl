@@ -116,3 +116,5 @@
 {"name":"cc","old_version":"1.11.1","new_version":"1.11.2","checked_at":"2026-11-13T14:08:58.084115815+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"mio","old_version":"1.2.4","new_version":"1.2.5","checked_at":"2026-11-14T13:09:36.208854700+00:00","worst_severity":"high","added_signals":1,"removed_signals":1,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"rand","old_version":"0.10.3","new_version":"0.10.4","checked_at":"2026-11-16T15:09:10.399962768+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"clap","old_version":"4.6.7","new_version":"4.6.8","checked_at":"2026-11-17T15:39:57.318816261+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"clap_lex","old_version":"1.1.1","new_version":"1.1.2","checked_at":"2026-11-17T15:40:03.292366204+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
