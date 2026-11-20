@@ -123,3 +123,6 @@
 {"name":"smallvec","old_version":"1.16.5","new_version":"1.16.6","checked_at":"2026-11-18T15:18:11.476343386+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"regex","old_version":"1.13.1","new_version":"1.13.2","checked_at":"2026-11-18T15:18:11.920739002+00:00","worst_severity":"high","added_signals":1,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"bytes","old_version":"1.12.1","new_version":"1.12.2","checked_at":"2026-11-18T15:18:14.806009242+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"cc","old_version":"1.11.2","new_version":"1.11.3","checked_at":"2026-11-20T15:02:34.068785386+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"clap","old_version":"4.6.8","new_version":"4.6.9","checked_at":"2026-11-20T15:02:34.852939433+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"pin-project-lite","old_version":"0.2.17","new_version":"0.2.18","checked_at":"2026-11-20T15:02:37.152598903+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}

@@ -2916,12 +2916,12 @@
     "last_checked": "2026-11-18T15:18:14.806021+00:00"
   },
   "cc": {
-    "version": "1.11.2",
+    "version": "1.11.3",
     "report": {
       "name": "cc",
-      "version": "1.11.2",
+      "version": "1.11.3",
       "files_scanned": 19,
-      "lines_scanned": 11579,
+      "lines_scanned": 11609,
       "dependencies": [
         "find-msvc-tools",
         "jobserver",
@@ -2929,107 +2929,9 @@
       ],
       "signals": [
         {
-          "kind": "EnvRead",
-          "file": "src/command_helpers.rs",
-          "line": 56,
-          "detail": "std::env::var_os",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/lib.rs",
-          "line": 1975,
-          "detail": "fs::File::create",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/lib.rs",
-          "line": 3851,
-          "detail": "fs::remove_file",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/lib.rs",
-          "line": 3914,
-          "detail": "fs::remove_file",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/lib.rs",
-          "line": 4095,
-          "detail": "fs::write",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 4192,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 4857,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 4928,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/lib.rs",
-          "line": 6066,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
           "kind": "ProcessSpawn",
           "file": "src/logger.rs",
-          "line": 207,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/tempfile.rs",
-          "line": 26,
-          "detail": "OpenOptions::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "FilesystemWrite",
-          "file": "src/tempfile.rs",
-          "line": 87,
-          "detail": "remove_file",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/build_env.rs",
-          "line": 236,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/build_env.rs",
-          "line": 255,
-          "detail": "Command::new",
-          "scope": "shipped"
-        },
-        {
-          "kind": "ProcessSpawn",
-          "file": "src/build_env.rs",
-          "line": 313,
+          "line": 211,
           "detail": "Command::new",
           "scope": "shipped"
         },
@@ -3078,63 +2980,84 @@
         {
           "kind": "ProcessSpawn",
           "file": "src/tool.rs",
-          "line": 567,
+          "line": 575,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/tool.rs",
-          "line": 571,
+          "line": 579,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
+          "kind": "EnvRead",
+          "file": "src/command_helpers.rs",
+          "line": 56,
+          "detail": "std::env::var_os",
+          "scope": "shipped"
+        },
+        {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/stderr.rs",
-          "line": 14,
+          "file": "src/parallel/reactor/windows.rs",
+          "line": 92,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/stderr.rs",
-          "line": 31,
+          "file": "src/parallel/reactor/unix.rs",
+          "line": 126,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/stderr.rs",
-          "line": 62,
+          "file": "src/parallel/reactor/unix.rs",
+          "line": 135,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/stderr.rs",
-          "line": 84,
+          "file": "src/parallel/reactor/unix.rs",
+          "line": 166,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/async_executor.rs",
-          "line": 62,
+          "file": "src/parallel/reactor/unix.rs",
+          "line": 170,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/async_executor.rs",
-          "line": 63,
+          "file": "src/parallel/reactor/unix.rs",
+          "line": 184,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/async_executor.rs",
-          "line": 67,
+          "file": "src/parallel/reactor/unix.rs",
+          "line": 189,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/reactor/unix.rs",
+          "line": 225,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/parallel/reactor/unix.rs",
+          "line": 249,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -3217,64 +3140,50 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/reactor/unix.rs",
-          "line": 126,
+          "file": "src/parallel/stderr.rs",
+          "line": 14,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/reactor/unix.rs",
-          "line": 135,
+          "file": "src/parallel/stderr.rs",
+          "line": 31,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/reactor/unix.rs",
-          "line": 166,
+          "file": "src/parallel/stderr.rs",
+          "line": 62,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/reactor/unix.rs",
-          "line": 170,
+          "file": "src/parallel/stderr.rs",
+          "line": 84,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/reactor/unix.rs",
-          "line": 184,
+          "file": "src/parallel/async_executor.rs",
+          "line": 62,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/reactor/unix.rs",
-          "line": 189,
+          "file": "src/parallel/async_executor.rs",
+          "line": 63,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/parallel/reactor/unix.rs",
-          "line": 225,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parallel/reactor/unix.rs",
-          "line": 249,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/parallel/reactor/windows.rs",
-          "line": 92,
+          "file": "src/parallel/async_executor.rs",
+          "line": 67,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -3333,10 +3242,101 @@
           "line": 249,
           "detail": "std::env::var_os",
           "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/build_env.rs",
+          "line": 236,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/build_env.rs",
+          "line": 255,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/build_env.rs",
+          "line": 313,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/tempfile.rs",
+          "line": 26,
+          "detail": "OpenOptions::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/tempfile.rs",
+          "line": 87,
+          "detail": "remove_file",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/lib.rs",
+          "line": 1985,
+          "detail": "fs::File::create",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/lib.rs",
+          "line": 3861,
+          "detail": "fs::remove_file",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/lib.rs",
+          "line": 3924,
+          "detail": "fs::remove_file",
+          "scope": "shipped"
+        },
+        {
+          "kind": "FilesystemWrite",
+          "file": "src/lib.rs",
+          "line": 4105,
+          "detail": "fs::write",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 4202,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 4875,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 4946,
+          "detail": "Command::new",
+          "scope": "shipped"
+        },
+        {
+          "kind": "ProcessSpawn",
+          "file": "src/lib.rs",
+          "line": 6084,
+          "detail": "Command::new",
+          "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-11-13T14:08:58.084123940+00:00"
+    "last_checked": "2026-11-20T15:02:34.068792439+00:00"
   },
   "cfg-if": {
     "version": "1.0.5",
@@ -3478,10 +3478,10 @@
     "last_checked": "2026-07-31T15:03:41.774970+00:00"
   },
   "clap": {
-    "version": "4.6.8",
+    "version": "4.6.9",
     "report": {
       "name": "clap",
-      "version": "4.6.8",
+      "version": "4.6.9",
       "files_scanned": 22,
       "lines_scanned": 1690,
       "dependencies": [
@@ -3489,6 +3489,517 @@
         "clap_derive"
       ],
       "signals": [
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/mod.rs",
+          "line": 22,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/mod.rs",
+          "line": 472,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/mod.rs",
+          "line": 486,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/mod.rs",
+          "line": 506,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/mod.rs",
+          "line": 525,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 26,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 29,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 40,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 43,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 48,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 50,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 55,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 57,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 75,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 77,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 82,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 84,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 97,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 99,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 104,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 106,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 113,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 115,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 122,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 124,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 133,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 135,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 144,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 146,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 156,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 161,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 164,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 187,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 189,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 196,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 198,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 203,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 205,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 226,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 228,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 235,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 237,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_derive/_tutorial.rs",
+          "line": 245,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/git_derive.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/git_derive.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/cargo_example_derive.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/cargo_example_derive.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 8,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 11,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 16,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 19,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 24,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 27,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 32,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/typed_derive.rs",
+          "line": 35,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/pacman.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/pacman.rs",
+          "line": 10,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/repl_derive.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/repl.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/git.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/git.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/find.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/find.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/escaped_positional_derive.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/escaped_positional_derive.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/multicall_busybox.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/multicall_busybox.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/escaped_positional.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/escaped_positional.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/multicall_hostname.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/multicall_hostname.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/cargo_example.rs",
+          "line": 4,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/_cookbook/cargo_example.rs",
+          "line": 7,
+          "detail": "include_str",
+          "scope": "shipped"
+        },
         {
           "kind": "BuildTimeMacro",
           "file": "src/_tutorial.rs",
@@ -3764,517 +4275,6 @@
         },
         {
           "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/repl_derive.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/cargo_example.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/cargo_example.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/multicall_hostname.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/multicall_hostname.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/cargo_example_derive.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/cargo_example_derive.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/git_derive.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/git_derive.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/find.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/find.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/multicall_busybox.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/multicall_busybox.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/git.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/git.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 8,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 11,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 16,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 19,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 24,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 27,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 32,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/typed_derive.rs",
-          "line": 35,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/escaped_positional_derive.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/escaped_positional_derive.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/pacman.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/pacman.rs",
-          "line": 10,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/repl.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/escaped_positional.rs",
-          "line": 4,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_cookbook/escaped_positional.rs",
-          "line": 7,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 26,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 29,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 40,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 43,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 48,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 50,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 55,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 57,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 75,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 77,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 82,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 84,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 97,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 99,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 104,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 106,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 113,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 115,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 122,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 124,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 133,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 135,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 144,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 146,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 156,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 161,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 164,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 187,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 189,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 196,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 198,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 203,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 205,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 226,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 228,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 235,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 237,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/_tutorial.rs",
-          "line": 245,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/mod.rs",
-          "line": 22,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/mod.rs",
-          "line": 472,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/mod.rs",
-          "line": 486,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/mod.rs",
-          "line": 506,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/_derive/mod.rs",
-          "line": 525,
-          "detail": "include_str",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
           "file": "src/lib.rs",
           "line": 49,
           "detail": "include_str",
@@ -4296,7 +4296,7 @@
         }
       ]
     },
-    "last_checked": "2026-11-17T15:39:57.318825424+00:00"
+    "last_checked": "2026-11-20T15:02:34.852954691+00:00"
   },
   "clap_lex": {
     "version": "1.1.2",
@@ -83984,31 +83984,31 @@
     "last_checked": "2026-07-31T15:03:29.617411+00:00"
   },
   "pin-project-lite": {
-    "version": "0.2.17",
+    "version": "0.2.18",
     "report": {
       "name": "pin-project-lite",
-      "version": "0.2.17",
+      "version": "0.2.18",
       "files_scanned": 1,
-      "lines_scanned": 1770,
+      "lines_scanned": 1772,
       "dependencies": [],
       "signals": [
         {
           "kind": "UnsafeBlock",
           "file": "src/lib.rs",
-          "line": 1742,
+          "line": 1744,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/lib.rs",
-          "line": 1765,
+          "line": 1767,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:19.270604+00:00"
+    "last_checked": "2026-11-20T15:02:37.152601538+00:00"
   },
   "ppv-lite86": {
     "version": "0.2.21",
