@@ -126,3 +126,6 @@
 {"name":"cc","old_version":"1.11.2","new_version":"1.11.3","checked_at":"2026-11-20T15:02:34.068785386+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"clap","old_version":"4.6.8","new_version":"4.6.9","checked_at":"2026-11-20T15:02:34.852939433+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"pin-project-lite","old_version":"0.2.17","new_version":"0.2.18","checked_at":"2026-11-20T15:02:37.152598903+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"toml","old_version":"1.2.1+spec-1.1.0","new_version":"1.2.2+spec-1.1.0","checked_at":"2026-11-21T14:23:27.817648658+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"url","old_version":"2.5.8","new_version":"2.5.9","checked_at":"2026-11-21T14:23:28.630722503+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"zerocopy","old_version":"0.8.63","new_version":"0.8.64","checked_at":"2026-11-21T14:23:29.392633813+00:00","worst_severity":"high","added_signals":4,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
