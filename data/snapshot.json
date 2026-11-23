@@ -765,12 +765,12 @@
     "last_checked": "2026-08-04T08:40:29.675155031+00:00"
   },
   "anyhow": {
-    "version": "1.0.104",
+    "version": "1.0.105",
     "report": {
       "name": "anyhow",
-      "version": "1.0.104",
+      "version": "1.0.105",
       "files_scanned": 13,
-      "lines_scanned": 4113,
+      "lines_scanned": 4122,
       "dependencies": [],
       "signals": [
         {
@@ -845,15 +845,36 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/ensure.rs",
-          "line": 49,
+          "file": "src/context.rs",
+          "line": 157,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "BuildTimeMacro",
+          "file": "src/nightly.rs",
+          "line": 39,
+          "detail": "option_env",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/fmt.rs",
+          "line": 11,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/ensure.rs",
-          "line": 69,
+          "file": "src/fmt.rs",
+          "line": 21,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/fmt.rs",
+          "line": 48,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -1064,133 +1085,126 @@
           "kind": "UnsafeFn",
           "file": "src/error.rs",
           "line": 788,
+          "detail": "boxed_reallocate_boxed",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/error.rs",
+          "line": 793,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeFn",
+          "file": "src/error.rs",
+          "line": 797,
           "detail": "object_downcast",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 797,
+          "line": 806,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
           "file": "src/error.rs",
-          "line": 814,
+          "line": 823,
           "detail": "context_downcast",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 822,
+          "line": 831,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 823,
+          "line": 832,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 826,
+          "line": 835,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 827,
+          "line": 836,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
           "file": "src/error.rs",
-          "line": 834,
+          "line": 843,
           "detail": "context_drop_rest",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 844,
+          "line": 853,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 847,
+          "line": 856,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
           "file": "src/error.rs",
-          "line": 852,
+          "line": 861,
           "detail": "context_chain_downcast",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 858,
+          "line": 867,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 859,
+          "line": 868,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 862,
+          "line": 871,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 864,
+          "line": 873,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
           "file": "src/error.rs",
-          "line": 869,
-          "detail": "context_chain_drop_rest",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/error.rs",
           "line": 878,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/error.rs",
-          "line": 881,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/error.rs",
-          "line": 885,
-          "detail": "unsafe { .. }",
+          "detail": "context_chain_drop_rest",
           "scope": "shipped"
         },
         {
@@ -1201,72 +1215,79 @@
           "scope": "shipped"
         },
         {
+          "kind": "UnsafeBlock",
+          "file": "src/error.rs",
+          "line": 890,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/error.rs",
+          "line": 894,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/error.rs",
+          "line": 896,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
           "kind": "UnsafeFn",
           "file": "src/error.rs",
-          "line": 892,
+          "line": 901,
           "detail": "context_backtrace",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 899,
+          "line": 908,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 900,
+          "line": 909,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeFn",
           "file": "src/error.rs",
-          "line": 918,
+          "line": 927,
           "detail": "vtable",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 920,
+          "line": 929,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 944,
+          "line": 953,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 951,
+          "line": 960,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 963,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/error.rs",
-          "line": 968,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/error.rs",
-          "line": 970,
+          "line": 972,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -1280,14 +1301,21 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 980,
+          "line": 979,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 985,
+          "line": 986,
+          "detail": "unsafe { .. }",
+          "scope": "shipped"
+        },
+        {
+          "kind": "UnsafeBlock",
+          "file": "src/error.rs",
+          "line": 989,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -1301,7 +1329,7 @@
         {
           "kind": "UnsafeBlock",
           "file": "src/error.rs",
-          "line": 999,
+          "line": 1003,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
@@ -1321,30 +1349,23 @@
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/fmt.rs",
-          "line": 11,
+          "file": "src/error.rs",
+          "line": 1026,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/fmt.rs",
-          "line": 21,
+          "file": "src/ensure.rs",
+          "line": 49,
           "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
           "kind": "UnsafeBlock",
-          "file": "src/fmt.rs",
-          "line": 48,
+          "file": "src/ensure.rs",
+          "line": 69,
           "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
-          "kind": "BuildTimeMacro",
-          "file": "src/nightly.rs",
-          "line": 39,
-          "detail": "option_env",
           "scope": "shipped"
         },
         {
@@ -1359,13 +1380,6 @@
           "file": "src/ptr.rs",
           "line": 15,
           "detail": "Own < T >",
-          "scope": "shipped"
-        },
-        {
-          "kind": "UnsafeBlock",
-          "file": "src/ptr.rs",
-          "line": 34,
-          "detail": "unsafe { .. }",
           "scope": "shipped"
         },
         {
@@ -1397,13 +1411,6 @@
           "scope": "shipped"
         },
         {
-          "kind": "UnsafeBlock",
-          "file": "src/context.rs",
-          "line": 157,
-          "detail": "unsafe { .. }",
-          "scope": "shipped"
-        },
-        {
           "kind": "BuildScript",
           "file": "build.rs",
           "line": 0,
@@ -1412,7 +1419,7 @@
         }
       ]
     },
-    "last_checked": "2026-07-31T15:03:24.248178+00:00"
+    "last_checked": "2026-11-23T17:38:14.464173887+00:00"
   },
   "autocfg": {
     "version": "1.5.1",
