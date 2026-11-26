@@ -137,3 +137,4 @@
 {"name":"toml","old_version":"1.2.2+spec-1.1.0","new_version":"1.2.3+spec-1.1.0","checked_at":"2026-11-25T16:55:53.304665005+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"zerocopy","old_version":"0.8.64","new_version":"0.8.65","checked_at":"2026-11-25T16:55:55.232891574+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
 {"name":"h2","old_version":"0.4.20","new_version":"0.4.21","checked_at":"2026-11-25T16:55:56.915023039+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
+{"name":"zerocopy","old_version":"0.8.65","new_version":"0.8.66","checked_at":"2026-11-26T16:34:12.796085730+00:00","worst_severity":null,"added_signals":0,"removed_signals":0,"added_dependencies":[],"removed_dependencies":[]}
