@@ -2923,12 +2923,12 @@
     "last_checked": "2026-11-18T15:18:14.806021+00:00"
   },
   "cc": {
-    "version": "1.11.3",
+    "version": "1.12.0",
     "report": {
       "name": "cc",
-      "version": "1.11.3",
+      "version": "1.12.0",
       "files_scanned": 19,
-      "lines_scanned": 11609,
+      "lines_scanned": 11641,
       "dependencies": [
         "find-msvc-tools",
         "jobserver",
@@ -3288,62 +3288,62 @@
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 1985,
+          "line": 1998,
           "detail": "fs::File::create",
           "scope": "shipped"
         },
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 3861,
+          "line": 3878,
           "detail": "fs::remove_file",
           "scope": "shipped"
         },
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 3924,
+          "line": 3941,
           "detail": "fs::remove_file",
           "scope": "shipped"
         },
         {
           "kind": "FilesystemWrite",
           "file": "src/lib.rs",
-          "line": 4105,
+          "line": 4129,
           "detail": "fs::write",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4202,
+          "line": 4226,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4875,
+          "line": 4899,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 4946,
+          "line": 4978,
           "detail": "Command::new",
           "scope": "shipped"
         },
         {
           "kind": "ProcessSpawn",
           "file": "src/lib.rs",
-          "line": 6084,
+          "line": 6116,
           "detail": "Command::new",
           "scope": "shipped"
         }
       ]
     },
-    "last_checked": "2026-11-20T15:02:34.068792439+00:00"
+    "last_checked": "2026-11-27T16:19:34.012665540+00:00"
   },
   "cfg-if": {
     "version": "1.0.5",
